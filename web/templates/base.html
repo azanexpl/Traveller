@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <meta name="author" content="Traveller App">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- App favicon -->
+
+    <!-- App title -->
+    <title>{% block title %}{% endblock %}</title>
+
+    <link href="{% static '/plugins/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/plugins/bootstrap/css/bootstrap.rtl.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/plugins/bootstrap/css/bootstrap-grid.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/plugins/bootstrap/css/bootstrap-utilities.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/icons/fontawesome/css/all.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/plugins/sweetalert2/sweetalert.min.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/plugins/lightbox/files/simple-lightbox.min.css' %}" rel="stylesheet" type="text/css"/>
+
+
+    <!-- MDB -->
+    <link
+      href="{% static '/plugins/mdb/mdb.min.css' %}"
+      rel="stylesheet"
+    />
+
+
+    <style>
+        @font-face {
+            font-family: 'Poppins';
+            src: url("{% static 'fonts/Poppins/Poppins-Regular.ttf' %}") format('truetype');
+        }
+    </style>
+
+    {% block css %}{% endblock %}
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAM2dt-Bxwhv0MMV6c6860R_95LAiwNLyc&libraries=places"></script>
+
+</head>
+
+<body class="fixed-left">
+
+{% block content %}
+{% endblock %}
+<!-- jQuery -->
+<script src="{% static 'js/jquery.min.js' %} "></script>
+<script src="{% static '/plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static '/plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+<script src="{% static 'plugins/sweetalert2/sweetalert.min.js' %}"></script>
+<script src="{% static 'custom_js/utils/sweetalerts.js' %} "></script>
+
+<script src="{% static '/plugins/fullcalendar/files/index.global.js' %}"></script>
+<script src="{% static '/plugins/lightbox/files/simple-lightbox.jquery.min.js' %}"></script>
+
+<script src="{% static 'custom_js/utils/utils.js' %} "></script>
+<script src="{% static 'custom_js/common_script.js' %}"></script>
+
+
+{% block js %}
+{% endblock %}
+</body>
+
+</html>

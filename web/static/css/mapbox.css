@@ -1,0 +1,9 @@
+.mapboxgl-ctrl-geocoder {
+width: 100% !important;
+max-width: 100% !important;
+}
+
+.advance-search-form .mapboxgl-ctrl-geocoder {
+width: 97% !important;
+max-width: 97% !important;
+}

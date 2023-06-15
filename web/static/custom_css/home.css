@@ -1,0 +1,74 @@
+#sign-in-with-google {
+    padding: 1rem 3rem;
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid #D3D3D3;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: black;
+
+}
+
+#buttons a, #submit {
+    background: #2C3E50;
+    border: 1px solid #2C3E50;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin: 0 1rem;
+    border-radius: 4px;
+    transition: 0.1s all ease-in-out;
+}
+#buttons  a:hover, #submit:hover {
+    background: white;
+    color: #2C3E50;
+    border: 1px solid #2C3E50;
+    transition: 0.5s all ease-in-out;
+}
+
+.custom-listing{
+    background: #80808014;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#photos ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2px;
+    justify-content: start;
+}
+
+#photos ul li {
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+    margin: 40px 20px;
+}
+
+#photos ul img {
+    height: auto;
+    width: auto;
+    margin: auto
+}
+
+div.pac-container {
+   z-index: 1000000 !important;
+}
+
+#places{
+    font-size: 12px;
+}
+.places{
+    padding: 0.5rem;
+    border: 1px solid darkgrey;
+    margin: 0.5rem 0px;
+    border-radius: 0.5rem;
+    text-decoration: underline;
+    font-size: 12px;
+}
