@@ -10,7 +10,7 @@
 
 }
 
-#buttons a, #submit {
+#buttons a, #submit, .btn-primary {
     background: #2C3E50;
     border: 1px solid #2C3E50;
     color: white;
@@ -19,7 +19,7 @@
     border-radius: 4px;
     transition: 0.1s all ease-in-out;
 }
-#buttons  a:hover, #submit:hover {
+#buttons  a:hover, #submit:hover, button {
     background: white;
     color: #2C3E50;
     border: 1px solid #2C3E50;

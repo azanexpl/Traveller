@@ -189,38 +189,3 @@ async function initMap(coordinates, color = "black", title = "") {
 }
 
 
-// Function to initialize the map
-function initAutocomplete() {
-    var objSearchID = document.getElementById('search-input');
-
-    autocomplete = new google.maps.places.Autocomplete(objSearchID);
-    autocomplete.setFields(['place_id', 'address_component', 'geometry']);
-    autocomplete.addListener('place_changed', fillInLatLong);
-
-}
-
-function fillInLatLong() {
-    var place = autocomplete.getPlace();
-    if (place.length == 0) {
-        return;
-    }
-    if (!place.place_id) {
-        genericSweetAlert("Error", "Please select a place from dropdown", "error");
-        return;
-    }
-    if (!place.geometry) {
-        genericSweetAlert("Error", "Returned place contains no geometry.", "error");
-        return;
-    }
-    coordinates.push({
-        "name": document.getElementById('search-input').value,
-        "coordinate": [
-            place.geometry.location.lat(),
-            place.geometry.location.lng()
-        ]
-    });
-    generate_places_gird()
-    document.getElementById('search-input').value = "";
-    initMap(get_coordinates_from_places(coordinates))
-
-}//End of FillinLatLong

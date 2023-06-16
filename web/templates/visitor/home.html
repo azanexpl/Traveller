@@ -33,55 +33,6 @@
     </div>
 </div>
 
-
-<!-- Create Modal -->
-<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Create</h5>
-                <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
-            </div>
-            <div class="modal-body">
-                <form id="travel-form">
-                    <label>Title</label>
-                    <input class="form-control" id="title" placeholder="Title" type="text">
-                    <label>Description</label>
-                    <textarea class="form-control" id="description" placeholder="Description" rows="3"></textarea>
-                    <label>Choose a Color</label><br>
-                    <input id="color" type="color" value="#ff0000">
-
-                    <div class="d-flex justify-content-between">
-                        <div class="px-1 w-50">
-                            <label>Start Date & Time</label>
-                            <input class="form-control" id="start_date_time" type="datetime-local">
-                        </div>
-                        <div class="px-1 w-50">
-                            <label>End Date Time</label>
-                            <input class="form-control" id="end_date_time" type="datetime-local">
-                        </div>
-                    </div>
-                    <div class="search-field-container px-1" style="z-index: 100000 !important;">
-                        <label>Add Places</label>
-                        <input class="form-control" id="search-input" placeholder="Enter a place"
-                               style="z-index: 100000 !important;" type="text">
-                        <div class="d-flex justify-content-between flex-wrap" id="places">
-                            <i>No Place Added Yet</i>
-                        </div>
-                    </div>
-                    <div class="my-2" id="map" style="height: 200px">
-                        <center><i>Please select a place to see google map</i></center>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Close</button>
-                <button class="btn btn-primary" id="submit" type="button">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 {% endblock %}
 
 {% block js %}
@@ -99,6 +50,7 @@
             "google_image": "{% static 'images/google.png' %}",
             "detail_url": "{% url 'visitor-detail' %}",
             "listing_url": "{% url 'visitor-listing' %}",
+            "create_url": "{% url 'visitor-create' %}"
         };
 
         new Home(data);

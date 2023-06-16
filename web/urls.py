@@ -8,6 +8,8 @@ urlpatterns = [
     # Visitor Website
     path("", view=HomeView.as_view('index'), name="visitor-home"),
 
+    path("create", view=HomeView.as_view('create'), name="visitor-create"),
+
     path("listing", view=HomeView.as_view('listing'), name="visitor-listing"),
 
     path("detail", view=HomeView.as_view('detail'), name="visitor-detail"),

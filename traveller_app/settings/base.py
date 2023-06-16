@@ -138,6 +138,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "traveller_app.context_processors.settings_constants",
             ],
         },
     },
@@ -224,32 +225,11 @@ AUTHENTICATION_BACKENDS = [
     'oauth2_provider.backends.OAuth2Backend',
 ]
 
-HOST_URL = os.getenv('HOST_URL', 'http://127.0.0.1:8012')
-AUTHORIZATION_SERVER_URL = f'{HOST_URL}/api/oauth/token/'
-REVOKE_TOKEN_URL = os.getenv(
-    'REVOKE_TOKEN_URLs', f'{HOST_URL}/api/oauth/revoke-token/'
-)
-
-SENDGRID_API_KEY = ""
-
-OAUTH_CLIENT_ID = 'PYjR5Lnidge4lYl2YRGtqaKkJwdf9DX5KNBbvjOO'  # os.getenv('OAUTH_CLIENT_ID', 'gZUXTS8pj4Wu2pBvd3Z8XBd0rJVUOLfbeHHQe7Tx')
-
-OAUTH_CLIENT_SECRET = '7VCVPN6GHZOY1VCswyEK0kX1tzPbHKH14vtxjRyrHysQphEfu8knASWJ0VDCr2g37qkZf659EFWzzmYVgGfz8ZHc7bMKIwWiOkbXSupbt2VjbdkfOstmHnhRVRcve8SW'
-
-SUPER_ADMIN = ["superadmin@yopmail.com"]
-
-
-# GOOGLE_CLIENT_ID = '495299794621-0mm6i0h76sit4a6l5f1vvn07tgp7cgoc.apps.googleusercontent.com'
-# GOOGLE_CLIENT_SECRET = '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'
-
-# GOOGLE_CLIENT_ID = '439904506830-37uaeur8rj045tn0m78f35lqoionab7r.apps.googleusercontent.com'
-# GOOGLE_CLIENT_SECRET = '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'
-
 GOOGLE_CLIENT_ID = '545624527608-2u7986qlbucb3gdd1gh9ka30mu03nihc.apps.googleusercontent.com'
 GOOGLE_CLIENT_SECRET = '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'
 
-
 REDIRECT_URL = "http://127.0.0.1:8016/api/main/google-auth-callback"
 
-
 SESSION_COOKIE_SECURE = True
+
+GOOGLE_MAP_API_KEY = "AIzaSyAM2dt-Bxwhv0MMV6c6860R_95LAiwNLyc"

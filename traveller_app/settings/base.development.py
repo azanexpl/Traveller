@@ -150,9 +150,9 @@ TEMPLATES = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'traveller_db',
+        'NAME': 'TravellerDB',
         'USER': os.getenv('PG_USER', 'postgres'),
-        'PASSWORD': os.getenv('PG_PASSWD', 'admin'),
+        'PASSWORD': os.getenv('PG_PASSWD', 'admin123'),
         'HOST': os.getenv('PG_HOST', 'localhost'),
         'PORT': '5432',
     }

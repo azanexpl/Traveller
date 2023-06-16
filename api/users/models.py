@@ -57,9 +57,19 @@ class TravelData(Log):
     description = models.TextField(db_column="Description", default=None, null=True)
     start_date_time = models.DateTimeField(db_column="StartDateTime", default=None, null=True)
     end_date_time = models.DateTimeField(db_column="EndDateTime", default=None, null=True)
-    coordinates = models.TextField(db_column="Coordinates", default=None, null=True)
-    images_urls = models.TextField(db_column="ImagesUrls", default=None, null=True)
     color = models.CharField(db_column="Color", default=None, null=True)
+    images_urls = models.TextField(db_column="ImagesUrls", default=None, null=True)
 
     class Meta:
         db_table = "TravelData"
+
+
+class TravelSegmentData(Log):
+    travel = models.ForeignKey(TravelData, on_delete=models.CASCADE, related_name="travel_data_segment", db_column="TravelID")
+    segment_description = models.TextField(db_column="Description", default=None, null=True)
+    segment_start_date_time = models.DateTimeField(db_column="StartDateTime", default=None, null=True)
+    segment_end_date_time = models.DateTimeField(db_column="EndDateTime", default=None, null=True)
+    coordinates = models.TextField(db_column="Coordinates", default=None, null=True)
+
+    class Meta:
+        db_table = "TravelSegmentData"

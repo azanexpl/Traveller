@@ -14,3 +14,6 @@ class HomeView(BaseView):
 
     def listing(self, *args, **kwargs):
         return self.render('visitor/listing.html')
+
+    def create(self, *args, **kwargs):
+        return self.render('visitor/create.html')

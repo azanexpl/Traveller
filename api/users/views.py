@@ -95,7 +95,10 @@ class TravelDataAPIView(BaseAPIView):
                     description="A travel with in these dates already exists.",
                 )
             serializer = TravelDataSerializer(
-                data=request.data
+                data=request.data,
+                context={
+                    "access_token": request.user.access_token
+                }
             )
             if serializer.is_valid():
                 validated_data = serializer.validated_data
@@ -107,6 +110,7 @@ class TravelDataAPIView(BaseAPIView):
                 )
                 validated_data['images_urls'] = json.dumps(images_urls)
                 serializer.save(**validated_data)
+
                 # arr_ids = []
                 # try:
                 #     for obj in images_urls['mediaItems']:

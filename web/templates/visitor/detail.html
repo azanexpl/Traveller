@@ -63,7 +63,7 @@
         }));
     d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
 })
-({key: "AIzaSyAM2dt-Bxwhv0MMV6c6860R_95LAiwNLyc", v: "weekly"});</script>
+({key: {{ GOOGLE_MAP_API_KEY }}, v: "weekly"});</script>
 
 <script src='{% static "custom_js/detail.js" %}'></script>
 
