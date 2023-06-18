@@ -1,0 +1,3238 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 94.04617,
+        "calibratedProbability": 89.74118,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T09:16:40.695Z",
+        "endTimestamp": "2019-07-03T09:23:50.748Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522306883,
+      "centerLngE7": 209102533,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522290039,
+        "longitudeE7": 209119930,
+        "placeId": "ChIJO00dqynKHkcRAqq_TwGMoRM",
+        "address": "Człuchowska 68, 01-360 Warszawa, Polska",
+        "name": "Equip.pl",
+        "locationConfidence": 0.22643608,
+        "calibratedProbability": 0.2160709
+      }, {
+        "latitudeE7": 522285237,
+        "longitudeE7": 209116008,
+        "placeId": "ChIJYRLSUV_MHkcRj_NR-ZhUnhs",
+        "address": "Świetlików 8, 01-389 Warszawa, Polska",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 0.15487278,
+        "calibratedProbability": 0.14778343
+      }, {
+        "latitudeE7": 522290769,
+        "longitudeE7": 209122360,
+        "placeId": "ChIJ_zD35SPLHkcRPms2zP0lriI",
+        "address": "Człuchowska 66, 01-360 Warszawa, Polska",
+        "name": "Notary\u0027s Office Joanna Kielak Notary",
+        "locationConfidence": 0.13665727,
+        "calibratedProbability": 0.13040175
+      }, {
+        "latitudeE7": 522299839,
+        "longitudeE7": 209116101,
+        "placeId": "ChIJIZ9f4CPLHkcRx9HebNBg2O4",
+        "address": "Wacława Borowego 5, 01-358 Warszawa, Polska",
+        "name": "Vitadent",
+        "locationConfidence": 0.1288469,
+        "calibratedProbability": 0.12294889
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522307472,
+        "longitudeE7": 209107342,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521789119,
+        "longitudeE7": 210027188,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T09:23:50.748Z",
+        "endTimestamp": "2019-07-03T18:43:36Z"
+      },
+      "distance": 8693,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 41.30467622898006
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 35.925364232401584
+      }, {
+        "activityType": "WALKING",
+        "probability": 14.531559196470594
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522307510,
+          "lngE7": 209106445
+        }, {
+          "latE7": 521949119,
+          "lngE7": 209335174
+        }, {
+          "latE7": 521798973,
+          "lngE7": 210027408
+        }, {
+          "latE7": 521789131,
+          "lngE7": 210025081
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJjWFqdCHLHkcRRw2LJq_6gNg"
+        }, {
+          "placeId": "ChIJCXgobyHLHkcRqrP__8-vp9U"
+        }, {
+          "placeId": "ChIJRfe2ZyHLHkcRS5bEHK_J0k8"
+        }, {
+          "placeId": "ChIJK10eZyHLHkcR7GxC8mw0vwc"
+        }, {
+          "placeId": "ChIJTWNxXiHLHkcRl-oyCezwRCM"
+        }, {
+          "placeId": "ChIJB3aH_iPLHkcRF1rmOgpRRb4"
+        }, {
+          "placeId": "ChIJn87S8yPLHkcRqQrD006np94"
+        }, {
+          "placeId": "ChIJmaRnkSPLHkcRfo4id-usV9w"
+        }, {
+          "placeId": "ChIJITFFeyPLHkcRmgNgjudAt1k"
+        }, {
+          "placeId": "ChIJUY6LnSTLHkcRHoOzZ6oQ6mc"
+        }, {
+          "placeId": "ChIJxfzzmCTLHkcRld7veas1Zvc"
+        }, {
+          "placeId": "ChIJp-Y8vCTLHkcRxdi8lbzv4so"
+        }, {
+          "placeId": "ChIJo8iQxyTLHkcRLY6RUOGXpR8"
+        }, {
+          "placeId": "ChIJpYSzyCTLHkcRxPBW_HgIxeo"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRGCvvR_LiRAU"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRR5ktgNVdmoQ"
+        }, {
+          "placeId": "ChIJ_2vG1CTLHkcRocwaI4TkxOs"
+        }, {
+          "placeId": "ChIJvUBS0TrLHkcRkTYqS3W3jss"
+        }, {
+          "placeId": "ChIJb-qKzzrLHkcR1810KjQikSQ"
+        }, {
+          "placeId": "ChIJxUzXdjDLHkcRDWQx94QvulM"
+        }, {
+          "placeId": "ChIJuxQicDDLHkcRy_j4QiVT1Ow"
+        }, {
+          "placeId": "ChIJybCEbzDLHkcRUzG7CPjAljk"
+        }, {
+          "placeId": "ChIJsXNfbzDLHkcRD4BPhTxL3QI"
+        }, {
+          "placeId": "ChIJP6yOZzDLHkcRY18ukJPzAZQ"
+        }, {
+          "placeId": "ChIJnxzrWzDLHkcRo6N_AG5I_UA"
+        }, {
+          "placeId": "ChIJiQwAWjDLHkcRde52_gDB17E"
+        }, {
+          "placeId": "ChIJf0wrVzDLHkcR061Yt4f6f14"
+        }, {
+          "placeId": "ChIJs5UWVDDLHkcRZSIzHTWJDHQ"
+        }, {
+          "placeId": "ChIJk6YgqzHLHkcR7eDyaHGiNH8"
+        }, {
+          "placeId": "ChIJjYTCqTHLHkcRUfD-upuRXEA"
+        }, {
+          "placeId": "ChIJy_TNdDHLHkcRKlQQVYZLGMk"
+        }, {
+          "placeId": "ChIJq4GO1zPLHkcRbOYGHQAYntY"
+        }, {
+          "placeId": "ChIJ_1QmxDPLHkcR6S8EYq5jJE0"
+        }, {
+          "placeId": "ChIJG6pPxzPLHkcROS5NbwmOcNI"
+        }, {
+          "placeId": "ChIJBw4yvzPLHkcRKtgkXxhqits"
+        }, {
+          "placeId": "ChIJnSxBvDPLHkcRGVHmS96c0Lw"
+        }, {
+          "placeId": "ChIJIRZrbDPLHkcRp6YZ9g_VpPE"
+        }, {
+          "placeId": "ChIJASV8aTPLHkcRwyf9laMFwrc"
+        }, {
+          "placeId": "ChIJIb1OQjPLHkcRTBXEnX3jJP8"
+        }, {
+          "placeId": "ChIJbW2HRDPLHkcR436AnDNF89k"
+        }, {
+          "placeId": "ChIJA0HDTzPLHkcRc4UN46Z0ucQ"
+        }, {
+          "placeId": "ChIJR2iKUjPLHkcRWW52jvbWzSc"
+        }, {
+          "placeId": "ChIJX06Xpsw0GUcRx9u-wEqAHeE"
+        }, {
+          "placeId": "ChIJN9zbY8s0GUcRPS0Lss3B23U"
+        }, {
+          "placeId": "ChIJTcm_ZMs0GUcRuRZfDgyW8kI"
+        }, {
+          "placeId": "ChIJQ9zOZMs0GUcRdwl-U98SFfc"
+        }, {
+          "placeId": "ChIJNSG1dss0GUcR_FgBry6TeT8"
+        }, {
+          "placeId": "ChIJV_r-rss0GUcRXRAYAxYjKFU"
+        }, {
+          "placeId": "ChIJEXhnrss0GUcRYWkmC21-JdE"
+        }, {
+          "placeId": "ChIJPStxTMo0GUcRJ40Wh3o9rtY"
+        }, {
+          "placeId": "ChIJ8_qmSco0GUcRGAjPeFKUzbA"
+        }, {
+          "placeId": "ChIJ5a2GOco0GUcR9B48l1bnGqQ"
+        }, {
+          "placeId": "ChIJq8DgI8o0GUcRapJ8owhNJ_E"
+        }, {
+          "placeId": "ChIJ5ztGIco0GUcRlSc7Usvl3YI"
+        }, {
+          "placeId": "ChIJT-alIMo0GUcR_Pve5C_pFbY"
+        }, {
+          "placeId": "ChIJ59xxjMk0GUcRAkaGEzYOnNA"
+        }, {
+          "placeId": "ChIJjbQgk8k0GUcRJRLTDTwnZWM"
+        }, {
+          "placeId": "ChIJbeDO6sk0GUcRliLaHa1iRI4"
+        }, {
+          "placeId": "ChIJ45T8wMk0GUcRmEepV8kl3KQ"
+        }, {
+          "placeId": "ChIJ9-xkJMg0GUcRs-Njg2XtXuA"
+        }, {
+          "placeId": "ChIJR3M4HMg0GUcR2XSC01jdyg0"
+        }, {
+          "placeId": "ChIJibpvAsg0GUcRtBNdUg--nnQ"
+        }, {
+          "placeId": "ChIJC_kB_rc0GUcRtlwgrDQ1u-E"
+        }, {
+          "placeId": "ChIJ8Z6N_8c0GUcRR2xN68Y6CCU"
+        }, {
+          "placeId": "ChIJwcFv_8c0GUcRvbqEKhFgcnQ"
+        }, {
+          "placeId": "ChIJ22SlALg0GUcRVzGqQ8sNveg"
+        }, {
+          "placeId": "ChIJMy7IALg0GUcRu2af8TLFXOI"
+        }, {
+          "placeId": "ChIJoYHQALg0GUcR5QC1WKErmTk"
+        }, {
+          "placeId": "ChIJlYXkA7g0GUcR7VWZYNDWua4"
+        }, {
+          "placeId": "ChIJ5QV7A7g0GUcRBdxKo6Ytm-Q"
+        }, {
+          "placeId": "ChIJKTOgHLg0GUcR-wHrmz3NxqI"
+        }, {
+          "placeId": "ChIJv7ApGbg0GUcRDLHiku5Wto8"
+        }, {
+          "placeId": "ChIJW7AKJLg0GUcRAMbz-W31eYk"
+        }, {
+          "placeId": "ChIJAzqBLrg0GUcRIifZ5c4qz7Q"
+        }, {
+          "placeId": "ChIJI2eqwrk0GUcRovz3RzvyOhc"
+        }, {
+          "placeId": "ChIJB5Dka7o0GUcRTR7O23Dg-Ag"
+        }, {
+          "placeId": "ChIJ98IXabo0GUcROAWwH1J7aJY"
+        }, {
+          "placeId": "ChIJ3x_nZ7o0GUcR8_q2h8hHsxE"
+        }, {
+          "placeId": "ChIJj1-KZ7o0GUcRJtdgdmYStz8"
+        }, {
+          "placeId": "ChIJdX9-Z7o0GUcRNEYE4XeOgRE"
+        }, {
+          "placeId": "ChIJ27EX7Lo0GUcRMHH3i51mCtc"
+        }, {
+          "placeId": "ChIJX3ck6ro0GUcRWLQtQGlTj3g"
+        }, {
+          "placeId": "ChIJCTAgxLo0GUcRwEnzdB-MlqA"
+        }, {
+          "placeId": "ChIJ08RQz7o0GUcRT0cRFeXJjmw"
+        }, {
+          "placeId": "ChIJx6uVy7o0GUcR2DNRydloJVo"
+        }, {
+          "placeId": "ChIJEWNUFKU0GUcRJUZGqxX1Hnk"
+        }, {
+          "placeId": "ChIJcRx_DaU0GUcRta_fN2m-ax4"
+        }, {
+          "placeId": "ChIJp9_wCqU0GUcRrf_JSlVm_JI"
+        }, {
+          "placeId": "ChIJB95noKU0GUcRw1HQoper-cA"
+        }, {
+          "placeId": "ChIJi6GaoaU0GUcRDxOhHHRgalE"
+        }, {
+          "placeId": "ChIJd8LLvaU0GUcRpJ5M1zrvRTU"
+        }, {
+          "placeId": "ChIJZ_ovw6U0GUcRFmX00cKQJh0"
+        }, {
+          "placeId": "ChIJsYsS36U0GUcRsZUpq6ZHpgA"
+        }, {
+          "placeId": "ChIJnwCQdaY0GUcRi4S7NzDY3tw"
+        }, {
+          "placeId": "ChIJbe6tdaY0GUcRqXihVDMvfjM"
+        }, {
+          "placeId": "ChIJEXKEbaY0GUcRL-akEssKjG4"
+        }, {
+          "placeId": "ChIJX1DUQaY0GUcRRYWe56eiEDI"
+        }, {
+          "placeId": "ChIJQ4eeSaY0GUcR05a8R2SXWyw"
+        }, {
+          "placeId": "ChIJcYp-tqc0GUcRszY0Tq36g28"
+        }, {
+          "placeId": "ChIJuzAnv6c0GUcRUpnpkMyhMEo"
+        }, {
+          "placeId": "ChIJH2UKk6c0GUcRIljG77V-CIs"
+        }, {
+          "placeId": "ChIJufiJjKc0GUcRJmUfbMqRd_A"
+        }, {
+          "placeId": "ChIJFRmfa1gzGUcR4OwqSgXMjos"
+        }, {
+          "placeId": "ChIJFRmfa1gzGUcR01XDrv1KswY"
+        }, {
+          "placeId": "ChIJ7yL5RlgzGUcRXZTX46GO0QU"
+        }, {
+          "placeId": "ChIJoXEFt1kzGUcR6PPy6HKVrX4"
+        }, {
+          "placeId": "ChIJP0MGuVkzGUcRXjGUAx-_KnQ"
+        }, {
+          "placeId": "ChIJ6zA3vlkzGUcRZtwqYR5AT8w"
+        }, {
+          "placeId": "ChIJx76xjVkzGUcRweN-tGu8PGU"
+        }, {
+          "placeId": "ChIJ6R1vIVozGUcRbR-El-kF05c"
+        }, {
+          "placeId": "ChIJdSZBPFozGUcRs7AQFeMmXAw"
+        }, {
+          "placeId": "ChIJTeTqQFozGUcRf2b-bsK6GZs"
+        }, {
+          "placeId": "ChIJTei9XlozGUcR7z1jlHGauYU"
+        }, {
+          "placeId": "ChIJ72su6lozGUcROoKAK4aRs7k"
+        }, {
+          "placeId": "ChIJL2IsBEUzGUcRTPkQw51nNPI"
+        }, {
+          "placeId": "ChIJocnlqUUzGUcRocI3zhCypB8"
+        }, {
+          "placeId": "ChIJC_L5rUUzGUcRvTGtYi2TxqU"
+        }, {
+          "placeId": "ChIJtXhStEUzGUcRVsUjFnU-ayU"
+        }, {
+          "placeId": "ChIJxxD2ykUzGUcRrqaG3EvFg3s"
+        }, {
+          "placeId": "ChIJc9TS6TgzGUcRUZqzZtwxstg"
+        }, {
+          "placeId": "ChIJbUVuIDkzGUcRCT72XHbVWc8"
+        }, {
+          "placeId": "ChIJHyWuQDkzGUcRGjR-vpJsog8"
+        }, {
+          "placeId": "ChIJndnt5DszGUcRjUn1HPN9KqM"
+        }, {
+          "placeId": "ChIJDQ_YejszGUcRNDMfb_LIh_M"
+        }, {
+          "placeId": "ChIJ4w6_rCQzGUcRTEkhq85DYvg"
+        }, {
+          "placeId": "ChIJw3KonCQzGUcRVAyrVwuuMPY"
+        }, {
+          "placeId": "ChIJw3KonCQzGUcRd5GfDHGpIlc"
+        }, {
+          "placeId": "ChIJ8wzBdCQzGUcRVyK8LvLbYOQ"
+        }, {
+          "placeId": "ChIJyeU5CyQzGUcRlU0cqCDjM7A"
+        }, {
+          "placeId": "ChIJxbXOMiczGUcRoDlxNvw7h30"
+        }, {
+          "placeId": "ChIJEQwttSAzGUcRylrgMxTMdg0"
+        }, {
+          "placeId": "ChIJwcA6rSAzGUcRRt9FSmYHDOI"
+        }, {
+          "placeId": "ChIJx5JTUt8yGUcRJGOptdkLLB0"
+        }, {
+          "placeId": "ChIJ3yF0Td8yGUcRe1cFzu5c8GQ"
+        }, {
+          "placeId": "ChIJn19VrdgyGUcRo5x1Wl-bpL0"
+        }, {
+          "placeId": "ChIJ9_10rdgyGUcRORdIyW9QNF8"
+        }, {
+          "placeId": "ChIJt1aSYSczGUcRLIy_pnhSpdk"
+        }, {
+          "placeId": "ChIJl9j9fCczGUcR7ajLS4lKMtc"
+        }, {
+          "placeId": "ChIJoVLAYyczGUcRYzMIKAzx0pM"
+        }, {
+          "placeId": "ChIJV4-qnSczGUcRpxSlZb4a0m8"
+        }, {
+          "placeId": "ChIJZcgrviczGUcR_J2A5x3I9XA"
+        }, {
+          "placeId": "ChIJZcgrviczGUcRsdVlPyGS5xs"
+        }, {
+          "placeId": "ChIJLel2xCczGUcR6LVTOtLaqyQ"
+        }, {
+          "placeId": "ChIJDTfBxCczGUcRnce_BTT86Xw"
+        }, {
+          "placeId": "ChIJDTfBxCczGUcRJUnqAoZ6FXE"
+        }, {
+          "placeId": "ChIJK93-2SczGUcRUlmG0gbrpu4"
+        }, {
+          "placeId": "ChIJTfJN1yczGUcRIsBIq77z1Og"
+        }, {
+          "placeId": "ChIJJx_N0CczGUcRHhALrQRdMsQ"
+        }, {
+          "placeId": "ChIJCZsp0SczGUcRWJ9nM4dT8ks"
+        }, {
+          "placeId": "ChIJqbkk0SczGUcR_MIDzmcAkUQ"
+        }, {
+          "placeId": "ChIJcbxF0CczGUcRD5qgXa_8hLg"
+        }, {
+          "placeId": "ChIJaY_hzyczGUcRE5MWqr6WfIE"
+        }, {
+          "placeId": "ChIJrRkKmCczGUcR1dEoOc0IhpE"
+        }, {
+          "placeId": "ChIJMTHxniczGUcRFzg4U_TFasc"
+        }, {
+          "placeId": "ChIJz6b_dSczGUcR61c7a2xf-RU"
+        }, {
+          "placeId": "ChIJx8D2qdgyGUcR6x4nzg188oU"
+        }, {
+          "placeId": "ChIJJSo-qtgyGUcRFbRz_0DxkKE"
+        }, {
+          "placeId": "ChIJs4AAq9gyGUcR2YShNTitZow"
+        }, {
+          "placeId": "ChIJ6yMgq9gyGUcRy0rArOyk5tA"
+        }, {
+          "placeId": "ChIJO6jLVN8yGUcRQAckuXef900"
+        }, {
+          "placeId": "ChIJx5JTUt8yGUcRJGOptdkLLB0"
+        }, {
+          "placeId": "ChIJ3yF0Td8yGUcRe1cFzu5c8GQ"
+        }, {
+          "placeId": "ChIJn19VrdgyGUcRo5x1Wl-bpL0"
+        }, {
+          "placeId": "ChIJ9_10rdgyGUcRORdIyW9QNF8"
+        }],
+        "distanceMeters": 10580.074109030722
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521798705,
+          "lngE7": 210027424,
+          "accuracyMeters": 4,
+          "timestamp": "2019-07-03T18:41:56.999Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 521798705,
+          "longitudeE7": 210027424,
+          "accuracyMetres": 64
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-03T18:41:56.999Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 521796889,
+        "longitudeE7": 210040810,
+        "placeId": "ChIJ916NDfPMHkcR9ru4Y7VuuCM",
+        "address": "Wołoska 12, 02-675 Warszawa, Polska",
+        "name": "Galeria Mokotów",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 54.369072,
+        "calibratedProbability": 51.44467
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T18:43:36Z",
+        "endTimestamp": "2019-07-03T18:50:41.637Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 521785778,
+          "longitudeE7": 210013329,
+          "placeId": "ChIJo-v1UyczGUcR5DFYk9F-4-A",
+          "address": "Warszawa, Polska",
+          "name": "Rondo Unii Europejskiej 03",
+          "sourceInfo": {
+            "deviceTag": 2038012174
+          },
+          "locationConfidence": 18.55862,
+          "calibratedProbability": 46.73461
+        },
+        "duration": {
+          "startTimestamp": "2019-07-03T18:43:36Z",
+          "endTimestamp": "2019-07-03T18:50:41.637Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 521787127,
+        "centerLngE7": 210019082,
+        "visitConfidence": 92,
+        "otherCandidateLocations": [{
+          "latitudeE7": 521785435,
+          "longitudeE7": 210010184,
+          "placeId": "ChIJ7VYRUyczGUcRv9UU_pqxIx8",
+          "address": "Warszawa, Polska",
+          "name": "Rondo Unii Europejskiej 02",
+          "locationConfidence": 11.928041,
+          "calibratedProbability": 30.037384
+        }, {
+          "latitudeE7": 521787568,
+          "longitudeE7": 210010822,
+          "placeId": "ChIJtZgqUiczGUcRDLv7965Pj3U",
+          "address": "Warszawa, Polska",
+          "name": "Rondo Unii Europejskiej 04",
+          "locationConfidence": 2.6780374,
+          "calibratedProbability": 6.7438765
+        }, {
+          "latitudeE7": 521790461,
+          "longitudeE7": 210026886,
+          "placeId": "ChIJ_WOQptgyGUcRtHIGKc-ORj0",
+          "address": "Warszawa, Polska",
+          "name": "Rondo Unii Europejskiej 06",
+          "locationConfidence": 1.3617123,
+          "calibratedProbability": 3.4290857
+        }, {
+          "latitudeE7": 521792666,
+          "longitudeE7": 210042801,
+          "placeId": "ChIJ7epoldgyGUcR3zHCq4FT2ac",
+          "address": "Wołoska 12, 02-675 Warszawa, Polska",
+          "name": "Converse",
+          "locationConfidence": 0.29344937,
+          "calibratedProbability": 0.73896885
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 24,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 521787127,
+      "centerLngE7": 210019082,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 521785778,
+        "longitudeE7": 210013329,
+        "placeId": "ChIJo-v1UyczGUcR5DFYk9F-4-A",
+        "address": "Warszawa, Polska",
+        "name": "Rondo Unii Europejskiej 03",
+        "locationConfidence": 20.586618,
+        "calibratedProbability": 19.479307
+      }, {
+        "latitudeE7": 521785435,
+        "longitudeE7": 210010184,
+        "placeId": "ChIJ7VYRUyczGUcRv9UU_pqxIx8",
+        "address": "Warszawa, Polska",
+        "name": "Rondo Unii Europejskiej 02",
+        "locationConfidence": 13.231481,
+        "calibratedProbability": 12.519787
+      }, {
+        "latitudeE7": 521787568,
+        "longitudeE7": 210010822,
+        "placeId": "ChIJtZgqUiczGUcRDLv7965Pj3U",
+        "address": "Warszawa, Polska",
+        "name": "Rondo Unii Europejskiej 04",
+        "locationConfidence": 2.9706807,
+        "calibratedProbability": 2.810894
+      }, {
+        "latitudeE7": 521790461,
+        "longitudeE7": 210026886,
+        "placeId": "ChIJ_WOQptgyGUcRtHIGKc-ORj0",
+        "address": "Warszawa, Polska",
+        "name": "Rondo Unii Europejskiej 06",
+        "locationConfidence": 1.5105137,
+        "calibratedProbability": 1.4292663
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 49,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521788020,
+        "longitudeE7": 210034467
+      },
+      "endLocation": {
+        "latitudeE7": 522307472,
+        "longitudeE7": 209107342
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T18:50:41.637Z",
+        "endTimestamp": "2019-07-03T19:28:11.504Z"
+      },
+      "distance": 8560,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 60.68219038633068
+      }, {
+        "activityType": "CYCLING",
+        "probability": 22.680162584205103
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 6.705935890794555
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 521791191,
+          "lngE7": 210018367
+        }, {
+          "latE7": 521953964,
+          "lngE7": 209319839
+        }, {
+          "latE7": 522307510,
+          "lngE7": 209106445
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJY7M7XCczGUcRvDRVzK4bIQ0"
+        }, {
+          "placeId": "ChIJyel1aCczGUcRrl23Z4QTevI"
+        }, {
+          "placeId": "ChIJkcL4QSczGUcRfIocPHHv9jA"
+        }, {
+          "placeId": "ChIJ6YlAPiczGUcRfUO7zr-No8c"
+        }, {
+          "placeId": "ChIJWaemFyczGUcR2NZOK2McQHI"
+        }, {
+          "placeId": "ChIJoRMvICczGUcRLiKl4fYlzl4"
+        }, {
+          "placeId": "ChIJTQlS3iYzGUcRYT0GMGrhN2o"
+        }, {
+          "placeId": "ChIJOyGr3SYzGUcRt3ihevgKZmo"
+        }, {
+          "placeId": "ChIJ9Tx20SYzGUcRdIOrLcrh-ik"
+        }, {
+          "placeId": "ChIJqVrV0yYzGUcR9-b12D7keRM"
+        }, {
+          "placeId": "ChIJ62_N0yYzGUcR9ZI_gBk8N_o"
+        }, {
+          "placeId": "ChIJ4U200yYzGUcRzKLb3L1eixw"
+        }, {
+          "placeId": "ChIJJaP8ASQzGUcRthNj-vcn_y4"
+        }, {
+          "placeId": "ChIJs_7MCCQzGUcRhuy6l_JeMGo"
+        }, {
+          "placeId": "ChIJFcYvcSQzGUcRetSRU9ENc8w"
+        }, {
+          "placeId": "ChIJj8iShCQzGUcRehwD5p-Fd6E"
+        }, {
+          "placeId": "ChIJj8iShCQzGUcR2XLq6hMHigA"
+        }, {
+          "placeId": "ChIJtWlRrCQzGUcR5-rYN2V_lUc"
+        }, {
+          "placeId": "ChIJ0fmGZzszGUcRRBMPuU3ILn4"
+        }, {
+          "placeId": "ChIJ5wtrkjszGUcRYQyOShyy9bI"
+        }, {
+          "placeId": "ChIJxZlB5DszGUcRuhU2F27_H9c"
+        }, {
+          "placeId": "ChIJ2byGQDkzGUcRnCtCAmjzg8U"
+        }, {
+          "placeId": "ChIJnYlt5zgzGUcRzk7KBJSDuYc"
+        }, {
+          "placeId": "ChIJk684nDgzGUcRmIooS4PheHQ"
+        }, {
+          "placeId": "ChIJiZzJb0czGUcRYqJgWW9uQPc"
+        }, {
+          "placeId": "ChIJwYGaD0czGUcR_Kv_L2WGMQg"
+        }, {
+          "placeId": "ChIJax0b_EYzGUcRRoU65LDX0jg"
+        }, {
+          "placeId": "ChIJRQY590YzGUcRhizeN8VKk1I"
+        }, {
+          "placeId": "ChIJ-anQ9EYzGUcRRAFpfhgNf-E"
+        }, {
+          "placeId": "ChIJF8jih0YzGUcRHt7fldnM4iw"
+        }, {
+          "placeId": "ChIJ21qD00UzGUcR9KAmqU32VUc"
+        }, {
+          "placeId": "ChIJz-2GyUUzGUcRGKGuqcchY-0"
+        }, {
+          "placeId": "ChIJVav0tkUzGUcRoF-RwUvpFmQ"
+        }, {
+          "placeId": "ChIJQ3YsrkUzGUcRvWlRxJBqdVM"
+        }, {
+          "placeId": "ChIJpa1RqEUzGUcRAowUoLOsA8I"
+        }, {
+          "placeId": "ChIJHVeOB0UzGUcR58sAMf5mDzI"
+        }, {
+          "placeId": "ChIJT0fdBUUzGUcRdJQ3MxHinIY"
+        }, {
+          "placeId": "ChIJN2VO6lozGUcRBB5c2yf_3cg"
+        }, {
+          "placeId": "ChIJ7-N1X1ozGUcRZGehGRNsWkk"
+        }, {
+          "placeId": "ChIJl5qJXlozGUcRflDeH10PcqY"
+        }, {
+          "placeId": "ChIJqfUCXVozGUcR-c6jrrtyifs"
+        }, {
+          "placeId": "ChIJqUF-QVozGUcRGV5iPdOaGWc"
+        }, {
+          "placeId": "ChIJ48jtklkzGUcR1ujzqzVk5sQ"
+        }, {
+          "placeId": "ChIJx-SUt1kzGUcRsTsWwShNFr8"
+        }, {
+          "placeId": "ChIJnQ9BQFgzGUcRd820v94Y2bQ"
+        }, {
+          "placeId": "ChIJO-eYalgzGUcRj3GMb-14iX8"
+        }, {
+          "placeId": "ChIJLcU_jac0GUcRLoqMbZ8KZpI"
+        }, {
+          "placeId": "ChIJV6C9SqY0GUcR5EkHLEUzHmc"
+        }, {
+          "placeId": "ChIJzToQSKY0GUcRWqVlc3a5URQ"
+        }, {
+          "placeId": "ChIJRw4eQKY0GUcRCkIDpN-W5I0"
+        }, {
+          "placeId": "ChIJuUldbaY0GUcRYDJa_1TOeV4"
+        }, {
+          "placeId": "ChIJiVDmdKY0GUcRFo6J642ZYr4"
+        }, {
+          "placeId": "ChIJhUhrdaY0GUcR4ACc6VVRewo"
+        }, {
+          "placeId": "ChIJiZ2T36U0GUcR5XQVNSVehYU"
+        }, {
+          "placeId": "ChIJfRnJwqU0GUcROvn8cfCI0nY"
+        }, {
+          "placeId": "ChIJAbAIvqU0GUcRlHETp2yEZ0A"
+        }, {
+          "placeId": "ChIJhSOomKU0GUcRTOUJW9AMrMI"
+        }, {
+          "placeId": "ChIJBaDIdKU0GUcRoaJWCmafdLM"
+        }, {
+          "placeId": "ChIJO2EebaU0GUcRneCsPPsQZlA"
+        }, {
+          "placeId": "ChIJF8L9aqU0GUcRDQpi2IyXxG0"
+        }, {
+          "placeId": "ChIJF7tOQKU0GUcRbOHlmvinq8A"
+        }, {
+          "placeId": "ChIJ52oFR6U0GUcR6MFjgXBOT4E"
+        }, {
+          "placeId": "ChIJK8UkSqU0GUcR867NAIa4Nmw"
+        }, {
+          "placeId": "ChIJAXtKtbo0GUcRBRQNGOUYQqA"
+        }, {
+          "placeId": "ChIJH8ys7bo0GUcRYgEsKrpsk1I"
+        }, {
+          "placeId": "ChIJCaTw8ro0GUcRfTOcH0_pvjM"
+        }, {
+          "placeId": "ChIJm9Tc9Lo0GUcRl9mbEb5lIfw"
+        }, {
+          "placeId": "ChIJXwCGYLo0GUcRb1pW8pQuVMA"
+        }, {
+          "placeId": "ChIJlQS4YLo0GUcR5RkZBxPcbLY"
+        }, {
+          "placeId": "ChIJCWYZZ7o0GUcR6ARJ7hpFgSw"
+        }, {
+          "placeId": "ChIJd-JVZro0GUcRwO-H-KtsvUE"
+        }, {
+          "placeId": "ChIJxRhJZro0GUcRjuRiWXtbJUY"
+        }, {
+          "placeId": "ChIJ1VORaLo0GUcRdyemn0x9YmA"
+        }, {
+          "placeId": "ChIJ19giabo0GUcRu_M3cb3H0Hw"
+        }, {
+          "placeId": "ChIJB5Dka7o0GUcRTB7O23Dg-Ag"
+        }, {
+          "placeId": "ChIJI2eqwrk0GUcRo_z3RzvyOhc"
+        }, {
+          "placeId": "ChIJAzqBLrg0GUcRIyfZ5c4qz7Q"
+        }, {
+          "placeId": "ChIJW7AKJLg0GUcRAcbz-W31eYk"
+        }, {
+          "placeId": "ChIJv7ApGbg0GUcRDbHiku5Wto8"
+        }, {
+          "placeId": "ChIJKTOgHLg0GUcR-gHrmz3NxqI"
+        }, {
+          "placeId": "ChIJ5QV7A7g0GUcRYJll95R9OpE"
+        }, {
+          "placeId": "ChIJlYXkA7g0GUcRvBNfGlUQ27Q"
+        }, {
+          "placeId": "ChIJmaCtAbg0GUcRL7L0F7e8nNw"
+        }, {
+          "placeId": "ChIJC_kB_rc0GUcRj94-lrFiobk"
+        }, {
+          "placeId": "ChIJibpvAsg0GUcRtRNdUg--nnQ"
+        }, {
+          "placeId": "ChIJR3M4HMg0GUcR2HSC01jdyg0"
+        }, {
+          "placeId": "ChIJ9-xkJMg0GUcRsuNjg2XtXuA"
+        }, {
+          "placeId": "ChIJ45T8wMk0GUcRmUepV8kl3KQ"
+        }, {
+          "placeId": "ChIJbeDO6sk0GUcRlyLaHa1iRI4"
+        }, {
+          "placeId": "ChIJjbQgk8k0GUcRJBLTDTwnZWM"
+        }, {
+          "placeId": "ChIJ-2neIco0GUcRtxa0nC_beCc"
+        }, {
+          "placeId": "ChIJT_XxIso0GUcRX4PIsw7QTqE"
+        }, {
+          "placeId": "ChIJibJDOco0GUcRk3EAL4csPOY"
+        }, {
+          "placeId": "ChIJSzk-Sco0GUcRhY6serpSPyY"
+        }, {
+          "placeId": "ChIJEeb-TMo0GUcR9lwR_5-MzSY"
+        }, {
+          "placeId": "ChIJU78gr8s0GUcRJJDbA7g6Hx8"
+        }, {
+          "placeId": "ChIJMSxrccs0GUcRwHGVHvRA0PI"
+        }, {
+          "placeId": "ChIJe8kvZcs0GUcRLW0Zhq8aKIw"
+        }, {
+          "placeId": "ChIJL2fuZMs0GUcRN_usev4G3gY"
+        }, {
+          "placeId": "ChIJIRaVZMs0GUcRf3d19dXJ1Jc"
+        }, {
+          "placeId": "ChIJN9zbY8s0GUcRPC0Lss3B23U"
+        }, {
+          "placeId": "ChIJX06Xpsw0GUcRxtu-wEqAHeE"
+        }, {
+          "placeId": "ChIJR2iKUjPLHkcRWG52jvbWzSc"
+        }, {
+          "placeId": "ChIJA0HDTzPLHkcRcoUN46Z0ucQ"
+        }, {
+          "placeId": "ChIJbW2HRDPLHkcR4n6AnDNF89k"
+        }, {
+          "placeId": "ChIJIb1OQjPLHkcRTRXEnX3jJP8"
+        }, {
+          "placeId": "ChIJASV8aTPLHkcRwif9laMFwrc"
+        }, {
+          "placeId": "ChIJIRZrbDPLHkcRpqYZ9g_VpPE"
+        }, {
+          "placeId": "ChIJnSxBvDPLHkcRGFHmS96c0Lw"
+        }, {
+          "placeId": "ChIJBw4yvzPLHkcRK9gkXxhqits"
+        }, {
+          "placeId": "ChIJG6pPxzPLHkcROC5NbwmOcNI"
+        }, {
+          "placeId": "ChIJ_1QmxDPLHkcR6C8EYq5jJE0"
+        }, {
+          "placeId": "ChIJq4GO1zPLHkcRbeYGHQAYntY"
+        }, {
+          "placeId": "ChIJy_TNdDHLHkcRK1QQVYZLGMk"
+        }, {
+          "placeId": "ChIJEeJMVTDLHkcR4gFMsyRCW1s"
+        }, {
+          "placeId": "ChIJm5ywXjDLHkcRqJAuYIyUZOY"
+        }, {
+          "placeId": "ChIJwen4XTDLHkcRp6yxqpvy-cM"
+        }, {
+          "placeId": "ChIJAdySZjDLHkcRXC5sMYiHAfU"
+        }, {
+          "placeId": "ChIJa9BKZDDLHkcR9GEW90JhRw4"
+        }, {
+          "placeId": "ChIJq-xgdzDLHkcRCYxlavtmBvA"
+        }, {
+          "placeId": "ChIJGwjV2jrLHkcRWUbOXrS5Afk"
+        }, {
+          "placeId": "ChIJdTqI2jrLHkcR6XEKMJMRx1s"
+        }, {
+          "placeId": "ChIJgTsZ1zrLHkcRTHSMoqqQ7Vg"
+        }, {
+          "placeId": "ChIJYSqgKzvLHkcRbAv2G4G_WWc"
+        }, {
+          "placeId": "ChIJQb41zCTLHkcRYfaxfKAOb5s"
+        }, {
+          "placeId": "ChIJzd3JuSTLHkcRt3Ewb-K63eo"
+        }, {
+          "placeId": "ChIJLQBZoiTLHkcRWNuf5ssfYKE"
+        }, {
+          "placeId": "ChIJRx3OYyPLHkcROSIDD-cQKsQ"
+        }, {
+          "placeId": "ChIJP3hscCPLHkcRQywM6YJutR0"
+        }, {
+          "placeId": "ChIJ488JdCPLHkcRNd-rrsIbkDk"
+        }, {
+          "placeId": "ChIJDWvNCiPLHkcR16CCF8Votw4"
+        }, {
+          "placeId": "ChIJUyiUCiPLHkcRVI9FRmSJcOA"
+        }, {
+          "placeId": "ChIJcXt9oCPLHkcR88mAsOU-ERk"
+        }, {
+          "placeId": "ChIJTfFHkyPLHkcRWd9SNuqaDG0"
+        }, {
+          "placeId": "ChIJIQ0L7iPLHkcREuC3bQXSilw"
+        }, {
+          "placeId": "ChIJTWNxXiHLHkcRluoyCezwRCM"
+        }, {
+          "placeId": "ChIJK10eZyHLHkcR7WxC8mw0vwc"
+        }, {
+          "placeId": "ChIJRfe2ZyHLHkcRSpbEHK_J0k8"
+        }, {
+          "placeId": "ChIJTVE6aCHLHkcRafMoscpvN48"
+        }, {
+          "placeId": "ChIJ60JSaSHLHkcRkJGIX1z2r94"
+        }, {
+          "placeId": "ChIJNcH9bSHLHkcRLasyp-jNADE"
+        }, {
+          "placeId": "ChIJjWFqdCHLHkcRRg2LJq_6gNg"
+        }],
+        "distanceMeters": 10583.191094089421
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522307472,
+          "longitudeE7": 209107342,
+          "accuracyMetres": 160
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-03T19:28:11.504Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 87.27459,
+        "calibratedProbability": 81.971535,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T19:28:11.504Z",
+        "endTimestamp": "2019-07-03T19:52:34.023Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522306092,
+      "centerLngE7": 209102550,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522282710,
+        "longitudeE7": 209104775,
+        "placeId": "ChIJlQe4ASTLHkcRln2q3nFQ_is",
+        "address": "Świetlików 9, 01-141 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 4.011503,
+        "calibratedProbability": 3.767753
+      }, {
+        "latitudeE7": 522321959,
+        "longitudeE7": 209115499,
+        "placeId": "ChIJa-C3lSHLHkcRmZL6viDUm6E",
+        "address": "Muszlowa 2, 01-361 Warszawa, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4219359,
+        "calibratedProbability": 1.335535
+      }, {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJz9oscyHLHkcRO1QTNkafbUs",
+        "address": "Muszlowa 1, 01-357 Warszawa, Polska",
+        "name": "Metro s.c. Jagiełło D.W., Malejczyk R.",
+        "locationConfidence": 1.2935334,
+        "calibratedProbability": 1.2149347,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 522281600,
+        "longitudeE7": 209111550,
+        "placeId": "ChIJUQHBNJPNHkcREo0M2qpwJtk",
+        "address": "Świetlików 8, 01-389 Warszawa, Polska",
+        "name": "Emu Alkohole",
+        "locationConfidence": 0.5539127,
+        "calibratedProbability": 0.5202554
+      }, {
+        "latitudeE7": 522335236,
+        "longitudeE7": 209053919,
+        "placeId": "ChIJ2W3nkd_KHkcR2zK4koViRYc",
+        "address": "Park, Górczewska, 01-318 Warszawa, Polska",
+        "name": "Górczewska Park",
+        "locationConfidence": 0.5003752,
+        "calibratedProbability": 0.469971
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522306092,
+        "longitudeE7": 209102550
+      },
+      "endLocation": {
+        "latitudeE7": 522307033,
+        "longitudeE7": 209101800
+      },
+      "duration": {
+        "startTimestamp": "2019-07-03T19:52:34.023Z",
+        "endTimestamp": "2019-07-07T08:47:41.475Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521842445,
+          "lngE7": 209763287,
+          "accuracyMeters": 8,
+          "timestamp": "2019-07-04T11:50:20Z"
+        }, {
+          "latE7": 521792806,
+          "lngE7": 209963654,
+          "accuracyMeters": 23,
+          "timestamp": "2019-07-04T11:54:15.196Z"
+        }, {
+          "latE7": 521791889,
+          "lngE7": 209972510,
+          "accuracyMeters": 30,
+          "timestamp": "2019-07-04T11:55:55.993Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 16626.476232631925
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 95.58202,
+        "calibratedProbability": 82.96796,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-07T08:47:41.475Z",
+        "endTimestamp": "2019-07-08T17:17:34.030Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522307033,
+      "centerLngE7": 209101800,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522321959,
+        "longitudeE7": 209115499,
+        "placeId": "ChIJa-C3lSHLHkcRmZL6viDUm6E",
+        "address": "Muszlowa 2, 01-361 Warszawa, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.401758,
+        "calibratedProbability": 1.2167664
+      }, {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJz9oscyHLHkcRO1QTNkafbUs",
+        "address": "Muszlowa 1, 01-357 Warszawa, Polska",
+        "name": "Metro s.c. Jagiełło D.W., Malejczyk R.",
+        "locationConfidence": 0.5083334,
+        "calibratedProbability": 0.44124806,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 522335236,
+        "longitudeE7": 209053919,
+        "placeId": "ChIJ2W3nkd_KHkcR2zK4koViRYc",
+        "address": "Park, Górczewska, 01-318 Warszawa, Polska",
+        "name": "Górczewska Park",
+        "locationConfidence": 0.20202275,
+        "calibratedProbability": 0.17536157
+      }, {
+        "latitudeE7": 522281600,
+        "longitudeE7": 209111550,
+        "placeId": "ChIJUQHBNJPNHkcREo0M2qpwJtk",
+        "address": "Świetlików 8, 01-389 Warszawa, Polska",
+        "name": "Emu Alkohole",
+        "locationConfidence": 0.19122075,
+        "calibratedProbability": 0.16598514
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 85,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522398194,
+        "longitudeE7": 210324685,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521841977,
+        "longitudeE7": 209744003,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-08T17:17:34.030Z",
+        "endTimestamp": "2019-07-10T06:28:34.999Z"
+      },
+      "distance": 2513,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 70.05554052036153
+      }, {
+        "activityType": "CYCLING",
+        "probability": 8.99072079529644
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 7.893189239648628
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522306240,
+          "lngE7": 209102532,
+          "accuracyMeters": 16,
+          "timestamp": "2019-07-08T17:17:34.030Z"
+        }, {
+          "latE7": 521808037,
+          "lngE7": 209977383,
+          "accuracyMeters": 63,
+          "timestamp": "2019-07-09T09:47:17.572Z"
+        }, {
+          "latE7": 522394752,
+          "lngE7": 210301826,
+          "accuracyMeters": 35,
+          "timestamp": "2019-07-09T10:39:45.673Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 24001.910987961313
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521841977,
+        "longitudeE7": 209744003,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521821784,
+        "longitudeE7": 209698970,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-10T06:28:34.999Z",
+        "endTimestamp": "2019-07-10T06:45:13.257Z"
+      },
+      "distance": 452,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 67.00937651157054
+      }, {
+        "activityType": "CYCLING",
+        "probability": 14.307433487655224
+      }, {
+        "activityType": "WALKING",
+        "probability": 12.41874604328866
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 521844024,
+          "lngE7": 209745922
+        }, {
+          "latE7": 521807937,
+          "lngE7": 209778499
+        }, {
+          "latE7": 521821517,
+          "lngE7": 209698715
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJs5J92zgzGUcRM3Y6m6x-g1E"
+        }, {
+          "placeId": "ChIJNSJHwDgzGUcRMLOv_TcI_yg"
+        }, {
+          "placeId": "ChIJ622Q6jgzGUcRrlQNVuUS70s"
+        }, {
+          "placeId": "ChIJc9TS6TgzGUcRUZqzZtwxstg"
+        }, {
+          "placeId": "ChIJI1C63zgzGUcRJnoElhArNKs"
+        }, {
+          "placeId": "ChIJ03jGIzkzGUcR3T9PZwwv7-M"
+        }, {
+          "placeId": "ChIJEUN7UzkzGUcRmLb0MS_Q2D4"
+        }, {
+          "placeId": "ChIJXwRMpz4zGUcRmTdnmeBywXI"
+        }, {
+          "placeId": "ChIJN2jkJTwzGUcRGyA2QNMqVg4"
+        }, {
+          "placeId": "ChIJaYIhLDwzGUcRObhC8ylxa6s"
+        }, {
+          "placeId": "ChIJ__QQKjwzGUcR3pYmDfY08xo"
+        }, {
+          "placeId": "ChIJBWi5hT4zGUcRzq2mck1Q3xk"
+        }, {
+          "placeId": "ChIJc5d3jj4zGUcRtPWp6vywjws"
+        }, {
+          "placeId": "ChIJnXvk7T4zGUcRvzczmqAsJ_U"
+        }, {
+          "placeId": "ChIJRXPr4z4zGUcREjcPZ65G3yQ"
+        }, {
+          "placeId": "ChIJbbm1GT8zGUcRamQ3qZ-pjiY"
+        }, {
+          "placeId": "ChIJWT8yoUAzGUcRzaeXRid4Bzs"
+        }, {
+          "placeId": "ChIJjfChoUAzGUcRz-ydfIZ8nQY"
+        }, {
+          "placeId": "ChIJeZw6n0AzGUcRq08SCNG9n7I"
+        }, {
+          "placeId": "ChIJT34DnEAzGUcRJoxaItecHWU"
+        }, {
+          "placeId": "ChIJiaEBnUAzGUcRkiaic1cgaSY"
+        }, {
+          "placeId": "ChIJ39q9Yj8zGUcRb9sDSXHs6Zk"
+        }],
+        "distanceMeters": 1520.2182517457466
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 521828764,
+          "longitudeE7": 209694433,
+          "accuracyMetres": 72
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-10T06:45:13.257Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 521827592,
+        "longitudeE7": 209690477,
+        "placeId": "ChIJBQz1lkAzGUcRD4UxByrpIQg",
+        "address": "Komitetu Obrony Robotników 43, 02-146 Warszawa, Polska",
+        "name": "LOT Polish Airlines",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 45.982178,
+        "calibratedProbability": 41.625713
+      },
+      "duration": {
+        "startTimestamp": "2019-07-10T06:45:13.257Z",
+        "endTimestamp": "2019-07-10T07:28:25Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 521826850,
+      "centerLngE7": 209696750,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 521819913,
+        "longitudeE7": 209707331,
+        "placeId": "ChIJdxVJc0EzGUcR6jpfpgaGDFk",
+        "address": "Komitetu Obrony Robotników 39, 02-148 Warszawa, Polska",
+        "name": "LUX MED",
+        "locationConfidence": 33.130997,
+        "calibratedProbability": 29.992085
+      }, {
+        "latitudeE7": 521828158,
+        "longitudeE7": 209690246,
+        "placeId": "ChIJBQz1lkAzGUcRD4UxByrpIQg",
+        "address": "Komitetu Obrony Robotników 43, 02-146 Warszawa, Polska",
+        "name": "LOT Polish Airlines",
+        "locationConfidence": 3.4598155,
+        "calibratedProbability": 3.132024
+      }, {
+        "latitudeE7": 521672369,
+        "longitudeE7": 209678911,
+        "placeId": "ChIJ41zpQhwzGUcR0ehDaKL1xSI",
+        "address": "Żwirki i Wigury 1, 02-143 Warszawa, Polska",
+        "name": "Warsaw Chopin Airport",
+        "locationConfidence": 2.9505217,
+        "calibratedProbability": 2.6709821
+      }, {
+        "latitudeE7": 521827607,
+        "longitudeE7": 209690380,
+        "placeId": "ChIJBQz1lkAzGUcRD4UxByrpIQg",
+        "address": "Komitetu Obrony Robotników 43, 02-146 Warszawa, Polska",
+        "name": "LOT Polish Airlines",
+        "locationConfidence": 2.6874423,
+        "calibratedProbability": 2.4328275
+      }, {
+        "latitudeE7": 521828733,
+        "longitudeE7": 209688725,
+        "placeId": "ChIJreM2ez8zGUcRXSmIWzLRPzs",
+        "address": "Komitetu Obrony Robotników 43, 01-146 Warszawa, Polska",
+        "name": "LOT Travel Sp. o.o.",
+        "locationConfidence": 2.400523,
+        "calibratedProbability": 2.1730917
+      }, {
+        "latitudeE7": 521827917,
+        "longitudeE7": 209686900,
+        "placeId": "ChIJk3EigG0zGUcRfjFuumlrGEc",
+        "address": "Komitetu Obrony Robotników 43, 00-906 Warszawa, Polska",
+        "name": "LOT-ka by Tavola",
+        "locationConfidence": 1.9964834,
+        "calibratedProbability": 1.8073317
+      }, {
+        "latitudeE7": 521828700,
+        "longitudeE7": 209694400,
+        "placeId": "ChIJZZpoO_MzGUcRO3qfaxLPKg8",
+        "address": "Komitetu Obrony Robotników 43, 02-146 Warszawa, Polska",
+        "name": "Paczkomat InPost",
+        "locationConfidence": 1.6015562,
+        "calibratedProbability": 1.4498209
+      }, {
+        "latitudeE7": 521817315,
+        "longitudeE7": 209700131,
+        "placeId": "ChIJ8bpbOdjOHkcRdq1E1FU3qTA",
+        "address": "Komitetu Obrony Robotników 39, 02-148 Warszawa, Polska",
+        "name": "Ptaszek Paweł. Mechanika pojazdowa",
+        "locationConfidence": 0.50813335,
+        "calibratedProbability": 0.45999154
+      }, {
+        "latitudeE7": 521817864,
+        "longitudeE7": 209700041,
+        "placeId": "ChIJNy13STwzGUcRLjmdRbSXwqI",
+        "address": "Komitetu Obrony Robotników 39, 02-148 Warszawa, Polska",
+        "name": "Firma spedycyjna SKY-MAR",
+        "locationConfidence": 0.4590545,
+        "calibratedProbability": 0.41556254
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 44,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521829477,
+        "longitudeE7": 209697881,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521817090,
+        "longitudeE7": 209777990,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-10T07:28:25Z",
+        "endTimestamp": "2019-07-10T07:39:26.664Z"
+      },
+      "distance": 854,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 93.69817050586579
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.563011961241905
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.3228899657518736
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 521828536,
+          "lngE7": 209696998
+        }, {
+          "latE7": 521806221,
+          "lngE7": 209760608
+        }, {
+          "latE7": 521798210,
+          "lngE7": 209773063
+        }, {
+          "latE7": 521814727,
+          "lngE7": 209779472
+        }, {
+          "latE7": 521816864,
+          "lngE7": 209780120
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 736.7216951401233
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521801407,
+          "lngE7": 209775146,
+          "accuracyMeters": 5,
+          "timestamp": "2019-07-10T07:36:28.999Z"
+        }, {
+          "latE7": 521801518,
+          "lngE7": 209776489,
+          "accuracyMeters": 6,
+          "timestamp": "2019-07-10T07:36:43.999Z"
+        }, {
+          "latE7": 521802132,
+          "lngE7": 209777651,
+          "accuracyMeters": 3,
+          "timestamp": "2019-07-10T07:37:28.999Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 521817090,
+        "longitudeE7": 209777990,
+        "placeId": "ChIJ8x7cHxEzGUcRJImR0Trx-zQ",
+        "address": "Astronautów 1/1, 02-154 Warszawa, Polska",
+        "name": "Apteka Przy Żwirki",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 41.892067,
+        "calibratedProbability": 37.365376,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-10T07:39:26.664Z",
+        "endTimestamp": "2019-07-10T07:45:23.999Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 521817700,
+      "centerLngE7": 209777371,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 521816272,
+        "longitudeE7": 209752250,
+        "placeId": "ChIJ53Xu6T4zGUcRS0qe8BwrbNI",
+        "address": "Szybowcowa 4, 02-151 Warszawa, Polska",
+        "name": "Przychodnia Warszawa Bemowo - Włochy Szybowcowa SZPZLO",
+        "locationConfidence": 27.559002,
+        "calibratedProbability": 24.581085
+      }, {
+        "latitudeE7": 521818463,
+        "longitudeE7": 209778611,
+        "placeId": "ChIJ_Xxdpj4zGUcRNinwCB2u-3U",
+        "address": "Żwirki i Wigury 1B, 02-143 Warszawa, Polska",
+        "name": "Sklep Spożywczy",
+        "locationConfidence": 8.613342,
+        "calibratedProbability": 7.682619,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 521806185,
+        "longitudeE7": 209782768,
+        "placeId": "ChIJ89g9JTwzGUcRQfDfFfUAFlA",
+        "address": "02-143 Warszawa, Polska",
+        "name": "Komitetu Obrony Robotników 02",
+        "locationConfidence": 7.3125534,
+        "calibratedProbability": 6.522388
+      }, {
+        "latitudeE7": 521819431,
+        "longitudeE7": 209777849,
+        "placeId": "ChIJ8x7cHxEzGUcRJ8DlBR7Q9zU",
+        "address": "Astronautów 1, 02-154 Warszawa, Polska",
+        "name": "Wypożyczalnia nr 71 - Biblioteka Publiczna w Dzielnicy Włochy m.st. Warszawy",
+        "locationConfidence": 2.067333,
+        "calibratedProbability": 1.8439453
+      }, {
+        "latitudeE7": 521822745,
+        "longitudeE7": 209778008,
+        "placeId": "ChIJk418qz4zGUcR9yBpy2lF5QQ",
+        "address": "Żwirki i Wigury 3, 02-143 Warszawa, Polska",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 1.0616866,
+        "calibratedProbability": 0.94696504
+      }, {
+        "latitudeE7": 521816162,
+        "longitudeE7": 209777459,
+        "placeId": "ChIJAQAwoT4zGUcRpNn9V4YXQfw",
+        "locationConfidence": 0.88831496,
+        "calibratedProbability": 0.79232717,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 521822300,
+        "longitudeE7": 209779300,
+        "placeId": "ChIJzbxw0vAzGUcRu5Wa7Jn2EZI",
+        "address": "Żwirki i Wigury 3A, 02-143 Warszawa, Polska",
+        "name": "Paczkomat InPost WAW113AP",
+        "locationConfidence": 0.8672026,
+        "calibratedProbability": 0.77349615
+      }, {
+        "latitudeE7": 521826528,
+        "longitudeE7": 209779010,
+        "placeId": "ChIJhZrQQHczGUcRcv-XEzh8OJU",
+        "address": "Żwirki i Wigury 1, 02-143 Warszawa, Polska",
+        "name": "Poczta Polska",
+        "locationConfidence": 0.58052176,
+        "calibratedProbability": 0.5177929
+      }, {
+        "latitudeE7": 521807458,
+        "longitudeE7": 209773012,
+        "placeId": "ChIJs_ZFnT4zGUcR8K4jINbv6aI",
+        "address": "00-001 Warszawa, Polska",
+        "name": "Pomnik Pamieci Żołnierzy Bazy Lotniczej Armii Krajowej",
+        "locationConfidence": 0.46851075,
+        "calibratedProbability": 0.41788533
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 41,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522049150,
+        "longitudeE7": 209412466,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521817300,
+        "longitudeE7": 209869100,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-11T10:40:38.706Z",
+        "endTimestamp": "2019-07-11T10:52:31.999Z"
+      },
+      "distance": 5264,
+      "activityType": "IN_TRAIN",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_TRAIN",
+        "probability": 93.86690620713645
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.984931714148528
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.7991930225638484
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 522059601,
+          "longitudeE7": 209410990,
+          "placeId": "ChIJh4aq1aw0GUcRdu9FBQj8QCE",
+          "address": "05-077 Warszawa, Polska",
+          "name": "Warszawa Aleje Jerozolimskie"
+        }, {
+          "latitudeE7": 521802313,
+          "longitudeE7": 209870542,
+          "placeId": "ChIJjyAeWyMzGUcR4X3DRl9laeo",
+          "address": "Warszawa, Polska",
+          "name": "Warszawa Służewiec"
+        }],
+        "name": "KM",
+        "hexRgbColor": "00A34F",
+        "linePlaceId": "ChIJn1qfFQLgGEcRTQDBclmLb_k",
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522075997,
+          "lngE7": 209393801,
+          "accuracyMeters": 26,
+          "timestamp": "2019-07-11T10:40:54.091Z"
+        }, {
+          "latE7": 521930590,
+          "lngE7": 209811068,
+          "accuracyMeters": 3,
+          "timestamp": "2019-07-11T10:50:38.999Z"
+        }, {
+          "latE7": 521830954,
+          "lngE7": 209870745,
+          "accuracyMeters": 6,
+          "timestamp": "2019-07-11T10:52:15.999Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4928.221704550513
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 521817300,
+        "longitudeE7": 209869100,
+        "placeId": "ChIJ5cBzsiQzGUcRcpr9Cnao85U",
+        "address": "02-144 Warszawa, Polska",
+        "name": "PKP Służewiec 02",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 32.806602,
+        "calibratedProbability": 26.260227
+      },
+      "duration": {
+        "startTimestamp": "2019-07-11T10:52:31.999Z",
+        "endTimestamp": "2019-07-11T10:57:02.999Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 521811858,
+      "centerLngE7": 209873725,
+      "visitConfidence": 78,
+      "otherCandidateLocations": [{
+        "latitudeE7": 521811800,
+        "longitudeE7": 209869900,
+        "placeId": "ChIJQ3zaqyQzGUcRWn0qjzp6CG8",
+        "address": "02-144 Warszawa, Polska",
+        "name": "PKP Służewiec 01",
+        "locationConfidence": 16.97421,
+        "calibratedProbability": 13.587102
+      }, {
+        "latitudeE7": 521805059,
+        "longitudeE7": 209880717,
+        "placeId": "ChIJdcAeXiMzGUcRNDR7KsvUIRs",
+        "address": "Taśmowa 7A, 02-677 Warszawa, Polska",
+        "name": "Eurocash S.A.",
+        "locationConfidence": 14.431979,
+        "calibratedProbability": 11.552158
+      }, {
+        "latitudeE7": 521813372,
+        "longitudeE7": 209888417,
+        "placeId": "ChIJz_r2lyQzGUcRgTCOv9jzAtQ",
+        "address": "02-676 Warszawa, Polska",
+        "name": "PKP Służewiec 11",
+        "locationConfidence": 9.474368,
+        "calibratedProbability": 7.583811
+      }, {
+        "latitudeE7": 521802313,
+        "longitudeE7": 209870542,
+        "placeId": "ChIJjyAeWyMzGUcR4X3DRl9laeo",
+        "address": "Warszawa, Polska",
+        "name": "Warszawa Służewiec",
+        "locationConfidence": 7.7590666,
+        "calibratedProbability": 6.2107882
+      }, {
+        "latitudeE7": 521811053,
+        "longitudeE7": 209910742,
+        "placeId": "ChIJR0kcjSQzGUcRvkhQ91EA51I",
+        "address": "Kusha Loft, Marynarska 14, 02-674 Warszawa, Polska",
+        "name": "Uciekające Budziki Clocky - Przedstawiciel Nanda Home w Polsce",
+        "locationConfidence": 4.021505,
+        "calibratedProbability": 3.219036
+      }, {
+        "latitudeE7": 521799419,
+        "longitudeE7": 209885265,
+        "placeId": "ChIJtU7qV97MHkcRAC8RONA94iw",
+        "address": "Taśmowa 7, 02-676 Warszawa, Polska",
+        "name": "LUX MED",
+        "locationConfidence": 2.1843655,
+        "calibratedProbability": 1.7484876
+      }, {
+        "latitudeE7": 521803904,
+        "longitudeE7": 209880971,
+        "placeId": "ChIJ0V8zfiMzGUcRo0EI_N8SxXc",
+        "locationConfidence": 1.0223496,
+        "calibratedProbability": 0.8183455
+      }, {
+        "latitudeE7": 521813856,
+        "longitudeE7": 209867504,
+        "placeId": "ChIJUSugrCQzGUcRf6t6mLtwjPs",
+        "locationConfidence": 0.7328869,
+        "calibratedProbability": 0.58664346
+      }, {
+        "latitudeE7": 521798825,
+        "longitudeE7": 209896462,
+        "placeId": "ChIJ6aG8eCMzGUcRdMw-46yUiYg",
+        "address": "Wynalazek 1, 02-677 Warszawa, Polska",
+        "name": "Play",
+        "locationConfidence": 0.70853317,
+        "calibratedProbability": 0.56714934
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 35,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521817300,
+        "longitudeE7": 209869100,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521893875,
+        "longitudeE7": 209584746,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-11T10:57:02.999Z",
+        "endTimestamp": "2019-07-11T11:06:06.999Z"
+      },
+      "distance": 2412,
+      "activityType": "IN_BUS",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 83.24874408772499
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 11.58215874904112
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.5496163258686035
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 521817300,
+          "longitudeE7": 209869100,
+          "placeId": "ChIJ5cBzsiQzGUcRcpr9Cnao85U",
+          "address": "02-144 Warszawa, Polska",
+          "name": "PKP Służewiec 02"
+        }, {
+          "latitudeE7": 521906439,
+          "longitudeE7": 209573900,
+          "placeId": "ChIJ9bh8v1ozGUcRr7tpHKzTar4",
+          "address": "02-220 Warszawa, Polska",
+          "name": "Hynka 06"
+        }],
+        "name": "189",
+        "hexRgbColor": "88007C",
+        "linePlaceId": "ChIJh7tvkrbMHkcRseTXwiMCe8o",
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521816436,
+          "lngE7": 209871698,
+          "accuracyMeters": 3,
+          "timestamp": "2019-07-11T10:57:18.999Z"
+        }, {
+          "latE7": 521814888,
+          "lngE7": 209884407,
+          "accuracyMeters": 64,
+          "timestamp": "2019-07-11T11:00:22.318Z"
+        }, {
+          "latE7": 521839567,
+          "lngE7": 209779153,
+          "accuracyMeters": 15,
+          "timestamp": "2019-07-11T11:03:30.999Z"
+        }, {
+          "latE7": 521896953,
+          "lngE7": 209609284,
+          "accuracyMeters": 32,
+          "timestamp": "2019-07-11T11:05:51.999Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2351.000574612971
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 521893875,
+        "longitudeE7": 209584746,
+        "placeId": "ChIJ5dzALkUzGUcRzVrvv3jVvyE",
+        "address": "Aleja Krakowska 246, 02-219 Warszawa, Polska",
+        "name": "Biedronka",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 42.22535,
+        "calibratedProbability": 41.618782
+      },
+      "duration": {
+        "startTimestamp": "2019-07-11T11:06:06.999Z",
+        "endTimestamp": "2019-07-11T11:18:37Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 521901733,
+      "centerLngE7": 209581906,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 521897000,
+        "longitudeE7": 209590000,
+        "placeId": "ChIJlQ2YMUUzGUcRa61oz7wjY3o",
+        "address": "02-219 Warszawa, Polska",
+        "name": "Hynka 05",
+        "locationConfidence": 15.193231,
+        "calibratedProbability": 14.97498
+      }, {
+        "latitudeE7": 521906439,
+        "longitudeE7": 209573900,
+        "placeId": "ChIJ9bh8v1ozGUcRr7tpHKzTar4",
+        "address": "02-220 Warszawa, Polska",
+        "name": "Hynka 06",
+        "locationConfidence": 8.137538,
+        "calibratedProbability": 8.020642
+      }, {
+        "latitudeE7": 521898463,
+        "longitudeE7": 209580228,
+        "placeId": "ChIJ29_izVozGUcR-4xuxgXEucM",
+        "address": "02-219 Warszawa, Polska",
+        "name": "Hynka 03",
+        "locationConfidence": 4.2540164,
+        "calibratedProbability": 4.1929073
+      }, {
+        "latitudeE7": 521906050,
+        "longitudeE7": 209584518,
+        "placeId": "ChIJHRuAtlozGUcRIPI7vVLAjJI",
+        "address": "02-219 Warszawa, Polska",
+        "name": "Hynka 04",
+        "locationConfidence": 3.9701955,
+        "calibratedProbability": 3.9131637
+      }, {
+        "latitudeE7": 521911653,
+        "longitudeE7": 209577792,
+        "placeId": "ChIJWYmbulozGUcRa7k_2l7nWFc",
+        "address": "Aleja Krakowska 253, 02-220 Warszawa, Polska",
+        "name": "Lidl",
+        "locationConfidence": 3.0139089,
+        "calibratedProbability": 2.9706142
+      }, {
+        "latitudeE7": 521907428,
+        "longitudeE7": 209576786,
+        "placeId": "ChIJA3CJuVozGUcR-KRhLHp3VcQ",
+        "address": "Łopuszańska 2, 02-200 Warszawa, Polska",
+        "name": "McDonald\u0027s",
+        "locationConfidence": 1.9619675,
+        "calibratedProbability": 1.9337839
+      }, {
+        "latitudeE7": 521897800,
+        "longitudeE7": 209574700,
+        "placeId": "ChIJs3Fe0FozGUcRHRsqXTQbF5w",
+        "address": "02-219 Warszawa, Polska",
+        "name": "Hynka 02",
+        "locationConfidence": 1.7326736,
+        "calibratedProbability": 1.7077838
+      }, {
+        "latitudeE7": 521902150,
+        "longitudeE7": 209582200,
+        "placeId": "ChIJO7jhy1ozGUcRNVWDE7JzCnY",
+        "address": "02-219 Warszawa, Polska",
+        "name": "Hynka",
+        "locationConfidence": 1.1586739,
+        "calibratedProbability": 1.1420295
+      }, {
+        "latitudeE7": 521893981,
+        "longitudeE7": 209580738,
+        "placeId": "ChIJfz_J1FozGUcRSX_4kila2aU",
+        "address": "Aleja Krakowska 244, 02-219 Warszawa, Polska",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 1.0330595,
+        "calibratedProbability": 1.0182196
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 42,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521901733,
+        "longitudeE7": 209581906
+      },
+      "endLocation": {
+        "latitudeE7": 521818767,
+        "longitudeE7": 209978049,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-11T11:18:37Z",
+        "endTimestamp": "2019-07-16T12:18:44.999Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522259089,
+          "lngE7": 209488145,
+          "accuracyMeters": 30,
+          "timestamp": "2019-07-11T17:41:03.739Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 9963.55583218253
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521818767,
+        "longitudeE7": 209978049,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521797654,
+        "longitudeE7": 209941819,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-16T12:18:44.999Z",
+        "endTimestamp": "2019-07-16T13:49:02.999Z"
+      },
+      "distance": 1653,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 93.9061389148814
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 2.355456008012168
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 1.4936385803094439
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 521818771,
+          "lngE7": 209976749
+        }, {
+          "latE7": 521815834,
+          "lngE7": 209879455
+        }, {
+          "latE7": 521793861,
+          "lngE7": 209963951
+        }, {
+          "latE7": 521781578,
+          "lngE7": 209965534
+        }, {
+          "latE7": 521775588,
+          "lngE7": 209961853
+        }, {
+          "latE7": 521767044,
+          "lngE7": 209923629
+        }, {
+          "latE7": 521769294,
+          "lngE7": 209913406
+        }, {
+          "latE7": 521781082,
+          "lngE7": 209892024
+        }, {
+          "latE7": 521798324,
+          "lngE7": 209942188
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1000.9536941534211,
+        "travelMode": "WALK"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521798743,
+          "lngE7": 209939224,
+          "accuracyMeters": 32,
+          "timestamp": "2019-07-16T13:48:48.006Z"
+        }]
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521797654,
+        "longitudeE7": 209941819,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522331698,
+        "longitudeE7": 209633157,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-16T13:49:02.999Z",
+        "endTimestamp": "2019-07-17T09:26:38.233Z"
+      },
+      "distance": 6299,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 60.106998118378726
+      }, {
+        "activityType": "WALKING",
+        "probability": 12.70506343126224
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 12.051920614039807
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 521798324,
+          "lngE7": 209942188
+        }, {
+          "latE7": 522040596,
+          "lngE7": 209405212
+        }, {
+          "latE7": 522331771,
+          "lngE7": 209633140
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJxbXOMiczGUcRoDlxNvw7h30"
+        }, {
+          "placeId": "ChIJEQwttSAzGUcRylrgMxTMdg0"
+        }, {
+          "placeId": "ChIJwcA6rSAzGUcRRt9FSmYHDOI"
+        }, {
+          "placeId": "ChIJx5JTUt8yGUcRJGOptdkLLB0"
+        }, {
+          "placeId": "ChIJ3yF0Td8yGUcRe1cFzu5c8GQ"
+        }, {
+          "placeId": "ChIJn19VrdgyGUcRo5x1Wl-bpL0"
+        }, {
+          "placeId": "ChIJ9_10rdgyGUcRORdIyW9QNF8"
+        }, {
+          "placeId": "ChIJWZePrNgyGUcRYYYHhs1wwn4"
+        }, {
+          "placeId": "ChIJ6yMgq9gyGUcRy0rArOyk5tA"
+        }, {
+          "placeId": "ChIJ07n2MiczGUcRfPskpK9H-7A"
+        }, {
+          "placeId": "ChIJJaP8ASQzGUcRthNj-vcn_y4"
+        }, {
+          "placeId": "ChIJs_7MCCQzGUcRhuy6l_JeMGo"
+        }, {
+          "placeId": "ChIJFcYvcSQzGUcRetSRU9ENc8w"
+        }, {
+          "placeId": "ChIJj8iShCQzGUcRehwD5p-Fd6E"
+        }, {
+          "placeId": "ChIJj8iShCQzGUcR2XLq6hMHigA"
+        }, {
+          "placeId": "ChIJtWlRrCQzGUcR5-rYN2V_lUc"
+        }, {
+          "placeId": "ChIJ0fmGZzszGUcRRBMPuU3ILn4"
+        }, {
+          "placeId": "ChIJ5wtrkjszGUcRYQyOShyy9bI"
+        }, {
+          "placeId": "ChIJxZlB5DszGUcRuhU2F27_H9c"
+        }, {
+          "placeId": "ChIJ2byGQDkzGUcRnCtCAmjzg8U"
+        }, {
+          "placeId": "ChIJnYlt5zgzGUcRzk7KBJSDuYc"
+        }, {
+          "placeId": "ChIJk684nDgzGUcRmIooS4PheHQ"
+        }, {
+          "placeId": "ChIJiZzJb0czGUcRYqJgWW9uQPc"
+        }, {
+          "placeId": "ChIJwYGaD0czGUcR_Kv_L2WGMQg"
+        }, {
+          "placeId": "ChIJax0b_EYzGUcRRoU65LDX0jg"
+        }, {
+          "placeId": "ChIJRQY590YzGUcRhizeN8VKk1I"
+        }, {
+          "placeId": "ChIJ-anQ9EYzGUcRRAFpfhgNf-E"
+        }, {
+          "placeId": "ChIJF8jih0YzGUcRHt7fldnM4iw"
+        }, {
+          "placeId": "ChIJ21qD00UzGUcR9KAmqU32VUc"
+        }, {
+          "placeId": "ChIJz-2GyUUzGUcRGKGuqcchY-0"
+        }, {
+          "placeId": "ChIJVav0tkUzGUcRoF-RwUvpFmQ"
+        }, {
+          "placeId": "ChIJQ3YsrkUzGUcRvWlRxJBqdVM"
+        }, {
+          "placeId": "ChIJpa1RqEUzGUcRAowUoLOsA8I"
+        }, {
+          "placeId": "ChIJHVeOB0UzGUcR58sAMf5mDzI"
+        }, {
+          "placeId": "ChIJT0fdBUUzGUcRdJQ3MxHinIY"
+        }, {
+          "placeId": "ChIJN2VO6lozGUcRBB5c2yf_3cg"
+        }, {
+          "placeId": "ChIJ7-N1X1ozGUcRZGehGRNsWkk"
+        }, {
+          "placeId": "ChIJl5qJXlozGUcRflDeH10PcqY"
+        }, {
+          "placeId": "ChIJqfUCXVozGUcR-c6jrrtyifs"
+        }, {
+          "placeId": "ChIJqUF-QVozGUcRGV5iPdOaGWc"
+        }, {
+          "placeId": "ChIJ48jtklkzGUcR1ujzqzVk5sQ"
+        }, {
+          "placeId": "ChIJx-SUt1kzGUcRsTsWwShNFr8"
+        }, {
+          "placeId": "ChIJnQ9BQFgzGUcRd820v94Y2bQ"
+        }, {
+          "placeId": "ChIJO-eYalgzGUcRj3GMb-14iX8"
+        }, {
+          "placeId": "ChIJLcU_jac0GUcRLoqMbZ8KZpI"
+        }, {
+          "placeId": "ChIJV6C9SqY0GUcR5EkHLEUzHmc"
+        }, {
+          "placeId": "ChIJzToQSKY0GUcRWqVlc3a5URQ"
+        }, {
+          "placeId": "ChIJRw4eQKY0GUcRCkIDpN-W5I0"
+        }, {
+          "placeId": "ChIJuUldbaY0GUcRYDJa_1TOeV4"
+        }, {
+          "placeId": "ChIJiVDmdKY0GUcRFo6J642ZYr4"
+        }, {
+          "placeId": "ChIJhUhrdaY0GUcR4ACc6VVRewo"
+        }, {
+          "placeId": "ChIJiZ2T36U0GUcR5XQVNSVehYU"
+        }, {
+          "placeId": "ChIJfRnJwqU0GUcROvn8cfCI0nY"
+        }, {
+          "placeId": "ChIJAbAIvqU0GUcRlHETp2yEZ0A"
+        }, {
+          "placeId": "ChIJhSOomKU0GUcRTOUJW9AMrMI"
+        }, {
+          "placeId": "ChIJBaDIdKU0GUcRoaJWCmafdLM"
+        }, {
+          "placeId": "ChIJO2EebaU0GUcRneCsPPsQZlA"
+        }, {
+          "placeId": "ChIJF8L9aqU0GUcRDQpi2IyXxG0"
+        }, {
+          "placeId": "ChIJF7tOQKU0GUcRbOHlmvinq8A"
+        }, {
+          "placeId": "ChIJ52oFR6U0GUcR6MFjgXBOT4E"
+        }, {
+          "placeId": "ChIJ682ESKU0GUcRXASHHncD7fQ"
+        }, {
+          "placeId": "ChIJeR0pSaU0GUcRSqC8kBPQ-NA"
+        }, {
+          "placeId": "ChIJHc81-K80GUcRzr2ZVQ44cKg"
+        }, {
+          "placeId": "ChIJJSsu7680GUcRhr194964n3c"
+        }, {
+          "placeId": "ChIJ_01bwa80GUcRes0vD9FvT_c"
+        }, {
+          "placeId": "ChIJL7oiSa40GUcRUku3B08_5Fw"
+        }, {
+          "placeId": "ChIJdzhKea40GUcRf3b8ijhFXjs"
+        }, {
+          "placeId": "ChIJdxebx6w0GUcRoiFVVASBC74"
+        }, {
+          "placeId": "ChIJcUU4Q1PLHkcROCvWm42LEGc"
+        }, {
+          "placeId": "ChIJHaMyZFPLHkcRZfMMJ4OE-G8"
+        }, {
+          "placeId": "ChIJj4H0gFPLHkcRWMsZSIdFPPc"
+        }, {
+          "placeId": "ChIJY5FJe1PLHkcR_Z4XcaD2aBI"
+        }, {
+          "placeId": "ChIJwRROdlTLHkcR5-EcnYYGoBU"
+        }, {
+          "placeId": "ChIJsYsoHVTLHkcRab7_YBeHdIM"
+        }, {
+          "placeId": "ChIJwXyMvlbLHkcRVbL_YDavCgo"
+        }, {
+          "placeId": "ChIJJ7FQ5lbLHkcRyajlXfJR2nI"
+        }, {
+          "placeId": "ChIJJ7FQ5lbLHkcRecG1SWX1r4Q"
+        }, {
+          "placeId": "ChIJ75e_GlfLHkcRZ1l1Vb7sFtk"
+        }, {
+          "placeId": "ChIJt2GZK1jLHkcReSoN9WPuAWA"
+        }, {
+          "placeId": "ChIJv-AjLFjLHkcRWA8Kqwe7nDk"
+        }, {
+          "placeId": "ChIJ0_RFMFjLHkcRSKIREaMUYcQ"
+        }, {
+          "placeId": "ChIJ8VDCQVjLHkcRLMkasLqpyro"
+        }, {
+          "placeId": "ChIJ67WJQVjLHkcRMse-V5mGKGc"
+        }, {
+          "placeId": "ChIJXzVjwl7LHkcRMyXR1DoZGyE"
+        }, {
+          "placeId": "ChIJtZiU7F7LHkcRLR4-3eygesg"
+        }, {
+          "placeId": "ChIJSQ6Jjl7LHkcRq7Rkl1J6PF8"
+        }, {
+          "placeId": "ChIJP4r2eF7LHkcRhVgB_qqtRYw"
+        }, {
+          "placeId": "ChIJJ3kU8l3LHkcR0XbsTgnPTQk"
+        }, {
+          "placeId": "ChIJoXfOC2fLHkcRjkmaIaupwto"
+        }, {
+          "placeId": "ChIJoXfOC2fLHkcRiZ7tvqkqLb8"
+        }, {
+          "placeId": "ChIJJzldqWfLHkcRPI9LEPx-zKk"
+        }, {
+          "placeId": "ChIJQ8HkRmbLHkcRvqh4Zgd9ll4"
+        }, {
+          "placeId": "ChIJH8QuEGbLHkcRd6I_8GUlbLs"
+        }, {
+          "placeId": "ChIJZ8FL72XLHkcRM3gIWC4juOI"
+        }, {
+          "placeId": "ChIJDeAf6mXLHkcRU9cGYwoz9QE"
+        }, {
+          "placeId": "ChIJD0JgwGXLHkcRAfsT7atV6Gc"
+        }, {
+          "placeId": "ChIJ7WsYumXLHkcR2yUmtRvogZU"
+        }, {
+          "placeId": "ChIJNd8krmXLHkcR4j4hr4-euOs"
+        }, {
+          "placeId": "ChIJOWI-q2XLHkcR6J-VEZ178gI"
+        }, {
+          "placeId": "ChIJuWM77WTLHkcR_NEDMIMJTRE"
+        }, {
+          "placeId": "ChIJt1w3lmTLHkcRDWitKAQfvFs"
+        }],
+        "distanceMeters": 11773.546971479735,
+        "travelMode": "DRIVE"
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522334926,
+          "longitudeE7": 209666091,
+          "accuracyMetres": 92
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-17T09:30:16.572Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522331698,
+        "longitudeE7": 209633157,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522336777,
+        "longitudeE7": 209669725,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-17T09:26:38.233Z",
+        "endTimestamp": "2019-07-17T09:30:16.572Z"
+      },
+      "distance": 259,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 43.31451838704334
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 25.17019979823356
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 15.946583680856763
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522331771,
+          "lngE7": 209633140
+        }, {
+          "latE7": 522335166,
+          "lngE7": 209664688
+        }, {
+          "latE7": 522335929,
+          "lngE7": 209669551
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 270.8574843658434,
+        "travelMode": "WALK"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522336443,
+        "longitudeE7": 209664582,
+        "placeId": "ChIJdyN7oWTLHkcRNFvvSEpnvik",
+        "address": "01-138 Warszawa, Polska",
+        "name": "Płocka 04",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 21.66916,
+        "calibratedProbability": 28.241226
+      },
+      "duration": {
+        "startTimestamp": "2019-07-17T09:30:16.572Z",
+        "endTimestamp": "2019-07-17T09:47:59.472Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522334900,
+      "centerLngE7": 209665900,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522335500,
+        "longitudeE7": 209670200,
+        "placeId": "ChIJs-RPX2PLHkcR-G-z-W_RNLs",
+        "address": "Warszawa, Polska",
+        "name": "Metro Płocka 01",
+        "locationConfidence": 17.412699,
+        "calibratedProbability": 22.693817
+      }, {
+        "latitudeE7": 522336680,
+        "longitudeE7": 209671475,
+        "placeId": "ChIJGwi7WGPLHkcR9selWd7SIi4",
+        "address": "Warszawa, Polska",
+        "name": "Metro Płocka 03",
+        "locationConfidence": 8.563605,
+        "calibratedProbability": 11.1608715
+      }, {
+        "latitudeE7": 522338389,
+        "longitudeE7": 209662830,
+        "placeId": "ChIJ53dnpGTLHkcR0aLQuqnLDoI",
+        "address": "Wolska 56, 01-133 Warszawa, Polska",
+        "name": "Poczta Polska",
+        "locationConfidence": 7.6644773,
+        "calibratedProbability": 9.989046
+      }, {
+        "latitudeE7": 522336711,
+        "longitudeE7": 209657157,
+        "placeId": "ChIJ7VgKvmTLHkcRJfRYZKP9tgc",
+        "address": "Wolska 58, 01-134 Warszawa, Polska",
+        "name": "Apteka Cosmedica",
+        "locationConfidence": 3.0052075,
+        "calibratedProbability": 3.9166605
+      }, {
+        "latitudeE7": 522331540,
+        "longitudeE7": 209653500,
+        "placeId": "ChIJL9WUkGTLHkcRh-qF_NZblYo",
+        "address": "tuż przy stacji Metro, Płocka 17/m 105, 01-231 Warszawa, Polska",
+        "name": "Magdalena Boniuk psycholog seksuolog Warszawa (psychoterapia on line, gabinet)",
+        "locationConfidence": 1.3617969,
+        "calibratedProbability": 1.7748178
+      }, {
+        "latitudeE7": 522336759,
+        "longitudeE7": 209653119,
+        "placeId": "ChIJT5lPEznLHkcRcyDQqGhSVbw",
+        "address": "Wolska 58, 01-134 Warszawa, Polska",
+        "name": "Salon Optyczny STYLE OPTIC",
+        "locationConfidence": 0.8709406,
+        "calibratedProbability": 1.1350893
+      }, {
+        "latitudeE7": 522328399,
+        "longitudeE7": 209657024,
+        "placeId": "ChIJdWzehGTLHkcR1EvXCttwCM8",
+        "address": "Płocka 17/paw.17, 01-231 Warszawa, Polska",
+        "name": "Wyposażenie gabinetów dentystycznych - Płaza Dent Bogdan Płaza",
+        "locationConfidence": 0.75776225,
+        "calibratedProbability": 0.9875849
+      }, {
+        "latitudeE7": 522328000,
+        "longitudeE7": 209646820,
+        "placeId": "ChIJX1ecjmTLHkcRgJ4lv1AI8sA",
+        "address": "Płocka 17, 01-231 Warszawa, Polska",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 0.73597306,
+        "calibratedProbability": 0.9591872
+      }, {
+        "latitudeE7": 522340455,
+        "longitudeE7": 209681271,
+        "placeId": "ChIJLe5OVWPLHkcRtdnXzEO40T4",
+        "locationConfidence": 0.5519157,
+        "calibratedProbability": 0.7193069
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 27,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522336443,
+        "longitudeE7": 209664582,
+        "placeId": "ChIJdyN7oWTLHkcRNFvvSEpnvik",
+        "address": "01-138 Warszawa, Polska",
+        "name": "Płocka 04",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 21.66916,
+        "calibratedProbability": 28.241226
+      },
+      "endLocation": {
+        "latitudeE7": 522371163,
+        "longitudeE7": 210011282,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-17T09:47:59.472Z",
+        "endTimestamp": "2019-07-17T12:16:30.442Z"
+      },
+      "activityType": "IN_TRAM",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_TRAM",
+        "probability": 44.94444728595702
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 26.349225079171507
+      }, {
+        "activityType": "WALKING",
+        "probability": 14.739555637948046
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522370237,
+          "lngE7": 210007243,
+          "accuracyMeters": 5,
+          "timestamp": "2019-07-17T11:04:52.999Z"
+        }, {
+          "latE7": 522808251,
+          "lngE7": 209587527,
+          "accuracyMeters": 48,
+          "timestamp": "2019-07-17T11:34:08.377Z"
+        }, {
+          "latE7": 522797508,
+          "lngE7": 209563863,
+          "accuracyMeters": 3,
+          "timestamp": "2019-07-17T11:37:40.999Z"
+        }, {
+          "latE7": 522816710,
+          "lngE7": 209519203,
+          "accuracyMeters": 3,
+          "timestamp": "2019-07-17T11:41:21Z"
+        }, {
+          "latE7": 522809906,
+          "lngE7": 209503566,
+          "accuracyMeters": 16,
+          "timestamp": "2019-07-17T11:49:15.765Z"
+        }, {
+          "latE7": 522852502,
+          "lngE7": 209591742,
+          "accuracyMeters": 5,
+          "timestamp": "2019-07-17T11:54:17.999Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 15503.769282872294
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522371163,
+        "longitudeE7": 210011282,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522259509,
+        "longitudeE7": 209487945,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-17T12:16:30.442Z",
+        "endTimestamp": "2019-07-19T15:44:02.211Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522842562,
+          "lngE7": 209569804,
+          "accuracyMeters": 24,
+          "timestamp": "2019-07-17T12:16:30.442Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 12548.991201815548
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522259509,
+        "longitudeE7": 209487945,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522306290,
+        "longitudeE7": 209103470,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-19T15:44:02.211Z",
+        "endTimestamp": "2019-07-19T15:54:29.995Z"
+      },
+      "distance": 3002,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 93.610864833116
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.295847106674325
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.4330726901681785
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522259101,
+          "lngE7": 209488296
+        }, {
+          "latE7": 522205352,
+          "lngE7": 209177742
+        }, {
+          "latE7": 522306365,
+          "lngE7": 209104576
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJi3KVjELLHkcRvrog87uuOE8"
+        }, {
+          "placeId": "ChIJGTa8WELLHkcRiEf8IPM2_14"
+        }, {
+          "placeId": "ChIJmYXkWULLHkcRKnfFJggRxz8"
+        }, {
+          "placeId": "ChIJv9cHUkLLHkcRC17otvjLAA0"
+        }, {
+          "placeId": "ChIJy2z1tEPLHkcRJSO7xiQlyDA"
+        }, {
+          "placeId": "ChIJ1Vs6tkbLHkcR41jreyAXrpQ"
+        }, {
+          "placeId": "ChIJ5X2gw0bLHkcREOySk-ogXU0"
+        }, {
+          "placeId": "ChIJdxR8DEfLHkcRm9BxBt_08uA"
+        }, {
+          "placeId": "ChIJbUZKC0fLHkcRbVdeuXBg-0c"
+        }, {
+          "placeId": "ChIJAz5hh0fLHkcROcCR-M9xdb8"
+        }, {
+          "placeId": "ChIJ1WwUeTjLHkcRroTPyKQjaBk"
+        }, {
+          "placeId": "ChIJvUuqfjjLHkcRQA2Uab-N0_w"
+        }, {
+          "placeId": "ChIJ5afzhzjLHkcRIqoEjR6ZTro"
+        }, {
+          "placeId": "ChIJT5jpjjjLHkcRWZJLBe5nIf0"
+        }, {
+          "placeId": "ChIJl6V2jjjLHkcROY_K66eA4dc"
+        }, {
+          "placeId": "ChIJWyf5jTjLHkcR_fD_5ReXBj8"
+        }, {
+          "placeId": "ChIJJYUVkzjLHkcRzTIlmhnOfZU"
+        }, {
+          "placeId": "ChIJ004A6zjLHkcR60Md6aaEpVs"
+        }, {
+          "placeId": "ChIJ52AX6jjLHkcR2c8QADAmb6I"
+        }, {
+          "placeId": "ChIJhdH66TjLHkcRvxcHJWiPZJo"
+        }, {
+          "placeId": "ChIJndYQAjnLHkcRE8FPyG9uh_8"
+        }, {
+          "placeId": "ChIJEe5xBznLHkcRWT-Bbz8KsOk"
+        }, {
+          "placeId": "ChIJT4ftoznLHkcRUkEpxAefou0"
+        }, {
+          "placeId": "ChIJwSqWoznLHkcRYjuybBqSCAM"
+        }, {
+          "placeId": "ChIJ_XbeljnLHkcRl-Ij_lhIenY"
+        }, {
+          "placeId": "ChIJ0-tyCTrLHkcRoUlkWbWGpMY"
+        }, {
+          "placeId": "ChIJUX-1njDLHkcRuQNf83bLMZk"
+        }, {
+          "placeId": "ChIJRSq9jzDLHkcRhT8egEXlRWk"
+        }, {
+          "placeId": "ChIJ168ZYDDLHkcRsA645HWh6xs"
+        }, {
+          "placeId": "ChIJW7X6YDDLHkcRPx421zk3B3I"
+        }, {
+          "placeId": "ChIJAdySZjDLHkcRXC5sMYiHAfU"
+        }, {
+          "placeId": "ChIJa9BKZDDLHkcR9GEW90JhRw4"
+        }, {
+          "placeId": "ChIJq-xgdzDLHkcRCYxlavtmBvA"
+        }, {
+          "placeId": "ChIJGwjV2jrLHkcRWUbOXrS5Afk"
+        }, {
+          "placeId": "ChIJdTqI2jrLHkcR6XEKMJMRx1s"
+        }, {
+          "placeId": "ChIJgTsZ1zrLHkcRTHSMoqqQ7Vg"
+        }, {
+          "placeId": "ChIJYSqgKzvLHkcRbAv2G4G_WWc"
+        }, {
+          "placeId": "ChIJQb41zCTLHkcRYfaxfKAOb5s"
+        }, {
+          "placeId": "ChIJzd3JuSTLHkcRt3Ewb-K63eo"
+        }, {
+          "placeId": "ChIJLQBZoiTLHkcRWNuf5ssfYKE"
+        }, {
+          "placeId": "ChIJRx3OYyPLHkcROSIDD-cQKsQ"
+        }, {
+          "placeId": "ChIJP3hscCPLHkcRQywM6YJutR0"
+        }, {
+          "placeId": "ChIJ488JdCPLHkcRNd-rrsIbkDk"
+        }, {
+          "placeId": "ChIJDWvNCiPLHkcR16CCF8Votw4"
+        }, {
+          "placeId": "ChIJUyiUCiPLHkcRVI9FRmSJcOA"
+        }, {
+          "placeId": "ChIJcXt9oCPLHkcR88mAsOU-ERk"
+        }, {
+          "placeId": "ChIJ0cg3vyPLHkcROcCrB44OA_Y"
+        }, {
+          "placeId": "ChIJ-5PwMiLLHkcRXzni9Ha5FDY"
+        }, {
+          "placeId": "ChIJBz0PJiLLHkcRVJm-87WluU0"
+        }, {
+          "placeId": "ChIJI655KCLLHkcRHmTmoBZfB3U"
+        }, {
+          "placeId": "ChIJ65G5hyHLHkcRYORAza6PkmA"
+        }, {
+          "placeId": "ChIJIc3yhCHLHkcRruLQCk4T7eo"
+        }, {
+          "placeId": "ChIJRZRtnCHLHkcRLvlgBl_SGiA"
+        }, {
+          "placeId": "ChIJmWr7niHLHkcRHDuChov8q7A"
+        }, {
+          "placeId": "ChIJYUSenyHLHkcR9Mg04o20kP8"
+        }, {
+          "placeId": "ChIJTbmGnyHLHkcRwffVlUcje6k"
+        }, {
+          "placeId": "ChIJN01wcyHLHkcRxeG9LjA3jDo"
+        }],
+        "distanceMeters": 4205.271660276454,
+        "travelMode": "DRIVE"
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522306051,
+          "longitudeE7": 209102560,
+          "accuracyMetres": 77
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-19T16:00:17.333Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 93.29038,
+        "calibratedProbability": 85.168625,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-19T15:54:29.995Z",
+        "endTimestamp": "2019-07-19T22:10:53.392Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522306098,
+      "centerLngE7": 209102500,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522321959,
+        "longitudeE7": 209115499,
+        "placeId": "ChIJa-C3lSHLHkcRmZL6viDUm6E",
+        "address": "Muszlowa 2, 01-361 Warszawa, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3625814,
+        "calibratedProbability": 1.2439566
+      }, {
+        "latitudeE7": 522283640,
+        "longitudeE7": 209142330,
+        "placeId": "ChIJrappgyPLHkcRJ3Jfz6727aE",
+        "address": "Człuchowska 25, 01-360 Warszawa, Polska",
+        "name": "Hala Wola Sp. z o.o.",
+        "locationConfidence": 1.2988558,
+        "calibratedProbability": 1.1857789
+      }, {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJz9oscyHLHkcRO1QTNkafbUs",
+        "address": "Muszlowa 1, 01-357 Warszawa, Polska",
+        "name": "Metro s.c. Jagiełło D.W., Malejczyk R.",
+        "locationConfidence": 0.39532453,
+        "calibratedProbability": 0.36090803,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 522290790,
+        "longitudeE7": 209120990,
+        "placeId": "ChIJSwsv7CPLHkcRcIYjnmI4750",
+        "address": "Człuchowska 66, 01-360 Warszawa, Polska",
+        "name": "Eduksiegarnia.pl",
+        "locationConfidence": 0.11585079,
+        "calibratedProbability": 0.105764955
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522306290,
+        "longitudeE7": 209103470,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522262722,
+        "longitudeE7": 209487795,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-19T22:10:53.392Z",
+        "endTimestamp": "2019-07-20T15:39:23.842Z"
+      },
+      "distance": 2674,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 63.05864703100189
+      }, {
+        "activityType": "WALKING",
+        "probability": 19.23112216230649
+      }, {
+        "activityType": "CYCLING",
+        "probability": 9.222842808854967
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522306365,
+          "lngE7": 209104576
+        }, {
+          "latE7": 522201423,
+          "lngE7": 209169483
+        }, {
+          "latE7": 522261962,
+          "lngE7": 209488315
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJN01wcyHLHkcRxOG9LjA3jDo"
+        }, {
+          "placeId": "ChIJTbmGnyHLHkcRwPfVlUcje6k"
+        }, {
+          "placeId": "ChIJYUSenyHLHkcR9cg04o20kP8"
+        }, {
+          "placeId": "ChIJmWr7niHLHkcRHTuChov8q7A"
+        }, {
+          "placeId": "ChIJRZRtnCHLHkcRL_lgBl_SGiA"
+        }, {
+          "placeId": "ChIJIc3yhCHLHkcRr-LQCk4T7eo"
+        }, {
+          "placeId": "ChIJ65G5hyHLHkcRYeRAza6PkmA"
+        }, {
+          "placeId": "ChIJI655KCLLHkcRH2TmoBZfB3U"
+        }, {
+          "placeId": "ChIJBz0PJiLLHkcRVZm-87WluU0"
+        }, {
+          "placeId": "ChIJMwwFOyLLHkcR6CJNJg_rCug"
+        }, {
+          "placeId": "ChIJrzOYSSLLHkcRPKNeMwZIRrY"
+        }, {
+          "placeId": "ChIJwfyIsSPLHkcRAKIQeHTiVSU"
+        }, {
+          "placeId": "ChIJkXA4pCPLHkcRhmAO3hrFx0E"
+        }, {
+          "placeId": "ChIJzwMioCPLHkcRZJxsj78rPnA"
+        }, {
+          "placeId": "ChIJITFFeyPLHkcRmgNgjudAt1k"
+        }, {
+          "placeId": "ChIJUY6LnSTLHkcRHoOzZ6oQ6mc"
+        }, {
+          "placeId": "ChIJxfzzmCTLHkcRld7veas1Zvc"
+        }, {
+          "placeId": "ChIJp-Y8vCTLHkcRxdi8lbzv4so"
+        }, {
+          "placeId": "ChIJo8iQxyTLHkcRLY6RUOGXpR8"
+        }, {
+          "placeId": "ChIJpYSzyCTLHkcRxPBW_HgIxeo"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRGCvvR_LiRAU"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRR5ktgNVdmoQ"
+        }, {
+          "placeId": "ChIJ_2vG1CTLHkcRocwaI4TkxOs"
+        }, {
+          "placeId": "ChIJvUBS0TrLHkcRkTYqS3W3jss"
+        }, {
+          "placeId": "ChIJb-qKzzrLHkcR1810KjQikSQ"
+        }, {
+          "placeId": "ChIJxUzXdjDLHkcRDWQx94QvulM"
+        }, {
+          "placeId": "ChIJuxQicDDLHkcRy_j4QiVT1Ow"
+        }, {
+          "placeId": "ChIJybCEbzDLHkcRUzG7CPjAljk"
+        }, {
+          "placeId": "ChIJsXNfbzDLHkcRD4BPhTxL3QI"
+        }, {
+          "placeId": "ChIJP6yOZzDLHkcRY18ukJPzAZQ"
+        }, {
+          "placeId": "ChIJnxzrWzDLHkcRo6N_AG5I_UA"
+        }, {
+          "placeId": "ChIJ-2hhWTDLHkcRwH2WI0f_hMQ"
+        }, {
+          "placeId": "ChIJI6xzXzDLHkcRu_OUn2utyG0"
+        }, {
+          "placeId": "ChIJKRx-izDLHkcRD9Ju2_33A7c"
+        }, {
+          "placeId": "ChIJr6chjjDLHkcRxrtKf6DJp8U"
+        }, {
+          "placeId": "ChIJ9fVbpzDLHkcRag4JcEbLEPQ"
+        }, {
+          "placeId": "ChIJQ7Q9BDrLHkcRrWt_DA-FFsQ"
+        }, {
+          "placeId": "ChIJD-UhAzrLHkcRrT8SUVvmVCE"
+        }, {
+          "placeId": "ChIJc8Hc9znLHkcRkIqowgGczWE"
+        }, {
+          "placeId": "ChIJ5fB8ljnLHkcRJ98jYTqNhpo"
+        }, {
+          "placeId": "ChIJRzluvTnLHkcR5YroAX3CPfU"
+        }, {
+          "placeId": "ChIJPSK1pTnLHkcRN3o260D-cHA"
+        }, {
+          "placeId": "ChIJpwzrqTnLHkcRowTKM6tNncg"
+        }, {
+          "placeId": "ChIJgxi1ATnLHkcRNjklUinHMcU"
+        }, {
+          "placeId": "ChIJAz5hh0fLHkcROMCR-M9xdb8"
+        }, {
+          "placeId": "ChIJbUZKC0fLHkcRbFdeuXBg-0c"
+        }, {
+          "placeId": "ChIJdxR8DEfLHkcRmtBxBt_08uA"
+        }, {
+          "placeId": "ChIJ5X2gw0bLHkcREeySk-ogXU0"
+        }, {
+          "placeId": "ChIJ1Vs6tkbLHkcR4ljreyAXrpQ"
+        }, {
+          "placeId": "ChIJy2z1tEPLHkcRJCO7xiQlyDA"
+        }, {
+          "placeId": "ChIJv9cHUkLLHkcRCl7otvjLAA0"
+        }, {
+          "placeId": "ChIJmYXkWULLHkcRK3fFJggRxz8"
+        }, {
+          "placeId": "ChIJGTa8WELLHkcRiUf8IPM2_14"
+        }, {
+          "placeId": "ChIJi3KVjELLHkcRv7og87uuOE8"
+        }, {
+          "placeId": "ChIJl_W3j0LLHkcRguxwVYvKE-Q"
+        }],
+        "distanceMeters": 4227.729526489715,
+        "travelMode": "DRIVE"
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522262784,
+          "longitudeE7": 209487846,
+          "accuracyMetres": 77
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-07-20T15:39:06.947Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 92.71848,
+        "calibratedProbability": 86.159004,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-07-24T04:50:15.510Z",
+        "endTimestamp": "2019-07-24T05:37:54.706Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522306425,
+      "centerLngE7": 209102975,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522321959,
+        "longitudeE7": 209115499,
+        "placeId": "ChIJa-C3lSHLHkcRmZL6viDUm6E",
+        "address": "Muszlowa 2, 01-361 Warszawa, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4931067,
+        "calibratedProbability": 1.3874751
+      }, {
+        "latitudeE7": 522283640,
+        "longitudeE7": 209142330,
+        "placeId": "ChIJrappgyPLHkcRJ3Jfz6727aE",
+        "address": "Człuchowska 25, 01-360 Warszawa, Polska",
+        "name": "Hala Wola Sp. z o.o.",
+        "locationConfidence": 1.0328444,
+        "calibratedProbability": 0.9597746
+      }, {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJz9oscyHLHkcRO1QTNkafbUs",
+        "address": "Muszlowa 1, 01-357 Warszawa, Polska",
+        "name": "Metro s.c. Jagiełło D.W., Malejczyk R.",
+        "locationConfidence": 0.6746816,
+        "calibratedProbability": 0.62695044,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 522335236,
+        "longitudeE7": 209053919,
+        "placeId": "ChIJ2W3nkd_KHkcR2zK4koViRYc",
+        "address": "Park, Górczewska, 01-318 Warszawa, Polska",
+        "name": "Górczewska Park",
+        "locationConfidence": 0.2736127,
+        "calibratedProbability": 0.25425565
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522306042,
+        "longitudeE7": 209102453,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 521798011,
+        "longitudeE7": 210034994,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-25T07:14:04.586Z",
+        "endTimestamp": "2019-07-26T21:44:40.799Z"
+      },
+      "distance": 8790,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 52.098124806124325
+      }, {
+        "activityType": "CYCLING",
+        "probability": 26.644110161544386
+      }, {
+        "activityType": "WALKING",
+        "probability": 12.749004789132998
+      }]
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 521798011,
+        "longitudeE7": 210034994,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522306385,
+        "longitudeE7": 209102724,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-26T21:44:40.799Z",
+        "endTimestamp": "2019-07-31T21:39:50.712Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 521959332,
+          "lngE7": 209370558,
+          "accuracyMeters": 65,
+          "timestamp": "2019-07-26T21:44:40.799Z"
+        }, {
+          "latE7": 522293061,
+          "lngE7": 210054167,
+          "accuracyMeters": 48,
+          "timestamp": "2019-07-27T12:02:02.322Z"
+        }, {
+          "latE7": 522306386,
+          "lngE7": 209102643,
+          "accuracyMeters": 22,
+          "timestamp": "2019-07-31T21:39:23.456Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 17309.6961820991
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522306385,
+        "longitudeE7": 209102724,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522058766,
+        "longitudeE7": 208817254,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-07-31T21:39:50.712Z",
+        "endTimestamp": "2019-08-01T00:40:03.906Z"
+      },
+      "distance": 3370,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 70.94838299136103
+      }, {
+        "activityType": "CYCLING",
+        "probability": 14.61675912480212
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.077954911967824
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522306365,
+          "lngE7": 209104576
+        }, {
+          "latE7": 522129821,
+          "lngE7": 209140663
+        }, {
+          "latE7": 522059783,
+          "lngE7": 208820381
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJN01wcyHLHkcRxOG9LjA3jDo"
+        }, {
+          "placeId": "ChIJTbmGnyHLHkcRwPfVlUcje6k"
+        }, {
+          "placeId": "ChIJYUSenyHLHkcR9cg04o20kP8"
+        }, {
+          "placeId": "ChIJmWr7niHLHkcRHTuChov8q7A"
+        }, {
+          "placeId": "ChIJRZRtnCHLHkcRL_lgBl_SGiA"
+        }, {
+          "placeId": "ChIJIc3yhCHLHkcRr-LQCk4T7eo"
+        }, {
+          "placeId": "ChIJ65G5hyHLHkcRYeRAza6PkmA"
+        }, {
+          "placeId": "ChIJI655KCLLHkcRH2TmoBZfB3U"
+        }, {
+          "placeId": "ChIJBz0PJiLLHkcRVZm-87WluU0"
+        }, {
+          "placeId": "ChIJMwwFOyLLHkcR6CJNJg_rCug"
+        }, {
+          "placeId": "ChIJrzOYSSLLHkcRPKNeMwZIRrY"
+        }, {
+          "placeId": "ChIJwfyIsSPLHkcRAKIQeHTiVSU"
+        }, {
+          "placeId": "ChIJkXA4pCPLHkcRhmAO3hrFx0E"
+        }, {
+          "placeId": "ChIJzwMioCPLHkcRZJxsj78rPnA"
+        }, {
+          "placeId": "ChIJITFFeyPLHkcRmgNgjudAt1k"
+        }, {
+          "placeId": "ChIJUY6LnSTLHkcRHoOzZ6oQ6mc"
+        }, {
+          "placeId": "ChIJxfzzmCTLHkcRld7veas1Zvc"
+        }, {
+          "placeId": "ChIJp-Y8vCTLHkcRxdi8lbzv4so"
+        }, {
+          "placeId": "ChIJo8iQxyTLHkcRLY6RUOGXpR8"
+        }, {
+          "placeId": "ChIJpYSzyCTLHkcRxPBW_HgIxeo"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRGCvvR_LiRAU"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRR5ktgNVdmoQ"
+        }, {
+          "placeId": "ChIJ_2vG1CTLHkcRocwaI4TkxOs"
+        }, {
+          "placeId": "ChIJvUBS0TrLHkcRkTYqS3W3jss"
+        }, {
+          "placeId": "ChIJb-qKzzrLHkcR1810KjQikSQ"
+        }, {
+          "placeId": "ChIJxUzXdjDLHkcRDWQx94QvulM"
+        }, {
+          "placeId": "ChIJuxQicDDLHkcRy_j4QiVT1Ow"
+        }, {
+          "placeId": "ChIJybCEbzDLHkcRUzG7CPjAljk"
+        }, {
+          "placeId": "ChIJsXNfbzDLHkcRD4BPhTxL3QI"
+        }, {
+          "placeId": "ChIJP6yOZzDLHkcRY18ukJPzAZQ"
+        }, {
+          "placeId": "ChIJnxzrWzDLHkcRo6N_AG5I_UA"
+        }, {
+          "placeId": "ChIJiQwAWjDLHkcRde52_gDB17E"
+        }, {
+          "placeId": "ChIJf0wrVzDLHkcR061Yt4f6f14"
+        }, {
+          "placeId": "ChIJs5UWVDDLHkcRZSIzHTWJDHQ"
+        }, {
+          "placeId": "ChIJk6YgqzHLHkcR7eDyaHGiNH8"
+        }, {
+          "placeId": "ChIJjYTCqTHLHkcRUfD-upuRXEA"
+        }, {
+          "placeId": "ChIJy_TNdDHLHkcRKlQQVYZLGMk"
+        }, {
+          "placeId": "ChIJq4GO1zPLHkcRbOYGHQAYntY"
+        }, {
+          "placeId": "ChIJ_1QmxDPLHkcR6S8EYq5jJE0"
+        }, {
+          "placeId": "ChIJG6pPxzPLHkcROS5NbwmOcNI"
+        }, {
+          "placeId": "ChIJBw4yvzPLHkcRKtgkXxhqits"
+        }, {
+          "placeId": "ChIJnSxBvDPLHkcRGVHmS96c0Lw"
+        }, {
+          "placeId": "ChIJIRZrbDPLHkcRp6YZ9g_VpPE"
+        }, {
+          "placeId": "ChIJASV8aTPLHkcRwyf9laMFwrc"
+        }, {
+          "placeId": "ChIJIb1OQjPLHkcRTBXEnX3jJP8"
+        }, {
+          "placeId": "ChIJbW2HRDPLHkcR436AnDNF89k"
+        }, {
+          "placeId": "ChIJA0HDTzPLHkcRc4UN46Z0ucQ"
+        }, {
+          "placeId": "ChIJR2iKUjPLHkcRWW52jvbWzSc"
+        }, {
+          "placeId": "ChIJX06Xpsw0GUcRx9u-wEqAHeE"
+        }, {
+          "placeId": "ChIJN9zbY8s0GUcRPS0Lss3B23U"
+        }, {
+          "placeId": "ChIJTcm_ZMs0GUcRuRZfDgyW8kI"
+        }, {
+          "placeId": "ChIJQ9zOZMs0GUcRdwl-U98SFfc"
+        }, {
+          "placeId": "ChIJNSG1dss0GUcR_FgBry6TeT8"
+        }, {
+          "placeId": "ChIJh3NwoMs0GUcRS4px-kIIhaY"
+        }, {
+          "placeId": "ChIJhRP4Nco0GUcRAMaULR79lZQ"
+        }, {
+          "placeId": "ChIJDQrQ0840GUcRoLmK1FYcJs8"
+        }, {
+          "placeId": "ChIJZ_7gds80GUcRPyPuzhjo_bY"
+        }, {
+          "placeId": "ChIJXzqVmNo0GUcRvtHsS_ID4Hw"
+        }, {
+          "placeId": "ChIJY1z-mdo0GUcRndUAZCFqeaQ"
+        }, {
+          "placeId": "ChIJPYT_mdo0GUcR1k178ASSiHA"
+        }, {
+          "placeId": "ChIJ_Q9skdo0GUcRi9UetZ9jDi0"
+        }, {
+          "placeId": "ChIJN7MAk9o0GUcR72U8BU9IrKY"
+        }, {
+          "placeId": "ChIJMcjZ7No0GUcR7Axd3vcIA1E"
+        }, {
+          "placeId": "ChIJ0cu_l9c0GUcRo6nYKPCgI0E"
+        }, {
+          "placeId": "ChIJ5ftq69c0GUcRwYVNVCt_E_w"
+        }, {
+          "placeId": "ChIJabo97tc0GUcROzMYUjdP0nk"
+        }, {
+          "placeId": "ChIJBV3b-Cc1GUcRR75k3QY7vLQ"
+        }, {
+          "placeId": "ChIJ6Svq4Sc1GUcRlAx0HbqcR0M"
+        }, {
+          "placeId": "ChIJ6Svq4Sc1GUcRKV82iOVsU2g"
+        }],
+        "distanceMeters": 5947.496509949807,
+        "travelMode": "DRIVE"
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522058766,
+          "longitudeE7": 208817254,
+          "accuracyMetres": 82
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-08-01T00:40:07.654Z"
+      }
+    }
+  }]
+}

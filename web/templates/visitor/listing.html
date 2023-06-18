@@ -1,100 +1,78 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %} Traveller {% endblock %}
-{% block description %} Traveller {% endblock %}
+{% block title %} Listing {% endblock %}
+{% block description %} Listing {% endblock %}
 
 {% block css %}
-<link href="{% static '/custom_css/home.css' %}" rel="stylesheet" type="text/css"/>
+    <link href="{% static '/custom_css/home.css' %}" rel="stylesheet" type="text/css"/>
 
 {% endblock %}
 
 {% block content %}
 
-<!--Display Listing of the Travel Data-->
-<div class="container">
-    <div class="row" id="meta-data">
-
-    </div>
-</div>
-
-
-<div class="container-fluid my-3" id="header">
-    <div class="row">
-        <div class="container-fluid d-flex justify-content-center" id="buttons">
-            <a href="{% url 'visitor-home' %}">Home</a>
+    <div class="container-fluid my-3" id="header">
+        <div class="row">
+            <div class="container-fluid d-flex justify-content-center" id="buttons">
+                <a href="{% url 'visitor-home' %}">Calendar</a>
+                <a class="text-decoration-none" href="{% url 'visitor-create' %}">
+                    Add Travel
+                </a>
+            </div>
         </div>
     </div>
-</div>
-
-
-<!-- Create Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Create</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-          <form id="travel-form">
-              <label>Title</label>
-            <input type="text" class="form-control" placeholder="Title" id="title">
-          <label>Description</label>
-            <textarea class="form-control" rows="3" id="description" placeholder="Description"></textarea>
-          <label>Choose a Color</label><br>
-            <input type="color" id="color" value="#ff0000">
-
-          <div class="d-flex justify-content-between">
-              <div class="px-1 w-50">
-                  <label>Start Date & Time</label>
-                  <input class="form-control" type="datetime-local" id="start_date_time">
-              </div>
-              <div class="px-1 w-50">
-                  <label>End Date Time</label>
-                  <input class="form-control" type="datetime-local" id="end_date_time">
-              </div>
-          </div>
-              <div class="search-field-container px-1" style="z-index: 100000 !important;">
-                        <label>Add Places</label>
-                        <input class="form-control" id="search-input" placeholder="Enter a place"
-                               style="z-index: 100000 !important;" type="text">
-                        <div class="d-flex justify-content-between flex-wrap" id="places">
-                            <i>No Place Added Yet</i>
-                        </div>
+    <!--Display Listing of the Travel Data-->
+    <div class="container">
+        <div class="row">
+            <h3>Travel Listing</h3>
+            <div class="col-12 ">
+                <div class="row">
+                    <h4>Filter</h4>
+                    <div class="col-md-3 col-sm-12">
+                        <label class="m-t-0"><b>From</b></label>
+                        <input type="date" name="startdate" id="startdate" class="form-control" value="">
                     </div>
-                    <div class="my-2" id="map" style="height: 200px">
-                        <center><i>Please select a place to see google map</i></center>
+
+
+                    <div class="col-md-3 col-sm-12">
+                        <label class="m-t-0 text-left"><b>To</b></label>
+                        <input type="date" name="enddate" id="enddate" class="form-control" value="">
                     </div>
-          </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="submit">Save changes</button>
-      </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="m-t-0">&nbsp;</div>
+                        <button class="btn btn-primary" id="check-records"
+                                name="check-records">Search
+                        </button>
+                        <button class="btn btn-danger" id="reset-records"
+                                name="reset-records">Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card table-responsive py-3 px-2 m-2">
+                <table id="travel-datatable" class="table table-striped table-bordered dt-responsive nowrap"
+                       style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                </table>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 {% endblock %}
 
 {% block js %}
-<script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
 
-<script src='{% static "custom_js/detail.js" %}'></script>
+    <script src='{% static "custom_js/listing.js" %}'></script>
 
-<script>
-    let data;
-    window.onload = function () {
-        data = {
-            "gif_url": "{% static 'images/loader.gif' %}",
-            "user_travel_data_url": "{% url 'user-travel-data'%}",
-            "id": "{{ pk | safe }}",
-            "listing": true,
-            "detail_url" : "{% url 'visitor-detail' %}",
-            "delete_url": "{% url 'user-travel-data-delete' %}"
-        };
+    <script>
+        let data;
+        window.onload = function () {
+            data = {
+                "delete_url": "{% url 'user-travel-data-delete' %}",
+                "travel_datatable_url": "{% url 'travel_datatable_url' %}",
+                "create_url": "{% url 'visitor-create' %}"
+            };
 
-        new Detail(data);
-    }
-</script>
+            new Listing(data);
+        }
+    </script>
 {% endblock %}

@@ -1,20 +1,5 @@
-import io
-import json
-import random
 import time
-from datetime import datetime
-from io import BytesIO
-from pathlib import Path
-
-import boto3
-import requests
-from PIL import Image
-from django.conf import settings
-from django.contrib.staticfiles.storage import staticfiles_storage
-from django.core.files import File
-from django.core.files.base import ContentFile
-from django.core.files.uploadedfile import InMemoryUploadedFile
-from django.db.models import Case, When
+from datetime import datetime, timedelta
 
 
 def parse_email(obj):
@@ -75,3 +60,58 @@ def boolean(value):
     if value in ('false', 'no', '0', 0, ''):
         return False
     raise ValueError("Invalid literal for boolean(): {0}".format(value))
+
+
+def query_datatable_by_args_countries(kwargs, model, query_object, ORDER_COLUMN_CHOICES, search_function):
+    """
+    :param dict kwargs: request param from datatable
+    :param obj model: on which you want to perform action
+    :param obj query_object: contains the query to filter database
+    :param choices ORDER_COLUMN_CHOICES: all columns on datatable
+    :param function search_function: customize function to perform search
+    :rtype: dict
+    """
+
+    try:
+        draw = int(kwargs.get('draw', 0))
+        start = int(kwargs.get('start', 0))
+        length = int(kwargs.get('length', 0))
+        search_value = kwargs.get('search[value]')
+        order_column = kwargs.get('order[0][column]', 0)
+        order = kwargs.get('order[0][dir]', None)
+
+        order_column = ORDER_COLUMN_CHOICES[order_column]
+        # for asc we want latest record first
+        if order == 'asc':
+            order_column = f'-{order_column}'
+
+        queryset = model.objects.filter(query_object)
+        # Set record total
+        total = queryset.count()
+
+        # this is value that user type in search box or user select from deopdown
+        if search_value:
+            queryset = search_function(queryset, search_value, kwargs)
+        try:
+            count = queryset.count()
+        except:
+            count = 0
+
+        try:
+            queryset = queryset.order_by('-id')[start:start + length]
+        except:
+            queryset = queryset.order_by(order_column)[start:start + length]
+        return {
+            'items': queryset,
+            'count': count,
+            'total': total,
+            'draw': draw
+        }
+    except Exception as e:
+        return {
+            'exception': e,
+            'items': [],
+            'count': 0,
+            'total': 0,
+            'draw': 0
+        }

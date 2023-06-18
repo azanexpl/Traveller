@@ -1,0 +1,1315 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522372323,
+        "longitudeE7": 209991508,
+        "placeId": "ChIJH20zWIjMHkcRRriKyIf-kfQ",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Polska",
+        "name": "22",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 43.572,
+        "calibratedProbability": 31.16451
+      },
+      "duration": {
+        "startTimestamp": "2022-01-03T17:07:02Z",
+        "endTimestamp": "2022-01-03T17:13:06.229Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522382967,
+      "centerLngE7": 209986500,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522382314,
+        "longitudeE7": 209992694,
+        "placeId": "ChIJSZsqOIjMHkcRRJgOnGntKoo",
+        "address": "plac Mirowski 1, 00-138 Warszawa, Polska",
+        "name": "Park Mirowski",
+        "locationConfidence": 42.97247,
+        "calibratedProbability": 30.7357
+      }, {
+        "latitudeE7": 522389835,
+        "longitudeE7": 209981955,
+        "placeId": "ChIJlcMkBQPNHkcRDcbxmm7alPo",
+        "address": "plac Mirowski 1, 00-138 Warszawa, Polska",
+        "name": "Łowickie ™",
+        "locationConfidence": 5.79374,
+        "calibratedProbability": 4.143924
+      }, {
+        "latitudeE7": 522372502,
+        "longitudeE7": 209998899,
+        "placeId": "ChIJ_5GtRYjMHkcRZ2AReH2lFh4",
+        "address": "Grzybowska 12/14, 00-131 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 4.8050346,
+        "calibratedProbability": 3.4367611
+      }, {
+        "latitudeE7": 522394320,
+        "longitudeE7": 210000010,
+        "placeId": "ChIJE6hw_InNHkcRVijDUwFOARE",
+        "address": "plac Żelaznej Bramy 1, 00-136 Warszawa, Polska",
+        "name": "Hala Gwardii",
+        "locationConfidence": 1.5116583,
+        "calibratedProbability": 1.0812011
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 35,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522381249,
+        "longitudeE7": 209983705,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522308118,
+        "longitudeE7": 210017080,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-03T17:13:06.229Z",
+        "endTimestamp": "2022-01-03T17:34:33.927Z"
+      },
+      "distance": 1832,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 81.01136088371277
+      }, {
+        "activityType": "STILL",
+        "probability": 8.998961001634598
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 4.809313639998436
+      }, {
+        "activityType": "CYCLING",
+        "probability": 2.422991022467613
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.0189284570515156
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.6217281799763441
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.2973521128296852
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.25326688773930073
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.2505148993805051
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.12612274149432778
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.09854732779785991
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.06463779136538506
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.014193708193488419
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012058707216056064
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.7316527589628095E-5
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522381591,
+          "lngE7": 209983825
+        }, {
+          "latE7": 522360954,
+          "lngE7": 209971981
+        }, {
+          "latE7": 522358665,
+          "lngE7": 209973011
+        }, {
+          "latE7": 522337417,
+          "lngE7": 209983177
+        }, {
+          "latE7": 522339439,
+          "lngE7": 210020809
+        }, {
+          "latE7": 522337570,
+          "lngE7": 210016822
+        }, {
+          "latE7": 522315826,
+          "lngE7": 209995479
+        }, {
+          "latE7": 522308197,
+          "lngE7": 210000858
+        }, {
+          "latE7": 522307395,
+          "lngE7": 210017490
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1523.115597411068,
+        "travelMode": "WALK",
+        "confidence": 0.9790282104918805
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522358780,
+          "lngE7": 209971790,
+          "accuracyMeters": 14,
+          "timestamp": "2022-01-03T17:15:29.241Z"
+        }, {
+          "latE7": 522340546,
+          "lngE7": 210020199,
+          "accuracyMeters": 4,
+          "timestamp": "2022-01-03T17:23:04.999Z"
+        }, {
+          "latE7": 522315140,
+          "lngE7": 209992733,
+          "accuracyMeters": 19,
+          "timestamp": "2022-01-03T17:31:28.221Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522301458,
+        "longitudeE7": 210027032,
+        "placeId": "ChIJTeWAPIzMHkcRXOfYhMkscBI",
+        "address": "Złota 59, 00-120 Warszawa, Polska",
+        "name": "Złote Tarasy",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 93.89082,
+        "calibratedProbability": 89.05729
+      },
+      "duration": {
+        "startTimestamp": "2022-01-03T17:34:33.927Z",
+        "endTimestamp": "2022-01-03T17:56:11.113Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 522297421,
+          "longitudeE7": 210026635,
+          "placeId": "ChIJxRhaoY3MHkcRs-7Hk08kajk",
+          "address": "CH Złote Tarasy, ul, Złota 59, 00-120 Warszawa, Polska",
+          "name": "Kuchnie Świata S.A. Delikatesy",
+          "sourceInfo": {
+            "deviceTag": 2038012174
+          },
+          "locationConfidence": 10.544545,
+          "calibratedProbability": 19.644146,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2022-01-03T17:34:33.927Z",
+          "endTimestamp": "2022-01-03T17:56:11.113Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 522300743,
+        "centerLngE7": 210024848,
+        "visitConfidence": 95,
+        "otherCandidateLocations": [{
+          "latitudeE7": 522288600,
+          "longitudeE7": 210032200,
+          "placeId": "ChIJWTUjZY3MHkcR2U7HZ_LJC-s",
+          "address": "al. Jerozolimskie 54, 00-019 Warszawa, Polska",
+          "name": "Warsaw Central",
+          "locationConfidence": 8.5753355,
+          "calibratedProbability": 15.975574
+        }, {
+          "latitudeE7": 522301084,
+          "longitudeE7": 210026871,
+          "placeId": "ChIJ25OGuI3MHkcRz32lbdPOE8w",
+          "address": "Złota 59, 00-120 Warszawa, Polska",
+          "name": "Cropp",
+          "locationConfidence": 6.240061,
+          "calibratedProbability": 11.625031,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522298059,
+          "longitudeE7": 210021153,
+          "placeId": "ChIJBXlCj5HNHkcRYeAilEu4-xY",
+          "address": "Złote Tarasy, Złota 59, 00-120 Warszawa, Polska",
+          "name": "BERLIN DÖNER KEBAP",
+          "locationConfidence": 4.9284096,
+          "calibratedProbability": 9.181468,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522296142,
+          "longitudeE7": 210023746,
+          "placeId": "ChIJT8zquI3MHkcRT8t5IL-qhGs",
+          "address": "Złota 59, 00-120 Warszawa, Polska",
+          "name": "Carrefour Market",
+          "locationConfidence": 4.6391377,
+          "calibratedProbability": 8.642564,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522298800,
+          "longitudeE7": 210015632,
+          "placeId": "ChIJMVFKpY3MHkcRqiw14jG0rRw",
+          "address": "Złota 59, 00-120 Warszawa, Polska",
+          "name": "Drogeria Rossmann",
+          "locationConfidence": 3.4105408,
+          "calibratedProbability": 6.3537273,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522317232,
+          "longitudeE7": 210028484,
+          "placeId": "ChIJwfmIT4zMHkcRrCfgsEc_BC4",
+          "address": "Emilii Plater 47 lok. LU22, 00-118 Warszawa, Polska",
+          "name": "Żabka",
+          "locationConfidence": 3.1110814,
+          "calibratedProbability": 5.795844
+        }, {
+          "latitudeE7": 522301180,
+          "longitudeE7": 210039096,
+          "placeId": "ChIJafjPzWPNHkcRicrLbRNkrsQ",
+          "address": "Złota 59, 00-120 Warszawa, Polska",
+          "name": "Media Markt",
+          "locationConfidence": 2.8242912,
+          "calibratedProbability": 5.2615633,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522301080,
+          "longitudeE7": 210026870,
+          "placeId": "ChIJ1Q2PpY3MHkcRTT1JnsVQ0QE",
+          "address": "ZLOTE TARASY 1ST FLOOR, Złota 59, 00-819 Warszawa, Pologne",
+          "name": "SEPHORA ZLOTE TARASY",
+          "locationConfidence": 2.2818663,
+          "calibratedProbability": 4.2510433,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522286462,
+          "longitudeE7": 210013544,
+          "placeId": "ChIJ4c_zhY3MHkcRrawp5u1u6Wk",
+          "address": "00-804 Warszawa, Polska",
+          "name": "Dworzec Centralny 10",
+          "locationConfidence": 2.248844,
+          "calibratedProbability": 4.1895237
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 1,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 522300743,
+      "centerLngE7": 210024848,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522288600,
+        "longitudeE7": 210032200,
+        "placeId": "ChIJWTUjZY3MHkcR2U7HZ_LJC-s",
+        "address": "al. Jerozolimskie 54, 00-019 Warszawa, Polska",
+        "name": "Warsaw Central",
+        "locationConfidence": 1.0373999,
+        "calibratedProbability": 0.9839941
+      }, {
+        "latitudeE7": 522286462,
+        "longitudeE7": 210013544,
+        "placeId": "ChIJ4c_zhY3MHkcRrawp5u1u6Wk",
+        "address": "00-804 Warszawa, Polska",
+        "name": "Dworzec Centralny 10",
+        "locationConfidence": 0.50134516,
+        "calibratedProbability": 0.47553572
+      }, {
+        "latitudeE7": 522304833,
+        "longitudeE7": 210047251,
+        "placeId": "ChIJL7nJAo3MHkcRIboszmTxlkU",
+        "address": "00-901 Warszawa, Polska",
+        "name": "Dworzec Centralny 12",
+        "locationConfidence": 0.28173235,
+        "calibratedProbability": 0.26722866
+      }, {
+        "latitudeE7": 522317232,
+        "longitudeE7": 210028484,
+        "placeId": "ChIJwfmIT4zMHkcRrCfgsEc_BC4",
+        "address": "Emilii Plater 47 lok. LU22, 00-118 Warszawa, Polska",
+        "name": "Żabka",
+        "locationConfidence": 0.14384407,
+        "calibratedProbability": 0.13643892
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522308118,
+          "lngE7": 210017080,
+          "accuracyMeters": 20,
+          "timestamp": "2022-01-03T17:34:33.927Z"
+        }, {
+          "latE7": 522305195,
+          "lngE7": 210030152,
+          "accuracyMeters": 10,
+          "timestamp": "2022-01-03T17:35:38.749Z"
+        }, {
+          "latE7": 522299833,
+          "lngE7": 210029494,
+          "accuracyMeters": 21,
+          "timestamp": "2022-01-03T17:36:38.720Z"
+        }, {
+          "latE7": 522299546,
+          "lngE7": 210024883,
+          "accuracyMeters": 25,
+          "timestamp": "2022-01-03T17:38:32.162Z"
+        }, {
+          "latE7": 522299605,
+          "lngE7": 210026414,
+          "accuracyMeters": 19,
+          "timestamp": "2022-01-03T17:40:24.517Z"
+        }, {
+          "latE7": 522299239,
+          "lngE7": 210022502,
+          "accuracyMeters": 20,
+          "timestamp": "2022-01-03T17:45:25.255Z"
+        }, {
+          "latE7": 522299287,
+          "lngE7": 210024746,
+          "accuracyMeters": 17,
+          "timestamp": "2022-01-03T17:46:02.917Z"
+        }, {
+          "latE7": 522299153,
+          "lngE7": 210023588,
+          "accuracyMeters": 24,
+          "timestamp": "2022-01-03T17:50:12.158Z"
+        }, {
+          "latE7": 522299354,
+          "lngE7": 210024355,
+          "accuracyMeters": 21,
+          "timestamp": "2022-01-03T17:50:32.329Z"
+        }, {
+          "latE7": 522299158,
+          "lngE7": 210022510,
+          "accuracyMeters": 19,
+          "timestamp": "2022-01-03T17:51:50.478Z"
+        }, {
+          "latE7": 522299636,
+          "lngE7": 210026499,
+          "accuracyMeters": 18,
+          "timestamp": "2022-01-03T17:53:02.807Z"
+        }, {
+          "latE7": 522306389,
+          "lngE7": 210029380,
+          "accuracyMeters": 13,
+          "timestamp": "2022-01-03T17:55:11.361Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 416.3164828001668
+      },
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522308090,
+        "longitudeE7": 210019690,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522363727,
+        "longitudeE7": 209988892,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-03T17:56:11.113Z",
+        "endTimestamp": "2022-01-03T18:06:15.135Z"
+      },
+      "distance": 1088,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 95.42132019996643
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.098660472780466
+      }, {
+        "activityType": "STILL",
+        "probability": 0.7768891751766205
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.6797233130782843
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.6162449717521667
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.5235768854618073
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.40676165372133255
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.2479239832609892
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.14515710063278675
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.03306078724563122
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.030115206027403474
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.012660984066314995
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.00541971530765295
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0024795057470328175
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.667884579921065E-7
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522307891,
+          "lngE7": 210019798
+        }, {
+          "latE7": 522308197,
+          "lngE7": 210000858
+        }, {
+          "latE7": 522363929,
+          "lngE7": 209988727
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 855.3844872979221,
+        "travelMode": "WALK",
+        "confidence": 0.9927074093379811
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522372502,
+        "longitudeE7": 209998899,
+        "placeId": "ChIJ_5GtRYjMHkcRZ2AReH2lFh4",
+        "address": "Grzybowska 12/14, 00-131 Warszawa, Polska",
+        "name": "Biedronka",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 96.50954,
+        "calibratedProbability": 77.28513
+      },
+      "duration": {
+        "startTimestamp": "2022-01-03T18:06:15.135Z",
+        "endTimestamp": "2022-01-04T15:36:04.014Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522371622,
+      "centerLngE7": 209997789,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522366714,
+        "longitudeE7": 209993534,
+        "placeId": "ChIJH20zWIjMHkcRRriKyIf-kfQ",
+        "address": "Grzybowska 16, 00-132 Warszawa, Polska",
+        "name": "22",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 3.1083534,
+        "calibratedProbability": 2.4891791
+      }, {
+        "latitudeE7": 522368255,
+        "longitudeE7": 209993932,
+        "placeId": "ChIJAwPjsZvNHkcRDMr-NHCPshA",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Poland",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 0.1036605,
+        "calibratedProbability": 0.08301165
+      }, {
+        "latitudeE7": 522394320,
+        "longitudeE7": 210000010,
+        "placeId": "ChIJE6hw_InNHkcRVijDUwFOARE",
+        "address": "plac Żelaznej Bramy 1, 00-136 Warszawa, Polska",
+        "name": "Hala Gwardii",
+        "locationConfidence": 0.060435705,
+        "calibratedProbability": 0.0483971
+      }, {
+        "latitudeE7": 522382314,
+        "longitudeE7": 209992694,
+        "placeId": "ChIJSZsqOIjMHkcRRJgOnGntKoo",
+        "address": "plac Mirowski 1, 00-138 Warszawa, Polska",
+        "name": "Park Mirowski",
+        "locationConfidence": 0.033325158,
+        "calibratedProbability": 0.02668689
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522372323,
+        "longitudeE7": 209991508,
+        "placeId": "ChIJH20zWIjMHkcRRriKyIf-kfQ",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Polska",
+        "name": "22",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 96.53244,
+        "calibratedProbability": 79.92095
+      },
+      "duration": {
+        "startTimestamp": "2022-01-04T15:36:04.014Z",
+        "endTimestamp": "2022-01-04T16:15:16.477Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522367173,
+      "centerLngE7": 209991655,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522372502,
+        "longitudeE7": 209998899,
+        "placeId": "ChIJ_5GtRYjMHkcRZ2AReH2lFh4",
+        "address": "Grzybowska 12/14, 00-131 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 0.61936164,
+        "calibratedProbability": 0.51278067
+      }, {
+        "latitudeE7": 522360599,
+        "longitudeE7": 209990934,
+        "placeId": "ChIJA9NY0CjNHkcRlJv0AV6F_RQ",
+        "address": "Grzybowska 9/lok. 1, 00-132 Warszawa, Poland",
+        "name": "Xero (wewnątrz klatki schodowej)",
+        "locationConfidence": 0.24467427,
+        "calibratedProbability": 0.20257024
+      }, {
+        "latitudeE7": 522361760,
+        "longitudeE7": 209989582,
+        "placeId": "ChIJjfN34YjMHkcRRHDS6GAKhI0",
+        "address": "Grzybowska 9, 00-131 Warszawa, Polska",
+        "name": "Restauracja \"el Greco\"",
+        "locationConfidence": 0.16999292,
+        "calibratedProbability": 0.14074022
+      }, {
+        "latitudeE7": 522367113,
+        "longitudeE7": 209987086,
+        "placeId": "ChIJO_0J8IjMHkcRMVgFxoFMEIU",
+        "address": "Grzybowska 24, 00-132 Warszawa, Polska",
+        "name": "Radisson Collection Hotel, Warsaw",
+        "locationConfidence": 0.11997922,
+        "calibratedProbability": 0.09933296
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522377800,
+        "longitudeE7": 209995993,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522310169,
+        "longitudeE7": 210004715,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-04T16:15:16.477Z",
+        "endTimestamp": "2022-01-04T16:35:56.647Z"
+      },
+      "distance": 1303,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 90.12845158576965
+      }, {
+        "activityType": "STILL",
+        "probability": 3.907094895839691
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.147403731942177
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.31728770211339
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0086662136018276
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.5489801056683064
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.37529258988797665
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.3129014512524009
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.13631157344207168
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.0527799769770354
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.032833771547302604
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.02144806639989838
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.007673310756217688
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.002861369284801185
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.9895109438248255E-6
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522377319,
+          "lngE7": 209992446
+        }, {
+          "latE7": 522386932,
+          "lngE7": 209988899
+        }, {
+          "latE7": 522385406,
+          "lngE7": 209973449
+        }, {
+          "latE7": 522371101,
+          "lngE7": 209967823
+        }, {
+          "latE7": 522309875,
+          "lngE7": 210004901
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1206.0628501989663,
+        "travelMode": "WALK",
+        "confidence": 0.9962871184831288
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522386894,
+          "lngE7": 209972820,
+          "accuracyMeters": 15,
+          "timestamp": "2022-01-04T16:20:16.193Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522317232,
+        "longitudeE7": 210028484,
+        "placeId": "ChIJwfmIT4zMHkcRrCfgsEc_BC4",
+        "address": "Emilii Plater 47 lok. LU22, 00-118 Warszawa, Polska",
+        "name": "Żabka",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 75.59197,
+        "calibratedProbability": 56.01197
+      },
+      "duration": {
+        "startTimestamp": "2022-01-04T16:35:56.647Z",
+        "endTimestamp": "2022-01-04T16:46:33.156Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522311433,
+      "centerLngE7": 210028967,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522301458,
+        "longitudeE7": 210027032,
+        "placeId": "ChIJTeWAPIzMHkcRXOfYhMkscBI",
+        "address": "Złota 59, 00-120 Warszawa, Polska",
+        "name": "Złote Tarasy",
+        "locationConfidence": 18.158422,
+        "calibratedProbability": 13.454987
+      }, {
+        "latitudeE7": 522288600,
+        "longitudeE7": 210032200,
+        "placeId": "ChIJWTUjZY3MHkcR2U7HZ_LJC-s",
+        "address": "al. Jerozolimskie 54, 00-019 Warszawa, Polska",
+        "name": "Warsaw Central",
+        "locationConfidence": 2.353339,
+        "calibratedProbability": 1.7437718
+      }, {
+        "latitudeE7": 522308798,
+        "longitudeE7": 210012404,
+        "placeId": "ChIJeUSiAkyVD0cRN0RZTQmhmNQ",
+        "address": "Złota 48/54, 00-120 Warszawa, Poland",
+        "name": "Hotel Mercure Warszawa Centrum",
+        "locationConfidence": 0.35612768,
+        "calibratedProbability": 0.2638827
+      }, {
+        "latitudeE7": 522297003,
+        "longitudeE7": 210045451,
+        "placeId": "ChIJBfaVEI3MHkcR3jHxxRUvUHw",
+        "address": "Przejście podziemne N 52, al. Jerozolimskie, 00-024 Warszawa, Polska",
+        "name": "iSmoking",
+        "locationConfidence": 0.30868602,
+        "calibratedProbability": 0.22872947
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 61,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522312608,
+        "longitudeE7": 210027695,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522368080,
+        "longitudeE7": 209998720,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-04T16:46:33.156Z",
+        "endTimestamp": "2022-01-04T16:58:59.399Z"
+      },
+      "distance": 1081,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 88.08212280273438
+      }, {
+        "activityType": "STILL",
+        "probability": 3.9117615669965744
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 3.8705240935087204
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.701589673757553
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.1405277997255325
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.5628845188766718
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.2341113518923521
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.2208180958405137
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.11020607780665159
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1070014201104641
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.027903757290914655
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.018660932255443186
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.008203824108932167
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0036927376640960574
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.4169764795422E-7
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522314949,
+          "lngE7": 210026454
+        }, {
+          "latE7": 522308197,
+          "lngE7": 210000858
+        }, {
+          "latE7": 522305450,
+          "lngE7": 210007801
+        }, {
+          "latE7": 522367706,
+          "lngE7": 209999027
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1163.3221123195647,
+        "travelMode": "WALK",
+        "confidence": 0.9217342956123437
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522305565,
+          "lngE7": 210007763,
+          "accuracyMeters": 26,
+          "timestamp": "2022-01-04T16:48:58.268Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522372323,
+        "longitudeE7": 209991508,
+        "placeId": "ChIJH20zWIjMHkcRRriKyIf-kfQ",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Polska",
+        "name": "22",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 93.27209,
+        "calibratedProbability": 71.79921
+      },
+      "duration": {
+        "startTimestamp": "2022-01-04T16:58:59.399Z",
+        "endTimestamp": "2022-01-04T17:07:32.815Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522368833,
+      "centerLngE7": 209992017,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522372502,
+        "longitudeE7": 209998899,
+        "placeId": "ChIJ_5GtRYjMHkcRZ2AReH2lFh4",
+        "address": "Grzybowska 12/14, 00-131 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 1.4107496,
+        "calibratedProbability": 1.08597
+      }, {
+        "latitudeE7": 522368255,
+        "longitudeE7": 209993932,
+        "placeId": "ChIJAwPjsZvNHkcRDMr-NHCPshA",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Poland",
+        "name": "Drogeria Rossmann",
+        "locationConfidence": 1.2396619,
+        "calibratedProbability": 0.9542698
+      }, {
+        "latitudeE7": 522372159,
+        "longitudeE7": 209992881,
+        "placeId": "ChIJwXB4V4jMHkcRQJWF5n1BUn8",
+        "address": "Grzybowska 16/22 m 1126, 00-132 Warszawa, Polska",
+        "name": "Inwawa Apartments (City Center)",
+        "locationConfidence": 0.41082352,
+        "calibratedProbability": 0.3162447
+      }, {
+        "latitudeE7": 522368206,
+        "longitudeE7": 209994380,
+        "placeId": "ChIJH20zWIjMHkcRvnafsP1xZKE",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Poland",
+        "name": "Spółka Lekarska Sp. z o.o.",
+        "locationConfidence": 0.40435442,
+        "calibratedProbability": 0.31126487
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 79,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522372323,
+        "longitudeE7": 209991508,
+        "placeId": "ChIJH20zWIjMHkcRRriKyIf-kfQ",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Polska",
+        "name": "22",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 90.44984,
+        "calibratedProbability": 68.565414
+      },
+      "duration": {
+        "startTimestamp": "2022-01-14T14:51:51.838Z",
+        "endTimestamp": "2022-01-14T14:56:42.174Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522371080,
+      "centerLngE7": 209994100,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522372502,
+        "longitudeE7": 209998899,
+        "placeId": "ChIJ_5GtRYjMHkcRZ2AReH2lFh4",
+        "address": "Grzybowska 12/14, 00-131 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 4.367424,
+        "calibratedProbability": 3.3107216
+      }, {
+        "latitudeE7": 522372323,
+        "longitudeE7": 209991507,
+        "placeId": "ChIJibOPUzvNHkcRaEuXsQWaMGg",
+        "address": "Dzielna 11/lokal 111, 01-023 Warszawa, Polska",
+        "name": "Husa Bikes serwis rowerowy, rowery elektryczne, Bosch, Shimano, Bafang, Brose.",
+        "locationConfidence": 1.0736948,
+        "calibratedProbability": 0.81391335
+      }, {
+        "latitudeE7": 522372159,
+        "longitudeE7": 209992881,
+        "placeId": "ChIJwXB4V4jMHkcRQJWF5n1BUn8",
+        "address": "Grzybowska 16/22 m 1126, 00-132 Warszawa, Polska",
+        "name": "Inwawa Apartments (City Center)",
+        "locationConfidence": 0.943816,
+        "calibratedProbability": 0.71545887
+      }, {
+        "latitudeE7": 522368206,
+        "longitudeE7": 209994380,
+        "placeId": "ChIJH20zWIjMHkcRvnafsP1xZKE",
+        "address": "Grzybowska 16/22, 00-132 Warszawa, Poland",
+        "name": "Spółka Lekarska Sp. z o.o.",
+        "locationConfidence": 0.28144667,
+        "calibratedProbability": 0.21335039
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 76,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522368832,
+        "longitudeE7": 209997540,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 520525966,
+        "longitudeE7": 204487475,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-14T14:56:42.174Z",
+        "endTimestamp": "2022-01-14T18:01:40.642Z"
+      },
+      "distance": 224487,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 55.26824593544006
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 10.161494463682175
+      }, {
+        "activityType": "STILL",
+        "probability": 8.606093376874924
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.782006472349167
+      }, {
+        "activityType": "CYCLING",
+        "probability": 6.283777207136154
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 5.290333554148674
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 4.885286465287209
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 2.138231508433819
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.2099386416375637
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.13661648845300078
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.1100478577427566
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.09297165088355541
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.02109865890815854
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.013841131294611841
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.4788302848955936E-5
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522305079,
+          "lngE7": 210024076,
+          "accuracyMeters": 16,
+          "timestamp": "2022-01-14T15:00:56.228Z"
+        }, {
+          "latE7": 520525966,
+          "lngE7": 204487475,
+          "accuracyMeters": 41,
+          "timestamp": "2022-01-14T16:30:09.999Z"
+        }, {
+          "latE7": 520522268,
+          "lngE7": 204480962,
+          "accuracyMeters": 33,
+          "timestamp": "2022-01-14T16:30:41.999Z"
+        }, {
+          "latE7": 516728420,
+          "lngE7": 197830559,
+          "accuracyMeters": 64,
+          "timestamp": "2022-01-14T17:17:13.702Z"
+        }, {
+          "latE7": 514092550,
+          "lngE7": 196851397,
+          "accuracyMeters": 14,
+          "timestamp": "2022-01-14T17:54:15.975Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 224476.2961375174
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 514684246,
+        "longitudeE7": 192106683,
+        "placeId": "ChIJG-KMsMI_GkcRbuuVSVAibFE",
+        "address": "osiedle Płocka 3, 97-425 Zelów, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 89.28596,
+        "calibratedProbability": 75.96173
+      },
+      "duration": {
+        "startTimestamp": "2022-01-15T17:13:36.999Z",
+        "endTimestamp": "2022-01-16T13:42:08.982Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 514686900,
+      "centerLngE7": 192112600,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 514690380,
+        "longitudeE7": 192122590,
+        "placeId": "ChIJN9ziwcI_GkcR6Y9BOXtKj8E",
+        "address": "Żeromskiego 43, 97-425 Zelów, Polska",
+        "name": "Zelowska Spółdzielnia Mieszkaniowa",
+        "locationConfidence": 2.4621837,
+        "calibratedProbability": 2.0947497
+      }, {
+        "latitudeE7": 514694514,
+        "longitudeE7": 192104289,
+        "placeId": "ChIJhYLqPeg_GkcRSQ-e1lcRWJ8",
+        "address": "Żeromskiego 51, 97-425 Zelów, Polska",
+        "name": "Primary School No. 4 them. Sienkiewicz",
+        "locationConfidence": 0.94218606,
+        "calibratedProbability": 0.80158275
+      }, {
+        "latitudeE7": 514704238,
+        "longitudeE7": 192104397,
+        "placeId": "ChIJOaljHjA_GkcR28IRigjK80Y",
+        "address": "97-425 Zelów, Polska",
+        "name": "Orlik 2012",
+        "locationConfidence": 0.34262484,
+        "calibratedProbability": 0.2914946
+      }, {
+        "latitudeE7": 514684427,
+        "longitudeE7": 192081608,
+        "placeId": "ChIJa-WLB-g_GkcRd8NjbK70hWA",
+        "address": "wejście od ulicy Kościuszki, Pułkownika Witolda Pileckiego 2, 97-425 Zelów, Polska",
+        "name": "Pyszny Zakątek",
+        "locationConfidence": 0.22511192,
+        "calibratedProbability": 0.19151826
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 518063032,
+        "longitudeE7": 203025127,
+        "placeId": "ChIJdfeyBTNuGUcRTo-Xbjb6_6M",
+        "address": "Julianów 19B, 96-200, Polska",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 2.333063,
+        "calibratedProbability": 16.10705
+      },
+      "duration": {
+        "startTimestamp": "2022-01-16T13:42:08.982Z",
+        "endTimestamp": "2022-01-16T14:33:38Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 521952539,
+      "centerLngE7": 209261565,
+      "visitConfidence": 60,
+      "otherCandidateLocations": [{
+        "latitudeE7": 518081679,
+        "longitudeE7": 203027209,
+        "placeId": "ChIJJaTTYDNuGUcRm7EN5TbqxQo",
+        "address": "Julianów 19C, 96-200, Polska",
+        "locationConfidence": 1.0569513,
+        "calibratedProbability": 7.2970033
+      }, {
+        "latitudeE7": 518083839,
+        "longitudeE7": 203025540,
+        "placeId": "ChIJTRG6XzNuGUcRBAb6jTY3LjM",
+        "address": "Julianów 19D, 96-200, Polska",
+        "locationConfidence": 0.24173558,
+        "calibratedProbability": 1.6688993
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 1,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 518069512,
+        "longitudeE7": 203045582,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522391651,
+        "longitudeE7": 210048703,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2022-01-16T14:33:38Z",
+        "endTimestamp": "2022-01-16T14:44:41.773Z"
+      },
+      "distance": 67865,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 90.60258865356445
+      }, {
+        "activityType": "STILL",
+        "probability": 3.8903016597032547
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.9764827340841293
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.9817044250667095
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.6249764934182167
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.271277641877532
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1851067179813981
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.17716098809614778
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.15896919649094343
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0434453075286001
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.038041669176891446
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.019035639706999063
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.01860643533291295
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.012295892520342022
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 6.683200837187542E-6
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522344305,
+          "lngE7": 209996058,
+          "accuracyMeters": 10,
+          "timestamp": "2022-01-16T14:33:45Z"
+        }, {
+          "latE7": 522402250,
+          "lngE7": 210030922,
+          "accuracyMeters": 15,
+          "timestamp": "2022-01-16T14:38:56.063Z"
+        }, {
+          "latE7": 522402634,
+          "lngE7": 210035284,
+          "accuracyMeters": 24,
+          "timestamp": "2022-01-16T14:39:01.131Z"
+        }, {
+          "latE7": 522393735,
+          "lngE7": 210041305,
+          "accuracyMeters": 20,
+          "timestamp": "2022-01-16T14:39:12.819Z"
+        }, {
+          "latE7": 522391651,
+          "lngE7": 210048703,
+          "accuracyMeters": 8,
+          "timestamp": "2022-01-16T14:39:25Z"
+        }, {
+          "latE7": 522388659,
+          "lngE7": 210053663,
+          "accuracyMeters": 12,
+          "timestamp": "2022-01-16T14:39:30Z"
+        }, {
+          "latE7": 522369125,
+          "lngE7": 209996814,
+          "accuracyMeters": 23,
+          "timestamp": "2022-01-16T14:42:31.711Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 69044.33848441235
+      }
+    }
+  }]
+}

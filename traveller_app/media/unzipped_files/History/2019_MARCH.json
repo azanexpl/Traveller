@@ -1,0 +1,2614 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522390892,
+        "longitudeE7": 208980463,
+        "placeId": "ChIJPynbAufKHkcROxhnD222Ifs",
+        "address": "Górczewska 249, 01-459 Warszawa, Polska",
+        "name": "McDonald\u0027s",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 91.624725
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T00:19:28.549Z",
+        "endTimestamp": "2019-03-25T00:31:02.250Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522393778,
+      "centerLngE7": 208985344,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522390000,
+        "longitudeE7": 208973959,
+        "placeId": "ChIJXdC4BufKHkcR7bBr4w_FSZI",
+        "address": "Lazurowa 40, 01-315 Warszawa, Polska",
+        "name": "Petrol Station ORLEN",
+        "locationConfidence": 2.6587048
+      }, {
+        "latitudeE7": 522384500,
+        "longitudeE7": 208990100,
+        "placeId": "ChIJPWZBIufKHkcRq_Mf5E06ZS4",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Osiedle Górczewska",
+        "locationConfidence": 2.4484494
+      }, {
+        "latitudeE7": 522394000,
+        "longitudeE7": 208975200,
+        "placeId": "ChIJhZ-A_-bKHkcRFjjkTAlQYBo",
+        "address": "01-459 Warszawa, Polska",
+        "name": "Osiedle Górczewska 03",
+        "locationConfidence": 0.34042737
+      }, {
+        "latitudeE7": 522386666,
+        "longitudeE7": 209006799,
+        "placeId": "ChIJvRfZ1ebKHkcRI5zDwcio_do",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Os. Górczewska 12",
+        "locationConfidence": 0.24129774
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 79,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522397216,
+        "longitudeE7": 208991781,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522314088,
+        "longitudeE7": 209145065,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T00:31:02.250Z",
+        "endTimestamp": "2019-03-25T00:37:53.253Z"
+      },
+      "distance": 1394,
+      "activityType": "IN_BUS",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 83.53455604992487
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 8.932238829141737
+      }, {
+        "activityType": "WALKING",
+        "probability": 6.069990085208598
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 522414500,
+          "longitudeE7": 209124400,
+          "placeId": "ChIJ269ahh3LHkcR2rQ4TGnDGqk",
+          "address": "01-460 Warszawa, Polska",
+          "name": "Kazubów 01"
+        }, {
+          "latitudeE7": 522310600,
+          "longitudeE7": 209147900,
+          "placeId": "ChIJS54wSCLLHkcRqP-p0nMerRA",
+          "address": "01-381 Warszawa, Polska",
+          "name": "Plac Kasztelański 01"
+        }],
+        "name": "112",
+        "hexRgbColor": "88007C",
+        "linePlaceId": "ChIJaznpXYzLHkcRJt00OV-Z5Ls",
+        "source": "INFERRED"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522314095,
+        "longitudeE7": 209145053,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T00:37:53.253Z",
+        "endTimestamp": "2019-03-25T00:42:17.255Z"
+      },
+      "distance": 339,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 66.38819787536121
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 19.895605339662954
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 11.734053589404018
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522314834,
+          "lngE7": 209145011
+        }, {
+          "latE7": 522313919,
+          "lngE7": 209113998
+        }, {
+          "latE7": 522307701,
+          "lngE7": 209104766
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 334.19839134015433
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522312516,
+          "lngE7": 209126111,
+          "accuracyMeters": 26,
+          "timestamp": "2019-03-25T00:40:07.497Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 92.26997,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T00:42:17.255Z",
+        "endTimestamp": "2019-03-25T01:00:34.391Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522308070,
+      "centerLngE7": 209103130,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522321959,
+        "longitudeE7": 209115499,
+        "placeId": "ChIJa-C3lSHLHkcRmZL6viDUm6E",
+        "address": "Muszlowa 2, 01-361 Warszawa, Polska",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.2287724
+      }, {
+        "latitudeE7": 522290039,
+        "longitudeE7": 209119930,
+        "placeId": "ChIJO00dqynKHkcRAqq_TwGMoRM",
+        "address": "Człuchowska 68, 01-360 Warszawa, Polska",
+        "name": "Equip.pl",
+        "locationConfidence": 0.16187648
+      }, {
+        "latitudeE7": 522299839,
+        "longitudeE7": 209116101,
+        "placeId": "ChIJIZ9f4CPLHkcRx9HebNBg2O4",
+        "address": "Wacława Borowego 5, 01-358 Warszawa, Polska",
+        "name": "Vitadent",
+        "locationConfidence": 0.14726685
+      }, {
+        "latitudeE7": 522283958,
+        "longitudeE7": 209111774,
+        "placeId": "ChIJ2a4pBCTLHkcRWwSpkUcT4aU",
+        "name": "Solarium",
+        "locationConfidence": 0.124421395
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522293754,
+        "longitudeE7": 210131961,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T01:00:34.391Z",
+        "endTimestamp": "2019-03-25T01:51:29.911Z"
+      },
+      "distance": 7247,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 79.77223339759298
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 7.627250152408852
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 6.306814807050097
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522307701,
+          "lngE7": 209104766
+        }, {
+          "latE7": 522201423,
+          "lngE7": 209169483
+        }, {
+          "latE7": 522246437,
+          "lngE7": 209887313
+        }, {
+          "latE7": 522274971,
+          "lngE7": 210020713
+        }, {
+          "latE7": 522294654,
+          "lngE7": 210136299
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJN01wcyHLHkcRxOG9LjA3jDo"
+        }, {
+          "placeId": "ChIJTbmGnyHLHkcRwPfVlUcje6k"
+        }, {
+          "placeId": "ChIJYUSenyHLHkcR9cg04o20kP8"
+        }, {
+          "placeId": "ChIJmWr7niHLHkcRHTuChov8q7A"
+        }, {
+          "placeId": "ChIJRZRtnCHLHkcRL_lgBl_SGiA"
+        }, {
+          "placeId": "ChIJIc3yhCHLHkcRr-LQCk4T7eo"
+        }, {
+          "placeId": "ChIJ65G5hyHLHkcRYeRAza6PkmA"
+        }, {
+          "placeId": "ChIJI655KCLLHkcRH2TmoBZfB3U"
+        }, {
+          "placeId": "ChIJBz0PJiLLHkcRVZm-87WluU0"
+        }, {
+          "placeId": "ChIJMwwFOyLLHkcR6CJNJg_rCug"
+        }, {
+          "placeId": "ChIJrzOYSSLLHkcRPKNeMwZIRrY"
+        }, {
+          "placeId": "ChIJwfyIsSPLHkcRAKIQeHTiVSU"
+        }, {
+          "placeId": "ChIJkXA4pCPLHkcRhmAO3hrFx0E"
+        }, {
+          "placeId": "ChIJzwMioCPLHkcRZJxsj78rPnA"
+        }, {
+          "placeId": "ChIJITFFeyPLHkcRmgNgjudAt1k"
+        }, {
+          "placeId": "ChIJUY6LnSTLHkcRHoOzZ6oQ6mc"
+        }, {
+          "placeId": "ChIJxfzzmCTLHkcRld7veas1Zvc"
+        }, {
+          "placeId": "ChIJp-Y8vCTLHkcRxdi8lbzv4so"
+        }, {
+          "placeId": "ChIJo8iQxyTLHkcRLY6RUOGXpR8"
+        }, {
+          "placeId": "ChIJpYSzyCTLHkcRxPBW_HgIxeo"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRGCvvR_LiRAU"
+        }, {
+          "placeId": "ChIJK3YaziTLHkcRR5ktgNVdmoQ"
+        }, {
+          "placeId": "ChIJ_2vG1CTLHkcRocwaI4TkxOs"
+        }, {
+          "placeId": "ChIJvUBS0TrLHkcRkTYqS3W3jss"
+        }, {
+          "placeId": "ChIJb-qKzzrLHkcR1810KjQikSQ"
+        }, {
+          "placeId": "ChIJxUzXdjDLHkcRDWQx94QvulM"
+        }, {
+          "placeId": "ChIJuxQicDDLHkcRy_j4QiVT1Ow"
+        }, {
+          "placeId": "ChIJybCEbzDLHkcRUzG7CPjAljk"
+        }, {
+          "placeId": "ChIJsXNfbzDLHkcRD4BPhTxL3QI"
+        }, {
+          "placeId": "ChIJP6yOZzDLHkcRY18ukJPzAZQ"
+        }, {
+          "placeId": "ChIJnxzrWzDLHkcRo6N_AG5I_UA"
+        }, {
+          "placeId": "ChIJ-2hhWTDLHkcRwH2WI0f_hMQ"
+        }, {
+          "placeId": "ChIJI6xzXzDLHkcRu_OUn2utyG0"
+        }, {
+          "placeId": "ChIJKRx-izDLHkcRD9Ju2_33A7c"
+        }, {
+          "placeId": "ChIJr6chjjDLHkcRxrtKf6DJp8U"
+        }, {
+          "placeId": "ChIJ9fVbpzDLHkcRag4JcEbLEPQ"
+        }, {
+          "placeId": "ChIJQ7Q9BDrLHkcRrWt_DA-FFsQ"
+        }, {
+          "placeId": "ChIJD-UhAzrLHkcRrT8SUVvmVCE"
+        }, {
+          "placeId": "ChIJc8Hc9znLHkcRkIqowgGczWE"
+        }, {
+          "placeId": "ChIJ5fB8ljnLHkcRJ98jYTqNhpo"
+        }, {
+          "placeId": "ChIJRzluvTnLHkcR5YroAX3CPfU"
+        }, {
+          "placeId": "ChIJPSK1pTnLHkcRN3o260D-cHA"
+        }, {
+          "placeId": "ChIJpwzrqTnLHkcRowTKM6tNncg"
+        }, {
+          "placeId": "ChIJgxi1ATnLHkcRNjklUinHMcU"
+        }, {
+          "placeId": "ChIJg85j6TjLHkcRjt3MfVa2ODc"
+        }, {
+          "placeId": "ChIJpVs06jjLHkcR4WPQyXhepZw"
+        }, {
+          "placeId": "ChIJx1aa6jjLHkcR_AJ5FIzsB-Y"
+        }, {
+          "placeId": "ChIJGbXEvjjLHkcRVlhlWvfIfss"
+        }, {
+          "placeId": "ChIJSdqjujjLHkcRdZH11QTqd4Y"
+        }, {
+          "placeId": "ChIJ2YLDvkDLHkcR_n3QM-8WnhA"
+        }, {
+          "placeId": "ChIJAYXO60DLHkcR4PVm2vP7JYc"
+        }, {
+          "placeId": "ChIJv05G-0DLHkcR5kEYnrD2ft4"
+        }, {
+          "placeId": "ChIJRavhAEHLHkcRWmpXdStPD0w"
+        }, {
+          "placeId": "ChIJE8L4B0HLHkcRn6xC83jEMtQ"
+        }, {
+          "placeId": "ChIJNfLbm0HLHkcRkosNkmxZbiI"
+        }, {
+          "placeId": "ChIJBeDumkHLHkcRKF_AXWk5yFg"
+        }, {
+          "placeId": "ChIJrwELIULLHkcR4CTeIR9ez2A"
+        }, {
+          "placeId": "ChIJ8XmnF0LLHkcRZKoe6NcwDYs"
+        }, {
+          "placeId": "ChIJXYfw3mfLHkcRHTl-jCsBOD4"
+        }, {
+          "placeId": "ChIJNfqA3GfLHkcRLMMgSXwEudM"
+        }, {
+          "placeId": "ChIJ84TAxGfLHkcRqocv2wLi5Lc"
+        }, {
+          "placeId": "ChIJp0E1xmfLHkcRdCrrShvYRho"
+        }, {
+          "placeId": "ChIJwzvqrmfLHkcR9hH930wMA74"
+        }, {
+          "placeId": "ChIJBagb_WbLHkcRC9lfHHHkFu0"
+        }, {
+          "placeId": "ChIJYYBbzmbLHkcRtiszyXOdlv4"
+        }, {
+          "placeId": "ChIJYYBbzmbLHkcRfrIiQwRhls4"
+        }, {
+          "placeId": "ChIJL0ZJamHLHkcRu4O3Itc2gkI"
+        }, {
+          "placeId": "ChIJrbzlcGHLHkcRZeRwIoIFaAs"
+        }, {
+          "placeId": "ChIJPf4FeGHLHkcRUQdnSGaj9xk"
+        }, {
+          "placeId": "ChIJj1HpgmHLHkcRl9du08P7Ft0"
+        }, {
+          "placeId": "ChIJZz8Lg2HLHkcRLLy3sYR0Xes"
+        }, {
+          "placeId": "ChIJHUl6hGHLHkcR3BKOwLkLSp0"
+        }, {
+          "placeId": "ChIJp27PhWHLHkcRjBg2BXPO2dI"
+        }, {
+          "placeId": "ChIJRwnGiGHLHkcRZDSvM1wz98A"
+        }, {
+          "placeId": "ChIJ7Xt6iWHLHkcRal4lvQtD4aE"
+        }, {
+          "placeId": "ChIJTYb2imHLHkcR16MduwZ4rvA"
+        }, {
+          "placeId": "ChIJi9FKHGLLHkcRvzP3aGrd6lM"
+        }, {
+          "placeId": "ChIJO7Hk-Z3MHkcRb8JKmj1Ty-M"
+        }, {
+          "placeId": "ChIJ4XFN7p3MHkcR162BF6ycJAo"
+        }, {
+          "placeId": "ChIJZZIcwZ3MHkcRzd8mZ8QdOfw"
+        }, {
+          "placeId": "ChIJdzMWTJzMHkcRLzD9Mivk8no"
+        }, {
+          "placeId": "ChIJ3TNIRZzMHkcR-zCyi7EpoUE"
+        }, {
+          "placeId": "ChIJcYqgb5vMHkcRTwblHklGx6Q"
+        }, {
+          "placeId": "ChIJHzy6FZvMHkcR1ZXYgivbOOU"
+        }, {
+          "placeId": "ChIJTXFoFpvMHkcRBiXKEhKODc4"
+        }, {
+          "placeId": "ChIJkRMlGpvMHkcRvDC4VNf4ANg"
+        }, {
+          "placeId": "ChIJaZ99Z5rMHkcRem90vO1i2s0"
+        }, {
+          "placeId": "ChIJaZ99Z5rMHkcRu2N3qsnvHTM"
+        }, {
+          "placeId": "ChIJT6BZtJDMHkcRljdrCYZcRIU"
+        }, {
+          "placeId": "ChIJ255UMZfMHkcRJc-OshT5TQQ"
+        }, {
+          "placeId": "ChIJmU87LpfMHkcRxp7Fh1_CxqQ"
+        }, {
+          "placeId": "ChIJ14KqKZHMHkcRG4J8bYWz_zY"
+        }, {
+          "placeId": "ChIJYcRta5HMHkcR3-zVXv2es6s"
+        }, {
+          "placeId": "ChIJ-VkibJHMHkcRVm5RMlhwc84"
+        }, {
+          "placeId": "ChIJ-VkibJHMHkcR2XmEABhV8mk"
+        }, {
+          "placeId": "ChIJbb5ffpHMHkcRdUyRxpwhQpY"
+        }, {
+          "placeId": "ChIJwYxbfpHMHkcRFVtuHOacjCg"
+        }, {
+          "placeId": "ChIJyXhPfpHMHkcRbJNz0rDyq3g"
+        }, {
+          "placeId": "ChIJ-YVJfpHMHkcR7qSWvPvr9Bo"
+        }, {
+          "placeId": "ChIJo2ZLZpLMHkcRjxvPdH54WRU"
+        }, {
+          "placeId": "ChIJEVNOiJLMHkcRFTxASIjGWXQ"
+        }, {
+          "placeId": "ChIJ8VALhZLMHkcRn0LPyeeiPfU"
+        }, {
+          "placeId": "ChIJ_8nMhJLMHkcRkK3cqZyqgCQ"
+        }, {
+          "placeId": "ChIJF2yDnJLMHkcR5KJAwFDFp5k"
+        }, {
+          "placeId": "ChIJfbRznpLMHkcRz3OYYqjqUnA"
+        }, {
+          "placeId": "ChIJK5BoYI3MHkcRyyh8-h2s9qY"
+        }, {
+          "placeId": "ChIJXQRvXo3MHkcR6yPgrVvDfEc"
+        }, {
+          "placeId": "ChIJLXMjW43MHkcRgvHhWbieyG0"
+        }, {
+          "placeId": "ChIJXSYMT43MHkcRBFKfpjSk_v0"
+        }, {
+          "placeId": "ChIJv31StfLMHkcREW2qzXV004Y"
+        }, {
+          "placeId": "ChIJf1jaxPLMHkcRYzGFzjizXUs"
+        }, {
+          "placeId": "ChIJbxBW5_LMHkcRTeD4Xs_zasA"
+        }, {
+          "placeId": "ChIJK8gcA_PMHkcRC1Qnus4SKkw"
+        }, {
+          "placeId": "ChIJyQ1PAfPMHkcRbKolHUX_ZLw"
+        }, {
+          "placeId": "ChIJyQJtqvPMHkcRwFZIZy2Gc8U"
+        }, {
+          "placeId": "ChIJFQE7U_LMHkcRAY6SCMVC6oM"
+        }, {
+          "placeId": "ChIJoz0zP_LMHkcRp9f_AJUP8UA"
+        }, {
+          "placeId": "ChIJRZHWOPLMHkcRk2-n0JoZMtU"
+        }, {
+          "placeId": "ChIJ33MmOfLMHkcRB38usTeKU3U"
+        }, {
+          "placeId": "ChIJl5aTt_PMHkcRxJVNku1iNh8"
+        }],
+        "distanceMeters": 9302.844470819962
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522249645,
+          "lngE7": 209895935,
+          "accuracyMeters": 67,
+          "timestamp": "2019-03-25T01:48:14.572Z"
+        }, {
+          "latE7": 522274409,
+          "lngE7": 210019987,
+          "accuracyMeters": 12,
+          "timestamp": "2019-03-25T01:50:16.999Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522290444,
+          "longitudeE7": 210132853,
+          "accuracyMetres": 90
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-03-25T01:53:04.252Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522293754,
+        "longitudeE7": 210131961,
+        "placeId": "ChIJQfra5cMqGUcRvAw1WmkyOSc",
+        "address": "Marszałkowska 94/98, 00-510 Warszawa, Poland",
+        "name": "Novotel Warszawa Centrum",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 63.47665,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T01:51:29.911Z",
+        "endTimestamp": "2019-03-25T01:57:20.975Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522295725,
+      "centerLngE7": 210134100,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522298475,
+        "longitudeE7": 210117302,
+        "placeId": "ChIJIQZkFPPMHkcRpQq8gdD-KIw",
+        "address": "00-057 Warszawa, Polska",
+        "name": "Center",
+        "locationConfidence": 4.16763
+      }, {
+        "latitudeE7": 522287098,
+        "longitudeE7": 210137501,
+        "placeId": "ChIJiaABiPHMHkcR7RV94rXfN9E",
+        "address": "Parkingowa 5, 00-505 Warszawa, Polska",
+        "name": "Meta Disco",
+        "locationConfidence": 3.129234
+      }, {
+        "latitudeE7": 522295551,
+        "longitudeE7": 210154886,
+        "placeId": "ChIJzWee3vPMHkcRz5kwOcpstxI",
+        "address": "Hoża 40, 00-516 Warszawa, Polska",
+        "name": "Gold-Top, ZEGARMISTRZ",
+        "locationConfidence": 0.75355524
+      }, {
+        "latitudeE7": 522289351,
+        "longitudeE7": 210154107,
+        "placeId": "ChIJL8elf_HMHkcRNvyBYjp86Fc",
+        "address": "Żurawia 22, 00-515 Warszawa, Polska",
+        "name": "Fajka bar Żurawia",
+        "locationConfidence": 0.58277476
+      }, {
+        "latitudeE7": 522295832,
+        "longitudeE7": 210139965,
+        "placeId": "ChIJQZuxyPPMHkcRQEO1iG_EPBg",
+        "locationConfidence": 0.50133973
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 55,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522302895,
+        "longitudeE7": 210137840,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522165342,
+        "longitudeE7": 209811212,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T01:57:20.975Z",
+        "endTimestamp": "2019-03-25T13:07:49.652Z"
+      },
+      "distance": 11679,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 55.305071259583805
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 30.476785581918755
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 4.464814911988826
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522303352,
+          "lngE7": 210137596
+        }, {
+          "latE7": 522273597,
+          "lngE7": 209508247
+        }, {
+          "latE7": 522253341,
+          "lngE7": 209163150
+        }, {
+          "latE7": 522207336,
+          "lngE7": 209617881
+        }, {
+          "latE7": 522168045,
+          "lngE7": 209813842
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 2887.9133885554306
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522255380,
+          "lngE7": 209163665,
+          "accuracyMeters": 24,
+          "timestamp": "2019-03-25T12:25:36.434Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522169221,
+        "longitudeE7": 209798901,
+        "placeId": "ChIJZ4raSqPMHkcRo1oM1vNEoKQ",
+        "address": "02-321 Warszawa, Polska",
+        "name": "Wawelska 06",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 21.380352
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T13:07:49.652Z",
+        "endTimestamp": "2019-03-25T13:22:17.648Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522166657,
+      "centerLngE7": 209803514,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522157760,
+        "longitudeE7": 209803030,
+        "placeId": "ChIJB7ZbprzMHkcRmw732kDUloQ",
+        "address": "Grójecka 62a, 02-339 Warszawa, Polska",
+        "name": "Piekarnia PUTKA",
+        "locationConfidence": 5.8325734
+      }, {
+        "latitudeE7": 522178790,
+        "longitudeE7": 209821080,
+        "placeId": "ChIJA_KO2rzMHkcR85RddHt6edY",
+        "address": "Grójecka 42B, 02-320 Warszawa, Polska",
+        "name": "Healthy Ingredients Organic Shop",
+        "locationConfidence": 1.5314201
+      }, {
+        "latitudeE7": 522163840,
+        "longitudeE7": 209817660,
+        "placeId": "ChIJ2y3qlbzMHkcRcMHXlcANdow",
+        "address": "Grójecka 45, 02-031 Warszawa, Polska",
+        "name": "OPTIGEM Salony Optyczne",
+        "locationConfidence": 1.2877052
+      }, {
+        "latitudeE7": 522155834,
+        "longitudeE7": 209786571,
+        "placeId": "ChIJ9Tx9K3DLHkcRxswmnpqxKA0",
+        "address": "Chotomowska 8/15, 02-345 Warszawa, Poland",
+        "name": "Redlama.pl - Statues, Trophies, Medals, Diplomas",
+        "locationConfidence": 1.2453605
+      }, {
+        "latitudeE7": 522157158,
+        "longitudeE7": 209800938,
+        "placeId": "ChIJs4VbprzMHkcRp2zIrJGFxwQ",
+        "address": "Grójecka 60, 00-001 Warszawa, Polska",
+        "name": "Smak Bar",
+        "locationConfidence": 1.1210709
+      }, {
+        "latitudeE7": 522177124,
+        "longitudeE7": 209809881,
+        "placeId": "ChIJfe-G0bzMHkcRANmsOd1mX0k",
+        "address": "Kaliska 1/7, 02-316 Warszawa, Poland",
+        "name": "Oikos Sp. z o.o. Oficyna Wydawnicza",
+        "locationConfidence": 1.0943917
+      }, {
+        "latitudeE7": 522166420,
+        "longitudeE7": 209820530,
+        "placeId": "ChIJd8N_6rzMHkcR5ERJGAvI4PY",
+        "address": "Grójecka 43, 02-031 Warszawa, Polska",
+        "name": "Kancelaria Notarialna Ewa Kulesza Notariusz",
+        "locationConfidence": 1.0799423
+      }, {
+        "latitudeE7": 522161370,
+        "longitudeE7": 209804530,
+        "placeId": "ChIJtUUYpbzMHkcRrX8VgwKm8RY",
+        "address": "Grójecka 56/58, 02-320 Warszawa, Polska",
+        "name": "Kancelaria prawna - Zofia Krakowian-Witkowska i Wspólnicy Sp.K.",
+        "locationConfidence": 1.0406172
+      }, {
+        "latitudeE7": 522169890,
+        "longitudeE7": 209823530,
+        "placeId": "ChIJOcKhOr3MHkcRoWdAW6MWXBU",
+        "address": "Grójecka 41, 02-031 Warszawa, Polska",
+        "name": "Tłumacz przysięgły języka ukraińskiego - Anna Kupińska",
+        "locationConfidence": 1.0028552
+      }, {
+        "latitudeE7": 522152766,
+        "longitudeE7": 209808922,
+        "placeId": "ChIJF_Ie-Y3MHkcR9fJyFhJgNLQ",
+        "address": "Grójecka 53/57, 02-094 Warszawa, Poland",
+        "name": "Sex Shop Warszawa Ochota Pink Shop",
+        "locationConfidence": 0.938863
+      }, {
+        "latitudeE7": 522155780,
+        "longitudeE7": 209809050,
+        "placeId": "ChIJ0WgBtXzLHkcRfmVIpw4AziA",
+        "address": "Grójecka 47/51, 02-031 Warszawa, Poland",
+        "name": "Bra-Dreams – małe i duże biustonosze",
+        "locationConfidence": 0.89875066
+      }, {
+        "latitudeE7": 522148007,
+        "longitudeE7": 209792890,
+        "placeId": "ChIJRTxLRbvMHkcRolrnqHFo5eQ",
+        "address": "Grójecka 66, 02-094 Warszawa, Polska",
+        "name": "RTV EURO AGD",
+        "locationConfidence": 0.8707322
+      }, {
+        "latitudeE7": 522168725,
+        "longitudeE7": 209811748,
+        "placeId": "ChIJLcyjx7zMHkcRGAHfy6A0Tuw",
+        "address": "Grójecka 46/50, 02-320 Warszawa, Poland",
+        "name": "Printing cyfrowa- cheap printing",
+        "locationConfidence": 0.86785203
+      }, {
+        "latitudeE7": 522162910,
+        "longitudeE7": 209823260,
+        "placeId": "ChIJdWXIk7zMHkcRwJgc8uKznVo",
+        "address": "Wawelska 78/lok. 18, 02-034 Warszawa, Polska",
+        "name": "Kancelaria Radców Prawnych Molska-Jerin \u0026 Wspólnicy s.c.",
+        "locationConfidence": 0.8203885
+      }, {
+        "latitudeE7": 522177070,
+        "longitudeE7": 209808960,
+        "placeId": "ChIJF-WG0bzMHkcR24D7BDiZUZM",
+        "address": "Kaliska 1/8, 02-316 Warszawa, Poland",
+        "name": "Drwal",
+        "locationConfidence": 0.8067803
+      }, {
+        "latitudeE7": 522153525,
+        "longitudeE7": 209806681,
+        "placeId": "ChIJ-fBgYLvMHkcR9SCH8AUV8rs",
+        "address": "Grójecka 53/57, 02-014 Warszawa, Polska",
+        "name": "Radlińska Marzena. Kancelaria notarialna",
+        "locationConfidence": 0.80216396
+      }, {
+        "latitudeE7": 522150394,
+        "longitudeE7": 209794801,
+        "placeId": "ChIJwzM4qJ4tGUcRsb57qrT2j7U",
+        "address": "Grójecka 64, 02-339 Warszawa, Polska",
+        "name": "Rossmann",
+        "locationConfidence": 0.80111825
+      }, {
+        "latitudeE7": 522169298,
+        "longitudeE7": 209833718,
+        "placeId": "ChIJkeZY8LzMHkcRasKpvw0o9Tw",
+        "address": "Zygmunta Glogera 6, 02-051 Warszawa, Polska",
+        "name": "Tarnacki Jarocław. Kancelaria adwokacka",
+        "locationConfidence": 0.8000472
+      }, {
+        "latitudeE7": 522155932,
+        "longitudeE7": 209808877,
+        "placeId": "ChIJj0LImLzMHkcR-v7DCHBr5pg",
+        "address": "Kopińska 2/4, 02-094 Warszawa, Polska",
+        "name": "Zakład fryzjerski",
+        "locationConfidence": 0.75908107
+      }, {
+        "latitudeE7": 522181430,
+        "longitudeE7": 209813590,
+        "placeId": "ChIJw5xUKL3MHkcRcaIm19WUJz4",
+        "address": "Kaliska 8/10, 02-316 Warszawa, Polen",
+        "name": "Sklep Podróżnika",
+        "locationConfidence": 0.75884056
+      }, {
+        "latitudeE7": 522166512,
+        "longitudeE7": 209808839,
+        "placeId": "ChIJGybLubzMHkcRpV0pCUyTBx0",
+        "address": "Grójecka 46/50, 02-320 Warszawa, Poland",
+        "name": "OPRAWA-PRAC.PL",
+        "locationConfidence": 0.74573195
+      }, {
+        "latitudeE7": 522162236,
+        "longitudeE7": 209823440,
+        "placeId": "ChIJMa_3kbzMHkcRs2w65mCswPU",
+        "address": "Wawelska 78, 02-034 Warszawa, Polska",
+        "name": "Eurosystem",
+        "locationConfidence": 0.7296926
+      }, {
+        "latitudeE7": 522163266,
+        "longitudeE7": 209839048,
+        "placeId": "ChIJKWzdbr_LHkcR480dWGSsguQ",
+        "address": "Grójecka 186/202 klatka 2, 02-390 Warszawa, Polska",
+        "name": "Kancelaria Notarialna Barbara Rystwej-Markiewicz Notariusz",
+        "locationConfidence": 0.7179171
+      }, {
+        "latitudeE7": 522186228,
+        "longitudeE7": 209826686,
+        "placeId": "ChIJESbvJr3MHkcRX5xv4wYEiPs",
+        "address": "Grójecka 40, 02-320 Warszawa, Polska",
+        "name": "Habela Marek, dr nauk med. okulista",
+        "locationConfidence": 0.71646416
+      }, {
+        "latitudeE7": 522170717,
+        "longitudeE7": 209770561,
+        "placeId": "ChIJ--HwbqPMHkcRYA7hViPklhw",
+        "address": "Radomska 22, 02-323 Warszawa, Polska",
+        "name": "Pasmanteria Kolorowy Świat",
+        "locationConfidence": 0.7149577
+      }, {
+        "latitudeE7": 522169433,
+        "longitudeE7": 209810785,
+        "placeId": "ChIJ-cSjx7zMHkcRp9COOK2sDRY",
+        "address": "Grójecka 46/50, 02-320 Warszawa, Poland",
+        "name": "Sklep Podróżnika Odzież i obuwie",
+        "locationConfidence": 0.71381074
+      }, {
+        "latitudeE7": 522176644,
+        "longitudeE7": 209808277,
+        "placeId": "ChIJfe-G0bzMHkcRsKS-mo4mdeA",
+        "address": "Kaliska 1, 02-316 Warszawa, Polen",
+        "name": "Brać Łowiecka",
+        "locationConfidence": 0.71372503
+      }, {
+        "latitudeE7": 522162327,
+        "longitudeE7": 209825214,
+        "placeId": "ChIJqzMbkrzMHkcRjyGbsCAepK8",
+        "address": "Wawelska 78/5, 02-034, 02-034 Warszawa, Polska",
+        "name": "Komornik Sądowy przy Sądzie Rejonowym dla m.st. Warszawy Bogusław Klimaszewski",
+        "locationConfidence": 0.6925266
+      }, {
+        "latitudeE7": 522158974,
+        "longitudeE7": 209811774,
+        "placeId": "ChIJjfBiorzMHkcR9qP-dxVrAo0",
+        "address": "Grójecka 47/51, 02-031 Warszawa, Poland",
+        "name": "Apteka glowna",
+        "locationConfidence": 0.68560565
+      }, {
+        "latitudeE7": 522177658,
+        "longitudeE7": 209819857,
+        "placeId": "ChIJvZFtJ73MHkcRKLOT9IaqhDI",
+        "address": "Grójecka 42, 02-320 Warszawa, Polska",
+        "name": "Biblioteka \"Przystanek Książka\"",
+        "locationConfidence": 0.68507427
+      }, {
+        "latitudeE7": 522162236,
+        "longitudeE7": 209823440,
+        "placeId": "ChIJhW_Ik7zMHkcRC-yvXYLE6og",
+        "address": "Wawelska 78/22, 02-034 Warszawa, Poland",
+        "name": "Kancelaria doradztwa podatkowego Lizyngodar sp. z o.o.",
+        "locationConfidence": 0.67374396
+      }, {
+        "latitudeE7": 522159430,
+        "longitudeE7": 209799170,
+        "placeId": "ChIJoYEpqbzMHkcR_A-wRbH14QU",
+        "address": "Radomska 3, 02-323 Warszawa, Polska",
+        "name": "Mr. Falafel",
+        "locationConfidence": 0.6702176
+      }, {
+        "latitudeE7": 522181584,
+        "longitudeE7": 209765027,
+        "placeId": "ChIJ78bgzKrNHkcRRqh8oOoGogk",
+        "address": "Hala Kopińska 02, Warszawa, Polska",
+        "name": "eSmoking World",
+        "locationConfidence": 0.6699043
+      }, {
+        "latitudeE7": 522145302,
+        "longitudeE7": 209786673,
+        "placeId": "ChIJm5MkSrvMHkcR2evsmTWRI9E",
+        "locationConfidence": 0.6627346
+      }, {
+        "latitudeE7": 522169465,
+        "longitudeE7": 209831175,
+        "placeId": "ChIJR9U30dsyGUcR_vUF2RMytZ4",
+        "address": "Zygmunta Glogera 6, 02-051 Warszawa, Polska",
+        "name": "YOUR XXL",
+        "locationConfidence": 0.6621829
+      }, {
+        "latitudeE7": 522157186,
+        "longitudeE7": 209792790,
+        "placeId": "ChIJVbLtqrzMHkcRWhzJttvfjpA",
+        "address": "Chotomowska 3, 02-345 Warszawa, Polska",
+        "name": "Przedszkole nr 101",
+        "locationConfidence": 0.6425367
+      }, {
+        "latitudeE7": 522163511,
+        "longitudeE7": 209817338,
+        "placeId": "ChIJgQycaHfNHkcR0Be1itxSDHA",
+        "address": "Grójecka 45, 02-310 Warszawa, Polska",
+        "name": "Każde Piękno salon kosmetyczny manicure pedicure solarium Warszawa Ochota",
+        "locationConfidence": 0.6415613
+      }, {
+        "latitudeE7": 522142429,
+        "longitudeE7": 209787650,
+        "placeId": "ChIJn2pxN7vMHkcRdIqdLeGr_Yo",
+        "address": "Grójecka 68/lok.59, 02-094 Warszawa, Polska",
+        "name": "Aramis - Gabinet Terapeutyczny",
+        "locationConfidence": 0.6354091
+      }, {
+        "latitudeE7": 522160763,
+        "longitudeE7": 209805091,
+        "placeId": "ChIJMxEQpbzMHkcRUwCjpHV2FGA",
+        "address": "Grójecka 56/58, 02-320 Warszawa, Poland",
+        "name": "Apteka Lekoteka",
+        "locationConfidence": 0.62919766
+      }, {
+        "latitudeE7": 522154904,
+        "longitudeE7": 209798938,
+        "placeId": "ChIJo0gF12vNHkcRJxpWaYhbM4c",
+        "address": "Grójecka 64/lok. 3U-4, 02-339 Warszawa, Polska",
+        "name": "Grycan - Lody od pokoleń",
+        "locationConfidence": 0.6285818
+      }, {
+        "latitudeE7": 522154612,
+        "longitudeE7": 209799749,
+        "placeId": "ChIJ3f75WbvMHkcR33WAclA24b4",
+        "address": "Grójecka 62A, 02-339 Warszawa, Polska",
+        "name": "Pracownia zegarmistrzowska Kawecki Roman",
+        "locationConfidence": 0.6253324
+      }, {
+        "latitudeE7": 522165867,
+        "longitudeE7": 209817731,
+        "placeId": "ChIJd8N_6rzMHkcRY31UBuKI-pQ",
+        "address": "Grójecka 43, 02-031 Warszawa, Polska",
+        "name": "Pracownia Grawerska Marian Cegielski GRAWER",
+        "locationConfidence": 0.6064105
+      }, {
+        "latitudeE7": 522176927,
+        "longitudeE7": 209820340,
+        "placeId": "ChIJSaTu2LzMHkcRF9E1AWy6RsI",
+        "address": "Grójecka 42, 02-320 Warszawa, Polska",
+        "name": "Cris Currency Exchange Office",
+        "locationConfidence": 0.60348773
+      }, {
+        "latitudeE7": 522166827,
+        "longitudeE7": 209809853,
+        "placeId": "ChIJ_WtFuLzMHkcREf2MnxbhjUg",
+        "address": "Grójecka 46/50, 02-320 Warszawa, Poland",
+        "name": "La Finestra",
+        "locationConfidence": 0.6001354
+      }, {
+        "latitudeE7": 522148071,
+        "longitudeE7": 209804560,
+        "placeId": "ChIJ-fLXGcrNHkcR9SruGdI5RIY",
+        "address": "Grójecka 59/63, 02-094 Warszawa, Poland",
+        "name": "TheSadovsky Barbershop Warszawa",
+        "locationConfidence": 0.59738636
+      }, {
+        "latitudeE7": 522148743,
+        "longitudeE7": 209802511,
+        "placeId": "ChIJgUVwXbvMHkcROJxIpFVP3AY",
+        "address": "Grójecka 59/63, 02-094 Warszawa, Poland",
+        "name": "Pracownia kapeluszy",
+        "locationConfidence": 0.58939093
+      }, {
+        "latitudeE7": 522140145,
+        "longitudeE7": 209787248,
+        "placeId": "ChIJNX__ObvMHkcReBLnSCyVrf4",
+        "address": "Grójecka 68, 02-339 Warszawa, Polska",
+        "name": "Kosmetyczny Instytut Dr Irena Eris - Warszawa Ochota",
+        "locationConfidence": 0.5589608
+      }, {
+        "latitudeE7": 522184829,
+        "longitudeE7": 209825550,
+        "placeId": "ChIJESbvJr3MHkcRgND3KMh-OdM",
+        "address": "Grójecka 40, 02-320 Warszawa, Polska",
+        "name": "Photography Siemaszkowie",
+        "locationConfidence": 0.54908717
+      }, {
+        "latitudeE7": 522177430,
+        "longitudeE7": 209777170,
+        "placeId": "ChIJvyiLE6PMHkcRCxXgg7Wdrl8",
+        "address": "Kopińska 12/16 róg ul. Kopińskiej i, Białobrzeska, 01-321 Warszawa, Polska",
+        "name": "Babylon",
+        "locationConfidence": 0.5478508
+      }, {
+        "latitudeE7": 522168882,
+        "longitudeE7": 209853488,
+        "placeId": "ChIJ-fZGTrzMHkcR8CzIIU_-Rvc",
+        "address": "Adama Pługa 3/15, 02-047 Warszawa, Polska",
+        "name": "Condominium Sp. z o.o.",
+        "locationConfidence": 0.5384046
+      }, {
+        "latitudeE7": 522162115,
+        "longitudeE7": 209825760,
+        "placeId": "ChIJhW_Ik7zMHkcR7WvwBc1mfTQ",
+        "address": "Wawelska 78/lok. 9, 02-034 Warszawa, Polska",
+        "name": "Sułecka-Szubarga Małgorzata. Tłumacz przysięgły jęz. angielskiego",
+        "locationConfidence": 0.53390205
+      }, {
+        "latitudeE7": 522162551,
+        "longitudeE7": 209779696,
+        "placeId": "ChIJkXF0WaPMHkcRmiMcB8ujqrw",
+        "address": "Radomska 13/21, 02-346 Warszawa, Poland",
+        "name": "Centrum artystyczne",
+        "locationConfidence": 0.53231466
+      }, {
+        "latitudeE7": 522158758,
+        "longitudeE7": 209808575,
+        "placeId": "ChIJNVSSo7zMHkcRQyKdjreUi7E",
+        "address": "Warszawa, Polska",
+        "name": "Wawelska 03",
+        "locationConfidence": 0.526065
+      }, {
+        "latitudeE7": 522169298,
+        "longitudeE7": 209833718,
+        "placeId": "ChIJkeZY8LzMHkcRjl8kB1vBp38",
+        "address": "Zygmunta Glogera 6, 02-051 Warszawa, Polska",
+        "name": "Michalak Bogdan, adwokat. Kancelaria",
+        "locationConfidence": 0.5102473
+      }, {
+        "latitudeE7": 522173618,
+        "longitudeE7": 209788893,
+        "placeId": "ChIJiYiCMaPMHkcRLBV662YE3zc",
+        "locationConfidence": 0.50354284
+      }, {
+        "latitudeE7": 522192029,
+        "longitudeE7": 209791378,
+        "placeId": "ChIJzYIj5qLMHkcREMIqpMxcIaU",
+        "address": "Barska 16/20, 02-315 Warszawa, Poland",
+        "name": "Mazowieckie Centrum Rehabilitacji STOCER",
+        "locationConfidence": 0.49229988
+      }, {
+        "latitudeE7": 522150685,
+        "longitudeE7": 209823122,
+        "placeId": "ChIJ-5Lbf7vMHkcR6b1QhPP-aQI",
+        "address": "Ludwika Pasteura 1, 02-093 Warszawa, Polska",
+        "name": "Copy Shop Dorota Pogocka",
+        "locationConfidence": 0.4809482
+      }, {
+        "latitudeE7": 522160302,
+        "longitudeE7": 209761412,
+        "placeId": "ChIJ9e6OnKTMHkcRgKklmP2VWMc",
+        "address": "Białobrzeska 40A, 02-341 Warszawa, Polska",
+        "name": "dr Izabela Kulawik – Neurolog Warszawa",
+        "locationConfidence": 0.4796158
+      }, {
+        "latitudeE7": 522158528,
+        "longitudeE7": 209817670,
+        "placeId": "ChIJXQ_FeOrMHkcRHO4csT2FQGo",
+        "address": "Wawelska 19, 02-034 Warszawa, Polska",
+        "name": "Fishing Center. Matuszewski I.",
+        "locationConfidence": 0.47825944
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 27,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522167796,
+        "longitudeE7": 209801546,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522536037,
+        "longitudeE7": 209030932,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T13:22:17.648Z",
+        "endTimestamp": "2019-03-25T13:51:37.721Z"
+      },
+      "distance": 6656,
+      "activityType": "IN_BUS",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 38.67215903729928
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 36.24074843007881
+      }, {
+        "activityType": "WALKING",
+        "probability": 10.133965242529543
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 522169221,
+          "longitudeE7": 209798901,
+          "placeId": "ChIJZ4raSqPMHkcRo1oM1vNEoKQ",
+          "address": "02-321 Warszawa, Polska",
+          "name": "Wawelska 06"
+        }, {
+          "latitudeE7": 522552800,
+          "longitudeE7": 209060000,
+          "placeId": "ChIJz6q_JvjKHkcRVR198ZXZll0",
+          "address": "01-485 Warszawa, Polska",
+          "name": "Radiowa-WAT 02"
+        }],
+        "name": "523",
+        "hexRgbColor": "88007C",
+        "linePlaceId": "ChIJTX7XlYnMHkcRa1JPdnu6pxo",
+        "source": "INFERRED"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522536037,
+        "longitudeE7": 209030932,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522531574,
+        "longitudeE7": 208996406,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T13:51:37.721Z",
+        "endTimestamp": "2019-03-25T14:22:49.177Z"
+      },
+      "distance": 1329,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 44.497503470749095
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 30.66236176949813
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 12.98883386477478
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522536087,
+          "lngE7": 209031009
+        }, {
+          "latE7": 522536773,
+          "lngE7": 208990650
+        }, {
+          "latE7": 522531471,
+          "lngE7": 208992729
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 556.5036995788137
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522553580,
+          "lngE7": 208975798,
+          "accuracyMeters": 28,
+          "timestamp": "2019-03-25T14:20:05.676Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522531574,
+        "longitudeE7": 208996406,
+        "placeId": "ChIJn4Q4zGrLHkcRhsxqATdHRyM",
+        "address": "gen. Sylwestra Kaliskiego 2, 00-908 Warszawa, Polska",
+        "name": "Military University of Technology in Warsaw",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 99.1911,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T14:22:49.177Z",
+        "endTimestamp": "2019-03-25T14:30:13.754Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 522515400,
+          "longitudeE7": 208983800,
+          "placeId": "ChIJCZgL4PDKHkcR6oRwXEbm4vY",
+          "address": "01-476 Warszawa, Polska",
+          "name": "WAT 01",
+          "sourceInfo": {
+            "deviceTag": 2038012174
+          },
+          "locationConfidence": 36.071102,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2019-03-25T14:22:49.177Z",
+          "endTimestamp": "2019-03-25T14:30:13.754Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 522515056,
+        "centerLngE7": 208985189,
+        "visitConfidence": 89,
+        "otherCandidateLocations": [{
+          "latitudeE7": 522513586,
+          "longitudeE7": 208990888,
+          "placeId": "ChIJd3vr5_DKHkcREXxTCzOKW5Q",
+          "address": "gen. Sylwestra Kaliskiego 2B, 00-908 Warszawa, Polska",
+          "name": "Department of Logistics WAT",
+          "locationConfidence": 21.198692
+        }, {
+          "latitudeE7": 522519846,
+          "longitudeE7": 208963898,
+          "placeId": "ChIJt22iFPHKHkcRuCNcx5GwHnM",
+          "address": "gen. Sylwestra Kaliskiego 15, 01-476 Warszawa, Polska",
+          "name": "Poczta Polska",
+          "locationConfidence": 8.387484
+        }, {
+          "latitudeE7": 522522930,
+          "longitudeE7": 208981730,
+          "placeId": "ChIJHQ6LJfHKHkcRrxmGcV7fTzI",
+          "address": "01-476 Warszawa, Polska",
+          "name": "WAT 03",
+          "locationConfidence": 5.112988,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522514059,
+          "longitudeE7": 208990125,
+          "placeId": "ChIJew-WJ_HKHkcRD0d90rhuzhQ",
+          "address": "Główna 43, 96-321 Huta Żabiowolska, Polska",
+          "name": "Copy Right Drukarnia Cyfrowa",
+          "locationConfidence": 4.274722
+        }, {
+          "latitudeE7": 522529835,
+          "longitudeE7": 208955612,
+          "placeId": "ChIJcf_PUPHKHkcRPZbUQmLDrxg",
+          "address": "gen. Sylwestra Kaliskiego 19, 01-476 Warszawa, Polska",
+          "name": "Library WAT",
+          "locationConfidence": 4.18168
+        }, {
+          "latitudeE7": 522497496,
+          "longitudeE7": 208965948,
+          "placeId": "ChIJYR22rfHKHkcR3zFWL3jpz1s",
+          "address": "gen. Sylwestra Kaliskiego 11, 01-476 Warszawa, Polska",
+          "name": "Dom studencki WAT nr 2",
+          "locationConfidence": 2.725961
+        }, {
+          "latitudeE7": 522526500,
+          "longitudeE7": 208983900,
+          "placeId": "ChIJfVAOLfHKHkcR97HXiYGR_HY",
+          "address": "01-476 Warszawa, Polska",
+          "name": "WAT 02",
+          "locationConfidence": 2.0152545,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522508560,
+          "longitudeE7": 208951874,
+          "placeId": "ChIJQ4QUdfHKHkcRRnxI55wqxbU",
+          "address": "Kartezjusza 2, 01-480 Warszawa, Polska",
+          "name": "Apteka Kartezjusza 2 Warszawa. Balsamina",
+          "locationConfidence": 1.4066586
+        }, {
+          "latitudeE7": 522525730,
+          "longitudeE7": 208981970,
+          "placeId": "ChIJb2xkLvHKHkcRKK3ju2BzeXo",
+          "address": "01-476 Warszawa, Polska",
+          "name": "WAT 04",
+          "locationConfidence": 1.092201,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 522496967,
+          "longitudeE7": 208984432,
+          "placeId": "ChIJQ5BSWfDKHkcRIvcfas2ZZsU",
+          "address": "01-474 Warszawa, Polska",
+          "name": "Kocjana 02",
+          "locationConfidence": 0.65468633
+        }, {
+          "latitudeE7": 522504183,
+          "longitudeE7": 208952920,
+          "placeId": "ChIJDRbxofHKHkcRZERZzFsXg-8",
+          "address": "Kartezjusza 2, 01-480 Warszawa, Polska",
+          "name": "Apteka",
+          "locationConfidence": 0.4638522
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 37,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 522515056,
+      "centerLngE7": 208985189,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522513600,
+        "longitudeE7": 208991040,
+        "placeId": "ChIJ3TfX1PbKHkcRHTUHrBr0hPQ",
+        "address": "gen. Sylwestra Kaliskiego 2, 01-476 Warszawa, Polska",
+        "locationConfidence": 0.22850047
+      }, {
+        "latitudeE7": 522487970,
+        "longitudeE7": 208979830,
+        "placeId": "ChIJW-B2P_DKHkcRbt1f8MBE5A0",
+        "address": "01-474 Warszawa, Polska",
+        "name": "Kocjana 01",
+        "locationConfidence": 0.174426
+      }, {
+        "latitudeE7": 522469335,
+        "longitudeE7": 208939327,
+        "placeId": "ChIJaTtMu-_KHkcRSW43OW-7jEw",
+        "address": "01-474 Warszawa, Polska",
+        "name": "Fosa Groty",
+        "locationConfidence": 0.14481755
+      }, {
+        "latitudeE7": 522496200,
+        "longitudeE7": 208951600,
+        "placeId": "ChIJve02ufHKHkcRUE_a7__RBNw",
+        "address": "Warszawa, Polska",
+        "name": "Kartezjusza 01",
+        "locationConfidence": 0.12706234
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522515885,
+          "lngE7": 208986126,
+          "accuracyMeters": 15,
+          "timestamp": "2019-03-25T14:23:08.784Z"
+        }, {
+          "latE7": 522514647,
+          "lngE7": 208977636,
+          "accuracyMeters": 28,
+          "timestamp": "2019-03-25T14:26:00.450Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 118.82199835214757
+      },
+      "locationConfidence": 91,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522529860,
+        "longitudeE7": 209006783,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522277081,
+        "longitudeE7": 208978141,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-25T14:32:20.152Z",
+        "endTimestamp": "2019-03-26T14:57:39.999Z"
+      },
+      "distance": 3522,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 62.80376336899472
+      }, {
+        "activityType": "CYCLING",
+        "probability": 14.66476641363122
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.724933049648557
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522059326,
+          "lngE7": 208821010
+        }, {
+          "latE7": 522101974,
+          "lngE7": 208942680
+        }, {
+          "latE7": 522303581,
+          "lngE7": 209105892
+        }, {
+          "latE7": 522284431,
+          "lngE7": 209068164
+        }, {
+          "latE7": 522277221,
+          "lngE7": 208978099
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ6Svq4Sc1GUcRKF82iOVsU2g"
+        }, {
+          "placeId": "ChIJ6Svq4Sc1GUcRlQx0HbqcR0M"
+        }, {
+          "placeId": "ChIJBV3b-Cc1GUcRRr5k3QY7vLQ"
+        }, {
+          "placeId": "ChIJabo97tc0GUcROjMYUjdP0nk"
+        }, {
+          "placeId": "ChIJ5ftq69c0GUcRwIVNVCt_E_w"
+        }, {
+          "placeId": "ChIJ0cu_l9c0GUcRoqnYKPCgI0E"
+        }, {
+          "placeId": "ChIJhXzd7No0GUcR9hMMbw6eaKg"
+        }, {
+          "placeId": "ChIJ5aVek9o0GUcRqxFX_TADmwc"
+        }, {
+          "placeId": "ChIJfaJr6to0GUcRKxFj97OrDys"
+        }, {
+          "placeId": "ChIJlWYrwNo0GUcRUBXnP1cuI-o"
+        }, {
+          "placeId": "ChIJNVWj6to0GUcRadrzdHhyD7Q"
+        }, {
+          "placeId": "ChIJd3ICldo0GUcRxtyhRNxXhLg"
+        }, {
+          "placeId": "ChIJS3unlto0GUcRpDG1sN2aomA"
+        }, {
+          "placeId": "ChIJPyBfl9o0GUcR3csrmqfybQU"
+        }, {
+          "placeId": "ChIJVwvmmdo0GUcRfJsV4nlgg30"
+        }, {
+          "placeId": "ChIJI-b4rtA0GUcR8Ln7myoJUJ0"
+        }, {
+          "placeId": "ChIJawt03NY0GUcRPctDK-CPcBE"
+        }, {
+          "placeId": "ChIJp-7CvNY0GUcR0jBCKUdMcOU"
+        }, {
+          "placeId": "ChIJteciodY0GUcR8I3kxHOuRd4"
+        }, {
+          "placeId": "ChIJ1ymVHtQ0GUcRiIHiYfjOO2o"
+        }, {
+          "placeId": "ChIJT4buFtQ0GUcR5a9p3PDMJ7Y"
+        }, {
+          "placeId": "ChIJY1Uj7NQ0GUcR7z6rMzPg8Hw"
+        }, {
+          "placeId": "ChIJkS_KLivLHkcRedU2j73BcSY"
+        }, {
+          "placeId": "ChIJQ3M-JivLHkcRvYbVqQjA8Dw"
+        }, {
+          "placeId": "ChIJ1zIZICvLHkcRz6cUQ7g5Slc"
+        }, {
+          "placeId": "ChIJoTubVyrLHkcRq4YweIg-x2A"
+        }, {
+          "placeId": "ChIJpzJuGCrLHkcRe3DowQgOOto"
+        }, {
+          "placeId": "ChIJKcEB7CnLHkcRQuAnHf9v5jo"
+        }, {
+          "placeId": "ChIJrzwkwynLHkcR0SOJMy2LCdc"
+        }, {
+          "placeId": "ChIJS3Ju1tfKHkcRYdcpSpdmA3o"
+        }, {
+          "placeId": "ChIJe9J86NfKHkcRP8SFKBPMQn0"
+        }, {
+          "placeId": "ChIJe_Er79fKHkcRNfK00YEHfs0"
+        }, {
+          "placeId": "ChIJN9BJ9dfKHkcR10VVJr8v3Bw"
+        }, {
+          "placeId": "ChIJUaJPSNjKHkcR1zVV2keca3M"
+        }, {
+          "placeId": "ChIJXRH3UNjKHkcRip-9JlxROGc"
+        }, {
+          "placeId": "ChIJJ73WX9jKHkcRrLXkXX-_00Y"
+        }, {
+          "placeId": "ChIJw2xFhtjKHkcRopUUjz3PYQU"
+        }, {
+          "placeId": "ChIJt0-WbyfLHkcR0POZHs7rMeg"
+        }, {
+          "placeId": "ChIJHRHNFSfLHkcR50pT_9ygkjw"
+        }, {
+          "placeId": "ChIJ17pBFifLHkcR-2sUFky5Q3Y"
+        }, {
+          "placeId": "ChIJpUS9IifLHkcR8iNuO9I1a6g"
+        }, {
+          "placeId": "ChIJd5DnICfLHkcRArCghRfh1YM"
+        }, {
+          "placeId": "ChIJQQNj2SbLHkcRSgMWQphXCxE"
+        }, {
+          "placeId": "ChIJx5G02ibLHkcRyAQwcV8oDII"
+        }, {
+          "placeId": "ChIJjVVcxSbLHkcRIh5Ydt5v9gQ"
+        }, {
+          "placeId": "ChIJo-vIySbLHkcRqPY4BySkMKM"
+        }, {
+          "placeId": "ChIJt7WqrCbLHkcRpQLpQBXttCg"
+        }, {
+          "placeId": "ChIJB3aH_iPLHkcRFlrmOgpRRb4"
+        }, {
+          "placeId": "ChIJTWNxXiHLHkcRluoyCezwRCM"
+        }, {
+          "placeId": "ChIJK10eZyHLHkcR7WxC8mw0vwc"
+        }, {
+          "placeId": "ChIJRfe2ZyHLHkcRSpbEHK_J0k8"
+        }, {
+          "placeId": "ChIJTVE6aCHLHkcRafMoscpvN48"
+        }, {
+          "placeId": "ChIJ60JSaSHLHkcRkJGIX1z2r94"
+        }, {
+          "placeId": "ChIJNcH9bSHLHkcRLasyp-jNADE"
+        }, {
+          "placeId": "ChIJkQb_biHLHkcRflYJWlDaSRc"
+        }, {
+          "placeId": "ChIJXz8yZSHLHkcRz0quj4EPNWQ"
+        }, {
+          "placeId": "ChIJPcY8eiHLHkcRpZWDv1hjGWE"
+        }, {
+          "placeId": "ChIJs9TZeyHLHkcRF55L_L1rNSg"
+        }, {
+          "placeId": "ChIJiTmpfiHLHkcRwNeEox7AqR4"
+        }, {
+          "placeId": "ChIJrQJlfiHLHkcRZ2dBG_6qXX4"
+        }, {
+          "placeId": "ChIJo1_z1SPLHkcR-JkMROYn1Mo"
+        }, {
+          "placeId": "ChIJW3Zz1iPLHkcR3VrV-5Zd71g"
+        }, {
+          "placeId": "ChIJ5UFV1iPLHkcR49MD5aYBKAo"
+        }, {
+          "placeId": "ChIJj3AF1yPLHkcRIvDCJum0_bc"
+        }, {
+          "placeId": "ChIJgRFr1yPLHkcRohiR71wLQsI"
+        }, {
+          "placeId": "ChIJuxzx2SPLHkcRgl6MfI2cz0c"
+        }, {
+          "placeId": "ChIJRxnh2CPLHkcR2HHvC1Iey_A"
+        }, {
+          "placeId": "ChIJx_dqYSHLHkcRYkOvj-DKruI"
+        }, {
+          "placeId": "ChIJK10eZyHLHkcR7GxC8mw0vwc"
+        }, {
+          "placeId": "ChIJTWNxXiHLHkcRl-oyCezwRCM"
+        }, {
+          "placeId": "ChIJNZkSUyHLHkcRxE9dqwwawKs"
+        }, {
+          "placeId": "ChIJj1QW0CbLHkcRj1-V42DzeO4"
+        }, {
+          "placeId": "ChIJrdtkJyfLHkcRBcw_Bn3Vklo"
+        }, {
+          "placeId": "ChIJ89YPPSfLHkcR3MsrwlBXg88"
+        }, {
+          "placeId": "ChIJ_6wDPifLHkcRYpCEo3l5zcc"
+        }, {
+          "placeId": "ChIJX4sDayfLHkcReMks5JNgThI"
+        }, {
+          "placeId": "ChIJ1VRcbyfLHkcR2YPplXwxSUc"
+        }, {
+          "placeId": "ChIJtxHWYifLHkcRwHKyQ31Eyz0"
+        }, {
+          "placeId": "ChIJCxiHg9jKHkcRjm2oIN1y-io"
+        }, {
+          "placeId": "ChIJo6U0hNjKHkcRTFPl_hIVIcg"
+        }, {
+          "placeId": "ChIJkVLDiNjKHkcRycQZj6-Pnk0"
+        }, {
+          "placeId": "ChIJo9-9itjKHkcRR54mid0ea1E"
+        }, {
+          "placeId": "ChIJQ0hZV9jKHkcRUiZKiusyMWQ"
+        }],
+        "distanceMeters": 4820.708812934681
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522270475,
+          "longitudeE7": 208968381,
+          "accuracyMetres": 63
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-03-26T14:59:17.999Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522269660,
+        "longitudeE7": 208969170,
+        "placeId": "ChIJ-36mSdjKHkcRInl9J5hu-yo",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Człuchowska 01",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 61.843147
+      },
+      "duration": {
+        "startTimestamp": "2019-03-26T14:57:39.999Z",
+        "endTimestamp": "2019-03-26T15:05:38.488Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522273036,
+      "centerLngE7": 208974100,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522282800,
+        "longitudeE7": 208971600,
+        "placeId": "ChIJX4LOqtnKHkcRJg8pH2fPjKE",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Człuchowska 02",
+        "locationConfidence": 7.714346
+      }, {
+        "latitudeE7": 522275250,
+        "longitudeE7": 208978830,
+        "placeId": "ChIJy8F9WtjKHkcRQTjYXzWRXu4",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Człuchowska 03",
+        "locationConfidence": 6.9609513
+      }, {
+        "latitudeE7": 522293665,
+        "longitudeE7": 208958935,
+        "placeId": "ChIJo-a_bNnKHkcRzkjtDnTVsnM",
+        "address": "Lazurowa 69, 01-314 Warszawa, Polska",
+        "name": "City Park Shopping Center",
+        "locationConfidence": 5.3003707
+      }, {
+        "latitudeE7": 522289188,
+        "longitudeE7": 208959686,
+        "placeId": "ChIJxy7dBfTKHkcRZ7iMg8-yv3w",
+        "address": "Lazurowa 67, 01-314 Warszawa, Polska",
+        "name": "Primary School Gaudeamus",
+        "locationConfidence": 2.58209
+      }, {
+        "latitudeE7": 522268926,
+        "longitudeE7": 209006981,
+        "placeId": "ChIJzf5wiCfLHkcRLTIA6fjDAZ4",
+        "locationConfidence": 2.5391212
+      }, {
+        "latitudeE7": 522286230,
+        "longitudeE7": 208960570,
+        "placeId": "ChIJt3TdBfTKHkcRa4U1S5WQLbY",
+        "address": "Lazurowa 67, 01-314 Warszawa, Polska",
+        "name": "Dwujęzyczne Przedszkole Pomarańczowa Ciuchcia",
+        "locationConfidence": 1.5015221
+      }, {
+        "latitudeE7": 522264968,
+        "longitudeE7": 208985878,
+        "placeId": "ChIJE1YYP9jKHkcRs7bPxdauQCg",
+        "address": "Lazurowa 14B, 01-315 Warszawa, Polska",
+        "name": "Salon Urody Finezja",
+        "locationConfidence": 0.9705044
+      }, {
+        "latitudeE7": 522259101,
+        "longitudeE7": 208989546,
+        "placeId": "ChIJKUJlBdjKHkcR0HVG8QMgPXY",
+        "address": "1, Lazurowa 14, 01-315 Warszawa, Polska",
+        "name": "ProfiLingua",
+        "locationConfidence": 0.77173835
+      }, {
+        "latitudeE7": 522257672,
+        "longitudeE7": 208989963,
+        "placeId": "ChIJ86CfGtjKHkcRKcyurphYDsY",
+        "address": "Lazurowa 14, 01-315 Warszawa, Polska",
+        "name": "Spółdzielnia Mieszkaniowa ROZŁOGI",
+        "locationConfidence": 0.76166207
+      }, {
+        "latitudeE7": 522259586,
+        "longitudeE7": 208985800,
+        "placeId": "ChIJ86CfGtjKHkcRlt337AprkyQ",
+        "address": "Lazurowa 14, 01-315 Warszawa, Polska",
+        "name": "Zespół Folklorystyczny LAZURKI",
+        "locationConfidence": 0.61540616
+      }, {
+        "latitudeE7": 522291970,
+        "longitudeE7": 208989960,
+        "placeId": "ChIJSxGM59jKHkcROl7xC5JRZcc",
+        "locationConfidence": 0.46659026
+      }, {
+        "latitudeE7": 522299105,
+        "longitudeE7": 208959796,
+        "placeId": "ChIJO72HQdnKHkcR0ZtLt4WV9lc",
+        "address": "Lazurowa 71, 01-314 Warszawa, Polska",
+        "name": "Biedronka",
+        "locationConfidence": 0.4634881
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 54,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522307840,
+        "longitudeE7": 209102340,
+        "placeId": "ChIJl2HTciHLHkcRComvPhZLqnM",
+        "address": "Muszlowa 1, 05-077 Warszawa, Polska",
+        "semanticType": "TYPE_HOME",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 96.70459,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-03-27T19:44:26.633Z",
+        "endTimestamp": "2019-03-27T19:50:04.966Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522307044,
+      "centerLngE7": 209101575,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522290039,
+        "longitudeE7": 209119930,
+        "placeId": "ChIJO00dqynKHkcRAqq_TwGMoRM",
+        "address": "Człuchowska 68, 01-360 Warszawa, Polska",
+        "name": "Equip.pl",
+        "locationConfidence": 0.15311332
+      }, {
+        "latitudeE7": 522283958,
+        "longitudeE7": 209111774,
+        "placeId": "ChIJ2a4pBCTLHkcRWwSpkUcT4aU",
+        "name": "Solarium",
+        "locationConfidence": 0.095732726
+      }, {
+        "latitudeE7": 522299915,
+        "longitudeE7": 209144600,
+        "placeId": "ChIJ_a6_uSPLHkcRZ5HLwYH_XXo",
+        "address": "Powstańców Śląskich 45 m 4, Klatka A, Piętro 1, 01-355 Warszawa, Polska",
+        "name": "Przychodnia lekarska Warszawa TOMMED",
+        "locationConfidence": 0.0890886
+      }, {
+        "latitudeE7": 522290769,
+        "longitudeE7": 209122360,
+        "placeId": "ChIJaQhu7yPLHkcRViz-23Y9B0w",
+        "address": "Człuchowska 66, 01-360 Warszawa, Polska",
+        "name": "Yamaha Szkoła Muzyczna Warszawa Bemowo",
+        "locationConfidence": 0.08659418
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522277453,
+        "longitudeE7": 208978046,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522390985,
+        "longitudeE7": 208980241,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-27T19:50:04.966Z",
+        "endTimestamp": "2019-03-29T22:55:09.174Z"
+      },
+      "distance": 4608,
+      "activityType": "IN_BUS",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 47.273944886235256
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 41.44578364903504
+      }, {
+        "activityType": "WALKING",
+        "probability": 10.170194605217173
+      }]
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522390892,
+        "longitudeE7": 208980463,
+        "placeId": "ChIJPynbAufKHkcROxhnD222Ifs",
+        "address": "Górczewska 249, 01-459 Warszawa, Polska",
+        "name": "McDonald\u0027s",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 96.300224
+      },
+      "duration": {
+        "startTimestamp": "2019-03-29T22:55:09.174Z",
+        "endTimestamp": "2019-03-29T23:16:24.671Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 522392290,
+      "centerLngE7": 208980860,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522390000,
+        "longitudeE7": 208973959,
+        "placeId": "ChIJXdC4BufKHkcR7bBr4w_FSZI",
+        "address": "Lazurowa 40, 01-315 Warszawa, Polska",
+        "name": "Petrol Station ORLEN",
+        "locationConfidence": 0.96180147
+      }, {
+        "latitudeE7": 522384500,
+        "longitudeE7": 208990100,
+        "placeId": "ChIJPWZBIufKHkcRq_Mf5E06ZS4",
+        "address": "01-315 Warszawa, Polska",
+        "name": "Osiedle Górczewska",
+        "locationConfidence": 0.6826831
+      }, {
+        "latitudeE7": 522394000,
+        "longitudeE7": 208975200,
+        "placeId": "ChIJhZ-A_-bKHkcRFjjkTAlQYBo",
+        "address": "01-459 Warszawa, Polska",
+        "name": "Osiedle Górczewska 03",
+        "locationConfidence": 0.5237565
+      }, {
+        "latitudeE7": 522387919,
+        "longitudeE7": 208974607,
+        "placeId": "ChIJT0SVA-fKHkcRO2wX_lCxqJo",
+        "address": "Lazurowa 40, 01-315 Warszawa, Polska",
+        "name": "Myjnia ORLEN",
+        "locationConfidence": 0.15586853
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522395150,
+        "longitudeE7": 208989571,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522262592,
+        "longitudeE7": 209430211,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-29T23:16:24.671Z",
+        "endTimestamp": "2019-03-30T00:19:55.818Z"
+      },
+      "distance": 3343,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 44.3997633267603
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 23.07857859919569
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 17.172435268734016
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522395515,
+          "lngE7": 208989391
+        }, {
+          "latE7": 522517585,
+          "lngE7": 209428539
+        }, {
+          "latE7": 522262916,
+          "lngE7": 209430122
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJQw4N5ebKHkcRFV0hxyqv0LA"
+        }, {
+          "placeId": "ChIJ-6eY-ObKHkcR0F-ULPCYL8w"
+        }, {
+          "placeId": "ChIJgW4HaubKHkcRSOeMfOSGwDY"
+        }, {
+          "placeId": "ChIJb1RdaubKHkcRU-YxNzeh5TQ"
+        }, {
+          "placeId": "ChIJrbpECubKHkcRmn1OQQhVkxw"
+        }, {
+          "placeId": "ChIJTzud5eXKHkcRUxf0y9D-8qI"
+        }, {
+          "placeId": "ChIJB3yK7eXKHkcR0cUaqH9lZ6g"
+        }, {
+          "placeId": "ChIJ_621jeXKHkcRBXii0_QjYQQ"
+        }, {
+          "placeId": "ChIJebI_j-XKHkcR43RuvcXCXYE"
+        }, {
+          "placeId": "ChIJMTjRmuXKHkcRzvgAjwsEbvE"
+        }, {
+          "placeId": "ChIJRzJUoOXKHkcRHhQjsBVvKfo"
+        }, {
+          "placeId": "ChIJW_r2o-TKHkcR0FNLhFD_uN8"
+        }, {
+          "placeId": "ChIJhYOPS-PKHkcRtMystWViSuc"
+        }, {
+          "placeId": "ChIJYwFKXALLHkcR6ooLK6lft3g"
+        }, {
+          "placeId": "ChIJZztxAATLHkcRwZs3eyUnprE"
+        }, {
+          "placeId": "ChIJ91SuRAbLHkcRhcYbONN__wo"
+        }, {
+          "placeId": "ChIJ2btAawjLHkcRatofgpWFZaI"
+        }, {
+          "placeId": "ChIJGR3DJAjLHkcR2lMNFR44ELg"
+        }, {
+          "placeId": "ChIJkXDsJQjLHkcR4AtjPaHSqts"
+        }, {
+          "placeId": "ChIJXS-Sn6bLHkcRg1DtZDJmgBE"
+        }, {
+          "placeId": "ChIJzW7r0aPLHkcRTqtqm8s8Od0"
+        }, {
+          "placeId": "ChIJQ2Ut76HLHkcRlsPLyYjfyvs"
+        }, {
+          "placeId": "ChIJ_UBmmJ_LHkcRYa2mFbUOXHg"
+        }, {
+          "placeId": "ChIJNzyKiHXLHkcR4jGzpaJ6540"
+        }, {
+          "placeId": "ChIJ6Zs7k3XLHkcRvrBrbYk4L1U"
+        }, {
+          "placeId": "ChIJryeOxHXLHkcR2Gzz3nhzwq0"
+        }, {
+          "placeId": "ChIJ73N51HXLHkcRrenES56BozA"
+        }, {
+          "placeId": "ChIJp_zkgnbLHkcRp79XQl0F2Fw"
+        }, {
+          "placeId": "ChIJO3gqTXHLHkcRJc-ZRJ0pFk8"
+        }, {
+          "placeId": "ChIJO3gqTXHLHkcRRggxp4m3j7k"
+        }, {
+          "placeId": "ChIJCwWwQXHLHkcR6MHGwev66B8"
+        }, {
+          "placeId": "ChIJFcunDHHLHkcR1owCMgAhUHs"
+        }, {
+          "placeId": "ChIJVzN6uHHLHkcRhPQkKNmxf0w"
+        }, {
+          "placeId": "ChIJOWA3Km7LHkcREWnukWF4h-U"
+        }, {
+          "placeId": "ChIJBxuWtm_LHkcRhVcDjWTQX4w"
+        }, {
+          "placeId": "ChIJcVYDp2_LHkcRvZLn8VHUrpY"
+        }, {
+          "placeId": "ChIJaa6PC2_LHkcRA_z3aQUqrqI"
+        }, {
+          "placeId": "ChIJn8DlDG_LHkcRJxZstlBAtfI"
+        }, {
+          "placeId": "ChIJ4bwibW_LHkcRzXHxVt5MjwE"
+        }, {
+          "placeId": "ChIJf7IAQm_LHkcRbtjC4srWZVM"
+        }, {
+          "placeId": "ChIJk_zHRG_LHkcR69sYUyKintE"
+        }, {
+          "placeId": "ChIJl_uC6mjLHkcRf1j6SaSDid0"
+        }, {
+          "placeId": "ChIJ2T5i6WjLHkcRZwr_eFKRXOY"
+        }, {
+          "placeId": "ChIJAZUT72jLHkcRbdPnCDFFgY0"
+        }, {
+          "placeId": "ChIJw9eO-2jLHkcR2ZoY_R2F4xo"
+        }, {
+          "placeId": "ChIJH5i2_2jLHkcRvzbW5EAxWKA"
+        }, {
+          "placeId": "ChIJNz_j_2jLHkcRFzKaNiqPAug"
+        }, {
+          "placeId": "ChIJVc2-qmnLHkcRWOKs1ZMN-_Q"
+        }, {
+          "placeId": "ChIJNUwDq2nLHkcRaulz_hlvDk4"
+        }, {
+          "placeId": "ChIJ_dgbrmnLHkcRPFy2YfaLNQo"
+        }, {
+          "placeId": "ChIJUTB6uGnLHkcRfUWj7RgQvBU"
+        }, {
+          "placeId": "ChIJt-JO3WnLHkcRiJ9Au5pfwlc"
+        }, {
+          "placeId": "ChIJAxoCCULLHkcRNcVM3Sg5MHU"
+        }, {
+          "placeId": "ChIJ_4QnG0LLHkcReJG9C6maEUs"
+        }, {
+          "placeId": "ChIJITmTG0LLHkcRgKyZAp3xV7E"
+        }, {
+          "placeId": "ChIJ17urHkLLHkcRCA7D_8XL7pc"
+        }, {
+          "placeId": "ChIJM7f6H0LLHkcR7j6q-6D5lVM"
+        }, {
+          "placeId": "ChIJIVlrjEHLHkcRJQQA2xQMq74"
+        }],
+        "distanceMeters": 8527.785869538533
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 522262592,
+          "longitudeE7": 209430211,
+          "accuracyMetres": 115
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-03-30T00:20:00.222Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522265534,
+        "longitudeE7": 209420847,
+        "placeId": "ChIJW-5KlEHLHkcRlHIZpYiF4JM",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 05",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 16.244244
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T00:19:55.818Z",
+        "endTimestamp": "2019-03-30T00:44:08.972Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522261460,
+      "centerLngE7": 209419110,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522265346,
+        "longitudeE7": 209379068,
+        "placeId": "ChIJ7YtdXUDLHkcRzA3FTZht4LM",
+        "address": "Wolska, 01-258 Warszawa, Polska",
+        "name": "Warsaw Insurgents Park",
+        "locationConfidence": 15.511937
+      }, {
+        "latitudeE7": 522257479,
+        "longitudeE7": 209430809,
+        "placeId": "ChIJZVOrh0HLHkcRPMdBPA-J7DU",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "CITYCOMFORT Aparthotel Warsaw",
+        "locationConfidence": 11.665025
+      }, {
+        "latitudeE7": 522269820,
+        "longitudeE7": 209442509,
+        "placeId": "ChIJT-ykB_PMHkcRc4D0KCytV_8",
+        "address": "Wolska 140A, 01-258 Warszawa, Polska",
+        "name": "St. Lawrence\u0027s Church, Warsaw",
+        "locationConfidence": 10.511847
+      }, {
+        "latitudeE7": 522261640,
+        "longitudeE7": 209413920,
+        "placeId": "ChIJOdmjokHLHkcRlP0LjnM4q08",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 02",
+        "locationConfidence": 6.5041785
+      }, {
+        "latitudeE7": 522270600,
+        "longitudeE7": 209427400,
+        "placeId": "ChIJzTwe7EHLHkcRjGGUvwqWOV4",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 08",
+        "locationConfidence": 5.4357224
+      }, {
+        "latitudeE7": 522266129,
+        "longitudeE7": 209417982,
+        "placeId": "ChIJtcXslUHLHkcRJ_o4GQq8DEM",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 06",
+        "locationConfidence": 4.9002886
+      }, {
+        "latitudeE7": 522260700,
+        "longitudeE7": 209433200,
+        "placeId": "ChIJQXnviEHLHkcRt7PWJakdpms",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 03",
+        "locationConfidence": 4.4628186
+      }, {
+        "latitudeE7": 522258704,
+        "longitudeE7": 209432509,
+        "placeId": "ChIJSQqKYMTLHkcRze4fQh0j8Bs",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "Wolska Residence",
+        "locationConfidence": 3.03116
+      }, {
+        "latitudeE7": 522246906,
+        "longitudeE7": 209434988,
+        "placeId": "ChIJLfl6n9fMHkcROVUxHtBrRv4",
+        "locationConfidence": 1.4837856
+      }, {
+        "latitudeE7": 522252177,
+        "longitudeE7": 209440135,
+        "placeId": "ChIJZZ7k7mTLHkcRs6gkK_wgSrs",
+        "address": "Elektoralna 11/lokal 19, 00-137 Warszawa, Polska",
+        "name": "Dudek Permanent\u0026Brow",
+        "locationConfidence": 1.1002976
+      }, {
+        "latitudeE7": 522247501,
+        "longitudeE7": 209437823,
+        "placeId": "ChIJ1_h3zkPLHkcRATQcooolIsY",
+        "address": "Jana Kazimierza 30, 01-248 Warszawa, Polska",
+        "name": "Pick And Taste - Wine and Whiskey Tasting",
+        "locationConfidence": 0.90670705
+      }, {
+        "latitudeE7": 522259610,
+        "longitudeE7": 209416120,
+        "placeId": "ChIJtbwQmUHLHkcRyE7EjnRz85E",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 01",
+        "locationConfidence": 0.8421635
+      }, {
+        "latitudeE7": 522251924,
+        "longitudeE7": 209403827,
+        "placeId": "ChIJnW2qDUHLHkcR1Gc5gQgPLIk",
+        "address": "Goleszowska 6, 01-249 Warszawa, Polska",
+        "name": "Costa Express",
+        "locationConfidence": 0.76820123
+      }, {
+        "latitudeE7": 522246928,
+        "longitudeE7": 209439614,
+        "placeId": "ChIJ1_h3zkPLHkcRFQW-2Kq-BZI",
+        "address": "Jana Kazimierza 30, 01-248 Warszawa, Polska",
+        "name": "Whiskey and Wine Place",
+        "locationConfidence": 0.6589752
+      }, {
+        "latitudeE7": 522258538,
+        "longitudeE7": 209436691,
+        "placeId": "ChIJE83gh0HLHkcRQLe7o6naP-Q",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "locationConfidence": 0.63275504
+      }, {
+        "latitudeE7": 522258805,
+        "longitudeE7": 209432459,
+        "placeId": "ChIJmfFdiEHLHkcRQ4jWjUFYtec",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "Głodne kawałki",
+        "locationConfidence": 0.6134409
+      }, {
+        "latitudeE7": 522258700,
+        "longitudeE7": 209432510,
+        "placeId": "ChIJmfFdiEHLHkcRQ4jWjUFYtec",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "Głodne kawałki",
+        "locationConfidence": 0.5570272
+      }, {
+        "latitudeE7": 522259128,
+        "longitudeE7": 209438989,
+        "placeId": "ChIJiQJ7JkLLHkcRCpfC-4NEoj0",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "New York Pizza Department",
+        "locationConfidence": 0.541615
+      }, {
+        "latitudeE7": 522257124,
+        "longitudeE7": 209451198,
+        "placeId": "ChIJYQ9ISULLHkcRqNDj5nh3U88",
+        "address": "05-092 Sadowa, Polska",
+        "name": "Good Light",
+        "locationConfidence": 0.52640027
+      }, {
+        "latitudeE7": 522245940,
+        "longitudeE7": 209436268,
+        "placeId": "ChIJB4ezz0PLHkcRB55yXyBh698",
+        "address": "Jana Kazimierza 30, 01-248 Warszawa, Polska",
+        "name": "Cukiernia Małgosi",
+        "locationConfidence": 0.5186117
+      }, {
+        "latitudeE7": 522262631,
+        "longitudeE7": 209456598,
+        "placeId": "ChIJMd8PFULLHkcR-yBjRr0SHDQ",
+        "address": "Marcina Kasprzaka 49, 01-234 Warszawa, Polska",
+        "name": "Bistro WSR",
+        "locationConfidence": 0.49804068
+      }, {
+        "latitudeE7": 522258704,
+        "longitudeE7": 209432509,
+        "placeId": "ChIJsYyNC7PLHkcRPIIGUMy_OgI",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "Day Off - Restaurant",
+        "locationConfidence": 0.4942354
+      }, {
+        "latitudeE7": 522260199,
+        "longitudeE7": 209442614,
+        "placeId": "ChIJo1d6dV_LHkcRpYeJ8LC1RbY",
+        "address": "Wolska 165, 05-077 Warszawa, Polska",
+        "name": "Grill and Roll - KEBAB",
+        "locationConfidence": 0.47762826
+      }, {
+        "latitudeE7": 522246906,
+        "longitudeE7": 209434988,
+        "placeId": "ChIJ8_-FN63LHkcRXpInEIX6EeY",
+        "address": "Jana Kazimierza 32, 01-248 Warszawa, Polska",
+        "name": "SwaWola Cafe \u0026 More",
+        "locationConfidence": 0.4631336
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 22,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522261536,
+        "longitudeE7": 209413504,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522250639,
+        "longitudeE7": 209051676,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T00:44:08.972Z",
+        "endTimestamp": "2019-03-30T00:52:32.888Z"
+      },
+      "distance": 3991,
+      "activityType": "IN_BUS",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 55.3799010753493
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 38.28288661104221
+      }, {
+        "activityType": "WALKING",
+        "probability": 5.846322113751595
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 522249300,
+          "longitudeE7": 209306500,
+          "placeId": "ChIJMYx8LT_LHkcRaZEmXwvmFU4",
+          "address": "01-258 Warszawa, Polska",
+          "name": "Cmentarz Wolski 06"
+        }, {
+          "latitudeE7": 522184600,
+          "longitudeE7": 209088100,
+          "placeId": "ChIJvwCVbS7LHkcRQZ9KLbTLBEs",
+          "address": "01-337 Warszawa, Polska",
+          "name": "Tkaczy 02"
+        }],
+        "name": "713",
+        "hexRgbColor": "88007C",
+        "linePlaceId": "ChIJkTLmA1E1GUcRsRiMp9-QAB0",
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522233209,
+          "lngE7": 209318162,
+          "accuracyMeters": 99,
+          "timestamp": "2019-03-30T00:46:19.565Z"
+        }, {
+          "latE7": 522174347,
+          "lngE7": 209035289,
+          "accuracyMeters": 29,
+          "timestamp": "2019-03-30T00:50:11.694Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3612.4975951871866
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522212818,
+        "longitudeE7": 208979364,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522290885,
+        "longitudeE7": 209136302,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T00:52:32.888Z",
+        "endTimestamp": "2019-03-30T19:19:42.999Z"
+      },
+      "distance": 1383,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 52.383812452744195
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 22.550802625684373
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 19.43401040522673
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 522212638,
+          "lngE7": 208979740
+        }, {
+          "latE7": 522285652,
+          "lngE7": 209100341
+        }, {
+          "latE7": 522290916,
+          "lngE7": 209137687
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 1703.1931053406124
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522287944,
+          "lngE7": 209123021,
+          "accuracyMeters": 29,
+          "timestamp": "2019-03-30T19:19:10.981Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522295130,
+        "longitudeE7": 209151235,
+        "placeId": "ChIJO3GzpiPLHkcRyX2YwNNg2Ho",
+        "address": "01-381 Warszawa, Polska",
+        "name": "Hala Wola 05",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 50.349983
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T19:19:42.999Z",
+        "endTimestamp": "2019-03-30T19:36:31.021Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 522293164,
+      "centerLngE7": 209147755,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522283640,
+        "longitudeE7": 209142330,
+        "placeId": "ChIJrappgyPLHkcRJ3Jfz6727aE",
+        "address": "Człuchowska 25, 01-360 Warszawa, Polska",
+        "name": "Hala Wola Sp. z o.o.",
+        "locationConfidence": 24.729725
+      }, {
+        "latitudeE7": 522297430,
+        "longitudeE7": 209153460,
+        "placeId": "ChIJGWVJryPLHkcRvJ6iNCLLcdE",
+        "address": "01-381 Warszawa, Polska",
+        "name": "Hala Wola 02",
+        "locationConfidence": 5.80508
+      }, {
+        "latitudeE7": 522284490,
+        "longitudeE7": 209152930,
+        "placeId": "ChIJSegedyPLHkcRrv4fP5kJMTc",
+        "address": "01-381 Warszawa, Polska",
+        "name": "Hala Wola 01",
+        "locationConfidence": 2.9176157
+      }, {
+        "latitudeE7": 522294300,
+        "longitudeE7": 209145090,
+        "placeId": "ChIJlyGmESLLHkcRZP5mOr3XWVw",
+        "address": "wejście od ul. Drogomilskiej, Powstańców Śląskich 45/lokal Lu4, 01-355 Warszawa, Polska",
+        "name": "Tuptu children\u0027s footwear",
+        "locationConfidence": 0.5083914
+      }, {
+        "latitudeE7": 522290039,
+        "longitudeE7": 209119930,
+        "placeId": "ChIJO00dqynKHkcRAqq_TwGMoRM",
+        "address": "Człuchowska 68, 01-360 Warszawa, Polska",
+        "name": "Equip.pl",
+        "locationConfidence": 0.45745474
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 47,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522295130,
+        "longitudeE7": 209151235
+      },
+      "endLocation": {
+        "latitudeE7": 522277910,
+        "longitudeE7": 209418230
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T19:36:31.021Z",
+        "endTimestamp": "2019-03-30T19:50:38.704Z"
+      },
+      "distance": 2603,
+      "activityType": "IN_TRAM",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_TRAM",
+        "probability": 44.884311941502254
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 33.93720728536218
+      }, {
+        "activityType": "WALKING",
+        "probability": 10.516633245330066
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 522295130,
+          "longitudeE7": 209151235,
+          "placeId": "ChIJO3GzpiPLHkcRyX2YwNNg2Ho",
+          "address": "01-381 Warszawa, Polska",
+          "name": "Hala Wola 05"
+        }, {
+          "latitudeE7": 522265534,
+          "longitudeE7": 209420847,
+          "placeId": "ChIJW-5KlEHLHkcRlHIZpYiF4JM",
+          "address": "01-258 Warszawa, Polska",
+          "name": "Reduta Wolska 05"
+        }],
+        "name": "11",
+        "hexRgbColor": "E90024",
+        "linePlaceId": "ChIJk_6dlaTLHkcRxaEYQ9HSzLc",
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522228022,
+          "lngE7": 209204312,
+          "accuracyMeters": 104,
+          "timestamp": "2019-03-30T19:40:32.774Z"
+        }, {
+          "latE7": 522264019,
+          "lngE7": 209430795,
+          "accuracyMeters": 65,
+          "timestamp": "2019-03-30T19:44:37.509Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2599.5151540754837
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 522277910,
+        "longitudeE7": 209418230,
+        "placeId": "ChIJizd52kHLHkcRjcPsulsQGtc",
+        "address": "Wolska 142, 01-258 Warszawa, Polska",
+        "name": "Kościół Jezusa Chrystusa Świętych w Dniach Ostatnich - gmina Warszawa",
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        },
+        "locationConfidence": 67.7574
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T19:50:38.704Z",
+        "endTimestamp": "2019-03-30T20:50:25.375Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 522274793,
+      "centerLngE7": 209418336,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 522265346,
+        "longitudeE7": 209379068,
+        "placeId": "ChIJ7YtdXUDLHkcRzA3FTZht4LM",
+        "address": "Wolska, 01-258 Warszawa, Polska",
+        "name": "Warsaw Insurgents Park",
+        "locationConfidence": 20.717072,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 522269820,
+        "longitudeE7": 209442509,
+        "placeId": "ChIJT-ykB_PMHkcRc4D0KCytV_8",
+        "address": "Wolska 140A, 01-258 Warszawa, Polska",
+        "name": "St. Lawrence\u0027s Church, Warsaw",
+        "locationConfidence": 5.769568
+      }, {
+        "latitudeE7": 522270600,
+        "longitudeE7": 209427400,
+        "placeId": "ChIJzTwe7EHLHkcRjGGUvwqWOV4",
+        "address": "01-258 Warszawa, Polska",
+        "name": "Reduta Wolska 08",
+        "locationConfidence": 1.233189
+      }, {
+        "latitudeE7": 522258700,
+        "longitudeE7": 209432510,
+        "placeId": "ChIJmfFdiEHLHkcRQ4jWjUFYtec",
+        "address": "Wolska 165, 01-258 Warszawa, Polska",
+        "name": "Głodne kawałki",
+        "locationConfidence": 0.33069202
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 58,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522274793,
+        "longitudeE7": 209418336
+      },
+      "endLocation": {
+        "latitudeE7": 522326009,
+        "longitudeE7": 209103251,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-30T20:50:25.375Z",
+        "endTimestamp": "2019-03-31T14:42:06.848Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 522307792,
+          "lngE7": 209096726,
+          "accuracyMeters": 3,
+          "timestamp": "2019-03-31T13:54:25Z"
+        }, {
+          "latE7": 522323253,
+          "lngE7": 209100899,
+          "accuracyMeters": 3,
+          "timestamp": "2019-03-31T13:56:13Z"
+        }, {
+          "latE7": 522373716,
+          "lngE7": 208971668,
+          "accuracyMeters": 500,
+          "timestamp": "2019-03-31T14:22:27.988Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4482.61404756593
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 522326009,
+        "longitudeE7": 209103251,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 522284949,
+        "longitudeE7": 209064502,
+        "sourceInfo": {
+          "deviceTag": 2038012174
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-03-31T14:42:06.848Z",
+        "endTimestamp": "2019-04-01T19:26:46.870Z"
+      },
+      "distance": 527,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 41.91614205209785
+      }, {
+        "activityType": "WALKING",
+        "probability": 37.094337007322395
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 11.234805802503647
+      }]
+    }
+  }]
+}

@@ -3,6 +3,7 @@ let OFFSET = 0;
 let COUNT = 0;
 let coordinates = [];
 
+
 Home = function (data) {
     this.gif_url = data.gif_url;
     this.google_sign_in_url = data.google_sign_in_url;
@@ -11,6 +12,7 @@ Home = function (data) {
     this.detail_url = data.detail_url;
     this.listing_url = data.listing_url;
     this.create_url = data.create_url;
+    this.gps_trail = data.gps_trail;
 
     const self = this;
 
@@ -27,8 +29,33 @@ Home = function (data) {
     });
 
     //Submit the travel form and call init_travel_data to fetch new results
-    $("#submit").on('click', function () {
-        self.travel_form_submit()
+    $("#buttons").on('click', "#submit", function () {
+        $("#gps_file").click();
+    });
+
+    $("#gps_file").on('change', function () {
+        var fileInput = $(this)[0];
+        var file = fileInput.files[0];
+        var formData = new FormData();
+        formData.append('file', file);
+        loadingSweetAlert("Please Wait")
+        $.ajax({
+            url: self.gps_trail, // the endpoint
+            type: 'POST',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (json) {
+                genericSweetAlert("Success", "Data Dumped Successfully", 'success');
+            },
+            beforeSend: function (xhr, settings) {
+                if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+                }
+            },
+            // handle a non-successful response
+            error: error_function
+        });
     });
 
 };
@@ -109,7 +136,7 @@ Home.prototype.init_calendar = function (event_arr = []) {
 Home.prototype.init_buttons = function () {
     let self = this;
     if (getCookie("u-at")) {
-        // If got cookie show Oprational Buttons
+        // If got cookie show Operational Buttons
         $("#buttons").html(`<div class="d-flex flex-wrap justify-content-center w-100" id="navbarSupportedContent">
                 <a class="text-decoration-none"
                    href="${self.create_url}">
@@ -120,16 +147,23 @@ Home.prototype.init_buttons = function () {
                    href="${self.listing_url}">
                     List of Travel
                 </a>
+                <a class="text-decoration-none"
+                   href="/map">
+                    Map with all travels
+                </a>
+                <button class="text-decoration-none"
+                    type="button" id="submit">
+                    Upload Google GPS data
+                </button>
             </div>`);
     } else {
         //Show Google Sign In Button
-        $("#buttons").html(`            <div class="d-flex flex-wrap justify-content-center w-100" id="navbarSupportedContent">
-                <a class="text-decoration-none"
-                   href="javascript:void(0)" id="sign-in-with-google">
-                    <img src="${this.google_image}" /> Sign In With Google
-                </a>
-                
-            </div>`);
+        $("#buttons").html(`<div class="d-flex flex-wrap justify-content-center w-100" id="navbarSupportedContent">
+                                <a class="text-decoration-none"
+                                   href="javascript:void(0)" id="sign-in-with-google">
+                                    <img src="${this.google_image}" /> Sign In With Google
+                                </a>
+                            </div>`);
     }
 }
 

@@ -73,3 +73,14 @@ class TravelSegmentData(Log):
 
     class Meta:
         db_table = "TravelSegmentData"
+
+
+class TravelHistoryData(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="user_travel_history", db_column="UserId")
+    start_date_time = models.DateTimeField(db_column="StartDateTime", default=None, null=True)
+    end_date_time = models.DateTimeField(db_column="EndDateTime", default=None, null=True)
+    latitude = models.TextField(db_column="latitude", default=None, null=True)
+    longitude = models.TextField(db_column="longitude", default=None, null=True)
+
+    class Meta:
+        db_table = "TravelHistoryData"

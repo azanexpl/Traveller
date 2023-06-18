@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Traveller {% endblock %}
+{% block description %} Traveller {% endblock %}
+
+{% block css %}
+    <link href="{% static '/custom_css/home.css' %}" rel="stylesheet" type="text/css"/>
+
+
+{% endblock %}
+
+{% block content %}
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12">
+                <h2>Travel</h2>
+            </div>
+            <form id="travel-form">
+                <div class="row">
+                    <div class="col-6">
+                        <label>Title</label>
+                        <input class="form-control" id="title" placeholder="Title" type="text">
+                        <label>Description</label>
+                        <textarea class="form-control" id="description" placeholder="Description" rows="3"></textarea>
+                        <div class="d-flex justify-content-between">
+                            <div class="px-1 w-50">
+                                <label>Start Time</label>
+                                <input class="form-control" id="start_date_time" type="datetime-local">
+                            </div>
+                            <div class="px-1 w-50">
+                                <label>End Time</label>
+                                <input class="form-control" id="end_date_time" type="datetime-local">
+                            </div>
+                        </div>
+                        <label>Choose a Color</label><br>
+                        <input id="color" type="color" value="#ff0000">
+                    </div>
+                    <div class="col-6">
+                        <h5>Add Segment Here</h5>
+                        <div class="d-flex justify-content-between">
+                            <div class="px-1 w-50">
+                                <label>Start Time</label>
+                                <input class="form-control" id="segment_start_date_time" type="datetime-local">
+                            </div>
+                            <div class="px-1 w-50">
+                                <label>End Time</label>
+                                <input class="form-control" id="segment_end_date_time" type="datetime-local">
+                            </div>
+                        </div>
+                        <label>Description</label>
+                        <textarea class="form-control" id="segment-description" placeholder="Description"
+                                  rows="3"></textarea>
+                        <div class="search-field-container px-1" style="z-index: 100000 !important;">
+                            <label>Add Places</label>
+                            <input class="form-control" id="search-input" placeholder="Enter a place"
+                                   type="text">
+                            <div class="d-flex justify-content-between flex-wrap" id="places">
+                                <i>No Place Added Yet</i>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary m-0" id="create-segment">Create New Segment</button>
+                    </div>
+                    <div class="col-12">
+                        <div class="my-2 d-flex justify-content-between" id="segments-data">
+                            <center><i>No Segment Added Yet. At lease one segment is required</i></center>
+                        </div>
+{#                        <div class="my-2" id="map" style="height: 200px">#}
+{#                            <center><i>Please select a place to see google map</i></center>#}
+{#                        </div>#}
+                    </div>
+                </div>
+            </form>
+            <div class="col-12 text-center">
+                <a href="{% url 'visitor-home' %}" class="btn btn-secondary">Show Calendar</a>
+                <button class="btn btn-primary" id="submit" type="button">Save changes</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Create Modal -->
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    <script src="https://apis.google.com/js/api.js"></script>
+
+    <script src='{% static "custom_js/create.js" %}'></script>
+
+    <script>
+        let data;
+        window.onload = function () {
+            data = {
+                "user_travel_data_url": "{% url 'user-travel-data'%}",
+                "edit": '{{ edit | safe }}',
+                "travel_instance": '{{ travel_instance | safe }}'
+            };
+
+            new Create(data);
+        }
+    </script>
+{% endblock %}

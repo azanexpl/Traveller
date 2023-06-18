@@ -69,17 +69,6 @@ DEBUG_APPS = (
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS + DEBUG_APPS
 
-
-
-# CHANNEL_LAYERS = {
-#     'default': {
-#         'BACKEND': 'channels.layers.RedisChannelLayer',
-#         'CONFIG': {
-#             'hosts': [('localhost', 6379)],
-#         },
-#     },
-# }
-
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',
@@ -88,7 +77,6 @@ CHANNEL_LAYERS = {
         }
     }
 }
-
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -205,7 +193,6 @@ LOGIN_URL = '/admin/login/'
 WSGI_APPLICATION = 'traveller_app.wsgi.application'
 
 REST_FRAMEWORK = {
-    # "EXCEPTION_HANDLER": "api.permissions.custom_exception_handler",
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
     'DEFAULT_RENDERER_CLASSES': (
@@ -227,6 +214,7 @@ AUTHENTICATION_BACKENDS = [
 
 GOOGLE_CLIENT_ID = '545624527608-2u7986qlbucb3gdd1gh9ka30mu03nihc.apps.googleusercontent.com'
 GOOGLE_CLIENT_SECRET = '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'
+
 
 REDIRECT_URL = "http://127.0.0.1:8016/api/main/google-auth-callback"
 

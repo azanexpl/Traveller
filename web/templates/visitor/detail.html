@@ -11,14 +11,16 @@
 
 {% block content %}
 
-<div id="map" style="height: 400px"></div>
+<div id="map" style="height: 400px">
+    <center><img src="{% static 'images/loader.gif' %}"></center>
+</div>
 
 <!--<div>-->
 
 <!--</div>-->
 
 
-<div class="container-fluid">
+<div class="container-fluid my-4">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="meta-data">
 
@@ -63,7 +65,7 @@
         }));
     d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
 })
-({key: {{ GOOGLE_MAP_API_KEY }}, v: "weekly"});</script>
+();</script>
 
 <script src='{% static "custom_js/detail.js" %}'></script>
 
