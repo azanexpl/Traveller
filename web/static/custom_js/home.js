@@ -145,11 +145,11 @@ Home.prototype.init_buttons = function () {
                 
                 <a class="text-decoration-none"
                    href="${self.listing_url}">
-                    List of Travel
+                    List All Travels
                 </a>
                 <a class="text-decoration-none"
                    href="/map">
-                    Map with all travels
+                    Map With All Travels
                 </a>
                 <button class="text-decoration-none"
                     type="button" id="submit">
