@@ -126,13 +126,6 @@ class TravelDataAPIView(BaseAPIView):
                 validated_data['images_urls'] = json.dumps(images_urls)
                 serializer.save(**validated_data)
 
-                # arr_ids = []
-                # try:
-                #     for obj in images_urls['mediaItems']:
-                #         arr_ids.append(obj['id'])
-                # except:
-                #     pass
-                # make_photos_public(access_token=request.user.access_token, photo_ids=arr_ids)
                 return self.send_response(
                     success=True,
                     code=f'200',

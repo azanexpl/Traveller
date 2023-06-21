@@ -107,7 +107,7 @@ Listing.prototype.init_data_table = function (query_params) {
                 "data": "description",
                 "mRender": function (data, type, full) {
                     if (data) {
-                        return '<td>' + data + '</td>';
+                        return '<td><p style="width: 300px; white-space: pre-wrap; word-wrap: break-word; height: max-height; overflow: hidden">' + data + '<p></td>';
                     } else return '<td class="center"> - </td>'
                 }
             },

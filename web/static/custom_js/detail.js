@@ -174,11 +174,11 @@ Detail.prototype.init_travel_data = function (url) {
                 data.color,
                 travel_history_arr
             )
-            // initMap(get_coordinates_from_places(JSON.parse(data.coordinates)), data.color, data.title);
+            
             $("#meta-data").html(`<div class="col-12">
                                     <h1>${title}</h1>
                                     <p style="font-size: 12px">${get_or_convert_date_time_to_system_time_zone(start_date)} - ${get_or_convert_date_time_to_system_time_zone(end_date)}</p>
-                                    <p>${description}</p>
+                                    <p style="width: 400px; white-space: pre-wrap; word-wrap: break-word">${description}</p>
                                     </div>`)
 
             self.init_segments(segment_arr);
