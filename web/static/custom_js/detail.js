@@ -211,6 +211,7 @@ Detail.prototype.init_segments = function (data) {
 
 Detail.prototype.init_images_urls = function (images_urls, rerender = false) {
     let self = this;
+    image_amount = "";
     show_images = "<ul>";
     if (images_urls != "{}" && images_urls != "null" && images_urls != "[]") {
         all_data = JSON.parse(images_urls)
@@ -220,10 +221,12 @@ Detail.prototype.init_images_urls = function (images_urls, rerender = false) {
         all_data.mediaItems.map(i => {
             show_images += `<li><a href="${i.productUrl}" target="_blank"><img class="img img-thumbnail img-rounded" src="${i.baseUrl}"/></a></li>`
         });
+        image_amount = `<p>Image amount: ${all_data.mediaItems.length}</p>`
     } else {
-        show_images += `<li>No Images Found</li>`
+        image_amount = `<p>Image amount: 0</p>`
     }
     show_images += `</ul>`;
+    $("#photos_amount").html(image_amount);
     $("#photos").html(show_images);
 }
 

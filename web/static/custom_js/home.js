@@ -105,7 +105,7 @@ Home.prototype.init_calendar = function (event_arr = []) {
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
-            right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+            right: 'multiMonthYear,dayGridMonth,timeGridWeek,timeGridDay,listWeek'
         },
         initialView: 'dayGridMonth',
         initialDate: get_or_convert_date_to_system_time_zone(),
@@ -116,11 +116,6 @@ Home.prototype.init_calendar = function (event_arr = []) {
         dayMaxEvents: true, // allow "more" link when too many events
         events: event_arr,
         eventClick: function (info) {
-            // alert('Event: ' + info.event.title);
-            // alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
-            //
-            // // change the border color just for fun
-            // info.el.style.borderColor = 'red';
             info.jsEvent.preventDefault(); // don't let the browser navigate
 
             if (info.event.url) {

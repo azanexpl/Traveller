@@ -108,10 +108,9 @@ def fetch_client_google_photos(access_token, start_date=None, end_date=None):
     # Fetch Google Photos or Media Items based of search params
     endpoint = 'https://photoslibrary.googleapis.com/v1/mediaItems:search'
     headers = {'Authorization': f'Bearer {access_token}'}
-    # included Date Range, Media Type and Content Category
+    # included Date Range, Media Type
     requestbody = {
         "pageSize": "100",
-        # "pageSize": "10",
         "filters": {
             "dateFilter": {
                 "ranges": [
@@ -134,14 +133,10 @@ def fetch_client_google_photos(access_token, start_date=None, end_date=None):
                     "PHOTO"
                 ]
             }
-            # "contentFilter": {
-            #     "includedContentCategories": [
-            #         "LANDSCAPES"
-            #     ]
-            # }
         }
     }
     response = requests.post(endpoint, headers=headers, data=json.dumps(requestbody))
+    
     if response.status_code == 200:
         user_scope = response.json()
         return user_scope
