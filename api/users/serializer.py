@@ -58,6 +58,7 @@ class TravelDataSerializer(serializers.ModelSerializer):
                     **obj,
                     travel=instance
                 )
+            instance.save()
             return instance
 
 
