@@ -14,10 +14,9 @@ MapDetail = function (data) {
 
 function initMultiplePollyMap(data) {
     // Create a map object
-    // console.log(data);
     let map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 40.7128, lng: -74.0060}, // Set the center of the map
-        zoom: 2, // Set the initial zoom level
+        center: {lat: 52.2318, lng: 21.0060}, // Set the center of the map
+        zoom: 7, // Set the initial zoom level
         minZoom: 1
     });
 

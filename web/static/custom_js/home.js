@@ -124,7 +124,7 @@ Home.prototype.init_calendar = function (event_arr = []) {
             info.jsEvent.preventDefault(); // don't let the browser navigate
 
             if (info.event.url) {
-                window.open(info.event.url);
+                window.open(info.event.url, "_self");
             }
         }
     });
